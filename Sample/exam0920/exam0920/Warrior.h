@@ -21,6 +21,6 @@
 - (id)shildAttack:(id)to;
 - (id)jump;
 - (id)charge;
-
+- (id)cry:(id)what charge:(id)who run:(id)runnig;
 
 @end

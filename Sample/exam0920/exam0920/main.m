@@ -27,7 +27,7 @@ int main(int argc, const char * argv[]) {
     daeho.name = @"방어자";
     
     NSLog(@"daesung health=%@, rage=%@",daesung.health,daesung.rage);
-    
+    [daesung cry:@"오크" charge:@"돌진" run:@"점프"];
     
     
     Wizard *cook = [[Wizard alloc] init];

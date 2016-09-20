@@ -30,4 +30,9 @@
     return nil;
 }
 
+-(id)cry:(id)what charge:(id)who run:(id)running {
+    NSLog(@"%@에게 함성을 지른후 %@해서 잡고 %@해서 퇴각했다.",what,who,running);
+    return nil;
+}
+
 @end
