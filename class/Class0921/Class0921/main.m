@@ -121,7 +121,7 @@ int main(int argc, const char * argv[]) {
     NSInteger yesInteger = -100;
     NSInteger goodInteger = 500;
     //부호가 없는 정수 타입
-    NSUInteger unInteger = -500;
+    NSUInteger unInteger =  500;
     NSUInteger badInteger = 300;
     
     //()를 굳이 칠필요가 없다 ! 없어도 된다.
