@@ -10,6 +10,7 @@
 		7CE46E3D1D91453D000C7F0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE46E3C1D91453D000C7F0E /* main.m */; };
 		7CE46E451D91454B000C7F0E /* Warrior.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE46E441D91454B000C7F0E /* Warrior.m */; };
 		7CE46E481D914635000C7F0E /* Wizard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE46E471D914635000C7F0E /* Wizard.m */; };
+		7CE9949C1D92045D00C03BF4 /* summoner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9949B1D92045D00C03BF4 /* summoner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		7CE46E441D91454B000C7F0E /* Warrior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Warrior.m; sourceTree = "<group>"; };
 		7CE46E461D914635000C7F0E /* Wizard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wizard.h; sourceTree = "<group>"; };
 		7CE46E471D914635000C7F0E /* Wizard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wizard.m; sourceTree = "<group>"; };
+		7CE9949A1D92045D00C03BF4 /* summoner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = summoner.h; sourceTree = "<group>"; };
+		7CE9949B1D92045D00C03BF4 /* summoner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = summoner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				7CE46E3C1D91453D000C7F0E /* main.m */,
+				7CE9949A1D92045D00C03BF4 /* summoner.h */,
+				7CE9949B1D92045D00C03BF4 /* summoner.m */,
 				7CE46E461D914635000C7F0E /* Wizard.h */,
 				7CE46E471D914635000C7F0E /* Wizard.m */,
 				7CE46E431D91454B000C7F0E /* Warrior.h */,
@@ -132,6 +137,7 @@
 				7CE46E451D91454B000C7F0E /* Warrior.m in Sources */,
 				7CE46E481D914635000C7F0E /* Wizard.m in Sources */,
 				7CE46E3D1D91453D000C7F0E /* main.m in Sources */,
+				7CE9949C1D92045D00C03BF4 /* summoner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +264,7 @@
 				7CE46E421D91453D000C7F0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
