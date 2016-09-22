@@ -116,7 +116,7 @@ int main(int argc, const char * argv[]) {
     
     Cat *nari2 =[[Cat alloc] init];
     nari2.howl = @"dddd";
-    [nari cry:nari2];
+    [nari cry:nari];
     
     return 0;
 }

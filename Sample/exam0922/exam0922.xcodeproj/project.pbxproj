@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7C7D5E171D93C9D1005A322A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7D5E161D93C9D1005A322A /* main.m */; };
+		7C7D5E1F1D93CEBB005A322A /* GameCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7D5E1E1D93CEBB005A322A /* GameCharacter.m */; };
+		7C7D5E221D93CEDE005A322A /* Warrior.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7D5E211D93CEDE005A322A /* Warrior.m */; };
+		7C7D5E261D93CEF4005A322A /* Wizard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7D5E251D93CEF4005A322A /* Wizard.m */; };
+		7C7D5E291D93E559005A322A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7D5E281D93E559005A322A /* Person.m */; };
+		7C7D5E2C1D93E569005A322A /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7D5E2B1D93E569005A322A /* Student.m */; };
+		7C7D5E2F1D93E578005A322A /* UniStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7D5E2E1D93E578005A322A /* UniStudent.m */; };
+		7C7D5E321D93E588005A322A /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7D5E311D93E588005A322A /* Teacher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,20 @@
 /* Begin PBXFileReference section */
 		7C7D5E131D93C9D1005A322A /* exam0922 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = exam0922; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C7D5E161D93C9D1005A322A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C7D5E1D1D93CEBB005A322A /* GameCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCharacter.h; sourceTree = SOURCE_ROOT; };
+		7C7D5E1E1D93CEBB005A322A /* GameCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCharacter.m; sourceTree = SOURCE_ROOT; };
+		7C7D5E201D93CEDE005A322A /* Warrior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Warrior.h; sourceTree = "<group>"; };
+		7C7D5E211D93CEDE005A322A /* Warrior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Warrior.m; sourceTree = "<group>"; };
+		7C7D5E241D93CEF4005A322A /* Wizard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wizard.h; sourceTree = "<group>"; };
+		7C7D5E251D93CEF4005A322A /* Wizard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wizard.m; sourceTree = "<group>"; };
+		7C7D5E271D93E559005A322A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		7C7D5E281D93E559005A322A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		7C7D5E2A1D93E569005A322A /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		7C7D5E2B1D93E569005A322A /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		7C7D5E2D1D93E578005A322A /* UniStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniStudent.h; sourceTree = "<group>"; };
+		7C7D5E2E1D93E578005A322A /* UniStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniStudent.m; sourceTree = "<group>"; };
+		7C7D5E301D93E588005A322A /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		7C7D5E311D93E588005A322A /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,20 @@
 			isa = PBXGroup;
 			children = (
 				7C7D5E161D93C9D1005A322A /* main.m */,
+				7C7D5E301D93E588005A322A /* Teacher.h */,
+				7C7D5E311D93E588005A322A /* Teacher.m */,
+				7C7D5E2D1D93E578005A322A /* UniStudent.h */,
+				7C7D5E2E1D93E578005A322A /* UniStudent.m */,
+				7C7D5E2A1D93E569005A322A /* Student.h */,
+				7C7D5E2B1D93E569005A322A /* Student.m */,
+				7C7D5E271D93E559005A322A /* Person.h */,
+				7C7D5E281D93E559005A322A /* Person.m */,
+				7C7D5E241D93CEF4005A322A /* Wizard.h */,
+				7C7D5E251D93CEF4005A322A /* Wizard.m */,
+				7C7D5E201D93CEDE005A322A /* Warrior.h */,
+				7C7D5E211D93CEDE005A322A /* Warrior.m */,
+				7C7D5E1D1D93CEBB005A322A /* GameCharacter.h */,
+				7C7D5E1E1D93CEBB005A322A /* GameCharacter.m */,
 			);
 			path = exam0922;
 			sourceTree = "<group>";
@@ -119,7 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C7D5E321D93E588005A322A /* Teacher.m in Sources */,
+				7C7D5E261D93CEF4005A322A /* Wizard.m in Sources */,
+				7C7D5E221D93CEDE005A322A /* Warrior.m in Sources */,
+				7C7D5E291D93E559005A322A /* Person.m in Sources */,
 				7C7D5E171D93C9D1005A322A /* main.m in Sources */,
+				7C7D5E2F1D93E578005A322A /* UniStudent.m in Sources */,
+				7C7D5E1F1D93CEBB005A322A /* GameCharacter.m in Sources */,
+				7C7D5E2C1D93E569005A322A /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
