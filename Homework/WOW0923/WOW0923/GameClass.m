@@ -35,6 +35,7 @@
     self.isDead = isDead;
     self.speed = Speed;
     
+    //자기자신에게 리턴값을 매겨서 nil이 아닌 self를 쓴거 같다... 물어봐야지
     return self;
 }
 

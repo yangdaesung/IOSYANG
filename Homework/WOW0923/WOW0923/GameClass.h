@@ -13,7 +13,6 @@
 @property NSUInteger health;
 @property NSUInteger mana;
 @property NSString *name;
-@property NSString *location;
 @property BOOL isDead;
 @property NSUInteger physicalPower;
 @property NSUInteger magicalpower;

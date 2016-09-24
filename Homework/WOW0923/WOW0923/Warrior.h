@@ -11,7 +11,7 @@
 @interface Warrior : GameClass
 
 @property NSUInteger rage;
-
+@property NSString *location;
 
 
 

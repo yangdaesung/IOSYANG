@@ -14,7 +14,7 @@
 
 
 
-- (id)form;
+- (id)bearForm;
 - (id)typoon:(GameClass *)who;
 - (id)eluneArrow:(GameClass *)who;
 - (id)heal:(GameClass *)who;

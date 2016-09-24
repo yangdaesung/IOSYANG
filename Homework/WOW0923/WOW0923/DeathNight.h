@@ -19,8 +19,7 @@
 
 - (id)deathAttack:(GameClass *)who;
 - (id)swoardDefense:(GameClass *)who;
-- (id)TouchofDeath:(GameClass *)who;
-
+- (id)touchofDeath:(GameClass *)who;
 
 
 @end

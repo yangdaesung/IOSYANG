@@ -53,9 +53,9 @@ int main(int argc, const char * argv[]) {
     
    
     [madd aaadd:mark damege:300];
+    [jack swoardDefense:isera];
     
-    
-    
+    [mark bearForm];
     
     
     

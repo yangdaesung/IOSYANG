@@ -11,6 +11,7 @@
 @implementation PhysicalWepon
 
 
+//물리무기를 장착해서 공격력 올리기 !
 
 -(id)add:(GameClass *)who damege:(NSUInteger)number {
     

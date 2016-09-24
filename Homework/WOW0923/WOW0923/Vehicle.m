@@ -10,10 +10,11 @@
 #import "GameClass.h"
 @implementation Vehicle
 
+//탈것을 타서 이동속도가 증가 !!
 - (id)sit:(GameClass *)who speed:(NSUInteger)speed{
     
     NSUInteger before = who.speed;
-    who.speed = speed+ who.speed;
+    who.speed = speed + who.speed;
     
     
     NSLog(@"%@은 %@이라는 탈것을 타서 이동속도 %ld가 증가하여 이동속도가 %ld에서 %ld로 변경되었습니다.",

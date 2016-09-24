@@ -10,6 +10,7 @@
 
 @interface Ximan : GameClass
 
+@property NSString *location;
 
 
 
