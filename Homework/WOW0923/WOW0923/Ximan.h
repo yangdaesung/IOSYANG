@@ -15,8 +15,8 @@
 
 
 
-- (id)totemSumon:(NSString *)where;
-- (id)wolfform:(GameClass *)who;
+- (id)totemSumon;
+- (id)lavaBust:(GameClass *)who;
 - (id)lightingBolt:(GameClass *)who;
 
 @end

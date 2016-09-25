@@ -13,7 +13,7 @@
 
 //마법무기를 장착해서 마법력 올리기 !!
 
--(id)aaadd:(GameClass *)who damege:(NSUInteger)number {
+-(id)aaadd:(GameClass *)who{
     
     NSUInteger wepon = who.magicalpower;
     who.magicalpower =self.magicalDamege+ who.magicalpower;

@@ -12,7 +12,7 @@
 
 
 
-- (id)add:(GameClass *)who damege:(NSUInteger)number;
 
 
+- (id)add:(GameClass *)who;
 @end

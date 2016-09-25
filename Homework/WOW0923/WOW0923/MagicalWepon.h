@@ -13,6 +13,6 @@
 
 
 
-- (id)aaadd:(GameClass *)who damege:(NSUInteger)number;
+- (id)aaadd:(GameClass *)who;
 
 @end

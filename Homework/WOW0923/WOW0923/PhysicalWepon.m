@@ -13,7 +13,7 @@
 
 //물리무기를 장착해서 공격력 올리기 !
 
--(id)add:(GameClass *)who damege:(NSUInteger)number {
+-(id)add:(GameClass *)who{
     
     NSUInteger wepon = who.physicalPower;
     who.physicalPower =self.physicalDamege + who.physicalPower;

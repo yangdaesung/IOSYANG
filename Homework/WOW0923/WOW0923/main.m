@@ -44,6 +44,10 @@ int main(int argc, const char * argv[]) {
     madd.name = @"죽음의지팡이";
     madd.magicalDamege = 500;
    
+    PhysicalWepon *aex = [[PhysicalWepon alloc] init];
+    aex.name = @"죽음의 도끼";
+    aex.physicalDamege = 450;
+    
     
     [lion sit:jack speed:80];
     [lion sit:mark speed:100];
@@ -51,13 +55,13 @@ int main(int argc, const char * argv[]) {
     [jack deathAttack:isera];
     [mark PhysicalAttack:isera];
     
-   
-    [madd aaadd:mark damege:300];
+    [aex add:jack];
+    [madd aaadd:mark];
     [jack swoardDefense:isera];
     
     [mark bearForm];
-    
-    
+    [mark eluneArrow:isera];
+    [jack deathAttack:isera];
     
     
     

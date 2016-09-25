@@ -7,8 +7,8 @@
 //
 
 #import "GameClass.h"
-
-@interface Dragon : GameClass
+#import "Monster.h"
+@interface Dragon : Monster
 
 
 
@@ -20,6 +20,6 @@
 - (id)fly:(NSString *)where;
 - (id)breath:(GameClass *)who;
 - (id)swipes:(GameClass *)who;
-
+- (id)howling:(GameClass *)who;
 
 @end
