@@ -33,16 +33,15 @@
 }
 
 //과목 점수 평균을 구해 반환을 해준다.
+//if구문을 통해 0이하 나오면 안나오겠금 해줬다.
 - (CGFloat)average
 {
+    CGFloat averageTemp = 0;
+    if (self.subjectCount > 0) {
+    averageTemp = (CGFloat)self.totalScore / (CGFloat)self.subjectCount;
     
-    CGFloat avergeTemp = (CGFloat)self.totalScore / (CGFloat)self.subjectCount;
-    
-    
-    return avergeTemp;
-    
+    }
+    return averageTemp;
 }
-
-
 
 @end

@@ -10,6 +10,8 @@
 		7CFACC511D98AE1400E305F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFACC501D98AE1400E305F8 /* main.m */; };
 		7CFACC5F1D98BA9400E305F8 /* SubjectSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFACC5E1D98BA9400E305F8 /* SubjectSum.m */; };
 		7CFACC621D98C09000E305F8 /* DimensionalShapes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFACC611D98C09000E305F8 /* DimensionalShapes.m */; };
+		7CFACC651D98ECE200E305F8 /* ToolBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFACC641D98ECE200E305F8 /* ToolBox.m */; };
+		7CFACC681D98FE5800E305F8 /* IfExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFACC671D98FE5800E305F8 /* IfExample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		7CFACC5E1D98BA9400E305F8 /* SubjectSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectSum.m; sourceTree = "<group>"; };
 		7CFACC601D98C09000E305F8 /* DimensionalShapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DimensionalShapes.h; sourceTree = "<group>"; };
 		7CFACC611D98C09000E305F8 /* DimensionalShapes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DimensionalShapes.m; sourceTree = "<group>"; };
+		7CFACC631D98ECE200E305F8 /* ToolBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolBox.h; sourceTree = "<group>"; };
+		7CFACC641D98ECE200E305F8 /* ToolBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolBox.m; sourceTree = "<group>"; };
+		7CFACC661D98FE5800E305F8 /* IfExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IfExample.h; sourceTree = "<group>"; };
+		7CFACC671D98FE5800E305F8 /* IfExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IfExample.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,10 @@
 			isa = PBXGroup;
 			children = (
 				7CFACC501D98AE1400E305F8 /* main.m */,
+				7CFACC661D98FE5800E305F8 /* IfExample.h */,
+				7CFACC671D98FE5800E305F8 /* IfExample.m */,
+				7CFACC631D98ECE200E305F8 /* ToolBox.h */,
+				7CFACC641D98ECE200E305F8 /* ToolBox.m */,
 				7CFACC601D98C09000E305F8 /* DimensionalShapes.h */,
 				7CFACC611D98C09000E305F8 /* DimensionalShapes.m */,
 				7CFACC5D1D98BA9400E305F8 /* SubjectSum.h */,
@@ -132,6 +142,8 @@
 				7CFACC5F1D98BA9400E305F8 /* SubjectSum.m in Sources */,
 				7CFACC511D98AE1400E305F8 /* main.m in Sources */,
 				7CFACC621D98C09000E305F8 /* DimensionalShapes.m in Sources */,
+				7CFACC651D98ECE200E305F8 /* ToolBox.m in Sources */,
+				7CFACC681D98FE5800E305F8 /* IfExample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
