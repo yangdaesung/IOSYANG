@@ -17,6 +17,7 @@
 #import "MagicalWepon.h"
 int main(int argc, const char * argv[]) {
 
+    //캐릭터 생성 칸
     DeathNight *jack = [[DeathNight alloc] init];
     jack.name = @"죽기";
     jack.health = 600;
@@ -26,6 +27,12 @@ int main(int argc, const char * argv[]) {
     jack.isDead = NO;
     jack.speed = 30;
     
+    Druid *mark = [[Druid alloc] initWithName:@"마크" health:550 mana:450 physicalPower:120 magicalPower:40 isDead:NO speed:80];
+    
+    
+    
+    
+    //몬스터 생성 칸
     Dragon *isera = [[Dragon alloc] init];
     isera.name = @"이세라";
     isera.health = 8000;
@@ -35,11 +42,12 @@ int main(int argc, const char * argv[]) {
     isera.isDead = NO;
     
     
-    Druid *mark = [[Druid alloc] initWithName:@"마크" health:550 mana:450 physicalPower:120 magicalPower:40 isDead:NO speed:80];
+    //탈것 생성 칸
     Vehicle *lion = [[Vehicle alloc] init];
     lion.name = @"라이온";
     lion.speed = 200;
     
+    //무기 생성 칸
     MagicalWepon *madd = [[MagicalWepon alloc] init];
     madd.name = @"죽음의지팡이";
     madd.magicalDamege = 500;
@@ -49,6 +57,8 @@ int main(int argc, const char * argv[]) {
     aex.physicalDamege = 450;
     
     
+    
+    //실행
     [lion sit:jack speed:80];
     [lion sit:mark speed:100];
     [mark typoon:isera];
