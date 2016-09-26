@@ -62,6 +62,11 @@ int main(int argc, const char * argv[]) {
     [IfExample grade:100];
    
     
+    //절대값 함수
+    NSInteger big = [IfExample bigNum:-124];
+    NSLog(@"절대값 : %ld",big);
+    
+    
     //반올림 함수
     CGFloat round = [IfExample roundNum:3.4552];
     NSLog(@"%.3lf",round);

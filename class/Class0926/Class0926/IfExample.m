@@ -110,7 +110,17 @@
     }
     return lastDay;
 }
+
+//절대값 문제
++(NSInteger)bigNum:(NSInteger)number{
     
+    
+if(number<0){
+number = number * (-1);
+}
+
+return number;
+}
 
 //반올림 문제
 

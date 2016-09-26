@@ -18,4 +18,5 @@
 +(CGFloat)roundNum:(CGFloat)num;
 +(NSInteger)lastDayOfMonth:(NSInteger)mouth;
 +(void)checkLeapYear:(NSInteger)year;
++(NSInteger)bigNum:(NSInteger)number;
 @end
