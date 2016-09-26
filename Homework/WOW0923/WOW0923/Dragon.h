@@ -7,8 +7,8 @@
 //
 
 #import "GameClass.h"
-#import "Monster.h"
-@interface Dragon : Monster
+
+@interface Dragon : GameClass
 
 
 

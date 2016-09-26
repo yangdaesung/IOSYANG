@@ -20,6 +20,7 @@
 
 - (id) PhysicalAttack:(GameClass *)who;
 
+//캐릭터 능력
 - (instancetype)initWithName:(NSString *)name health:(NSUInteger)health mana:(NSUInteger)mana
                physicalPower:(NSUInteger)physicalPower magicalPower:(NSUInteger)magicalPower
                       isDead:(BOOL)isDead speed:(NSUInteger)Speed;

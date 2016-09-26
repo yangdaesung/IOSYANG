@@ -7,7 +7,13 @@
 //
 
 #import "Orc.h"
+#import "GameClass.h"
 
 @implementation Orc
 
+
+
+
+
 @end
+

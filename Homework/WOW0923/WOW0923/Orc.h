@@ -7,7 +7,7 @@
 //
 
 #import "GameClass.h"
-#import "Monster.h"
-@interface Orc : Monster
+
+@interface Orc : GameClass
 
 @end

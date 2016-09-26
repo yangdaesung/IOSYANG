@@ -31,12 +31,18 @@
           who.name,who.physicalPower,clear2,who.health);
     return nil;
 
+}
+//죽음의손길 
+- (id)touchofDeath:(GameClass *)who {
     
-
+    NSUInteger clear3 = who.health;
+    who.health = clear3 - self.physicalPower;
     
+    NSLog(@"%@가 공격했으나 실패해서 본인이 %ld의 피해를 입히고 체력이 %lu에서 %lu로 변경되었습니다.",
+          who.name,who.physicalPower,clear3,who.health);
+    return nil;
     
 }
-
 
 
 

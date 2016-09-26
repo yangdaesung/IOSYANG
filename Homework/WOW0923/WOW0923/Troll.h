@@ -7,7 +7,12 @@
 //
 
 #import "GameClass.h"
-#import "Monster.h"
-@interface Troll : Monster
+
+@interface Troll : GameClass
+
+
+
+
+
 
 @end

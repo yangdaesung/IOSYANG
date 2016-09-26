@@ -7,7 +7,7 @@
 //
 
 #import "Dragon.h"
-
+#import "GameClass.h"
 @implementation Dragon
 
 

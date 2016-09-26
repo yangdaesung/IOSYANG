@@ -7,7 +7,18 @@
 //
 
 #import "Dungeon.h"
-
+#import "GameClass.h"
 @implementation Dungeon
+
+
+//던전에 입장하다.
+- (id)enter:(GameClass *)who {
+    
+    NSLog(@"%@가 %@에 입장하였습니다.",who.name,self.name);
+    
+    return  nil;
+}
+
+
 
 @end

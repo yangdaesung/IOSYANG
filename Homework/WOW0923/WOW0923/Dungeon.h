@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "GameClass.h"
 @interface Dungeon : NSObject
+
+@property NSString *name;
+
+
+
+
+- (id)enter:(GameClass *)who;
+
 
 @end

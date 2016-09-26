@@ -21,7 +21,7 @@
     return nil;
     
 }
-
+//돌격 스킬
 -(id)charge:(GameClass *)who {
     
     NSUInteger chargeAttack = who.health;
@@ -32,7 +32,7 @@
     return nil;
     
 }
-
+//함성을 질러 소량의 데미지와 공포
 -(id)cry:(GameClass *)who {
     
     NSUInteger cry = who.health;
@@ -42,7 +42,7 @@
           who.name,self.magicalpower,cry,who.health);
     return nil;
 }
-
+//짧은 범위로 위치이동.
 -(id)jump:(NSString *)where {
     
     NSString *jump = self.location;
