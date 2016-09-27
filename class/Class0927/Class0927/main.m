@@ -7,14 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Person.h"
 int main(int argc, const char * argv[]) {
    
     
     
     
+    Person *person = [[Person alloc] init];
     
+    character temp;
     
+   temp =[person setHeight:190 weight:80];
+   NSLog(@"%lf  %lf입니다.",temp.height,temp.weight);
     
     
     

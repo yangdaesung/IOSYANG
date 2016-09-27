@@ -22,7 +22,7 @@ typedef struct character
 @property character info;
 
 
-
+-(character)setHeight:(CGFloat)height weight:(CGFloat)weight;
 
 
 

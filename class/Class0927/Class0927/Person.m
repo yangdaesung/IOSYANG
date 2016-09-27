@@ -23,7 +23,7 @@
 
 
 
--(void)setHeight:(CGFloat)height weight:(CGFloat)weight
+-(character)setHeight:(CGFloat)height weight:(CGFloat)weight
 {
     
     //_into.height = height;
@@ -32,12 +32,10 @@
     
     //다른버전
     character tempInfo = {weight,height};
-    self.info = tempInfo;
+    
+    return  tempInfo;
+    
 }
 
-- (character)tempInto
-{
-    return self.info;
-}
 
 @end
