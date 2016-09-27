@@ -155,21 +155,6 @@ return number;
     }
 }
 
-//윤년
-+(void)cheakyear:(NSInteger)yun
-{
-    NSString * yun1 = @"윤년";
-    
-    if (yun%4 == 0) {
-        NSLog(@"%@이 맞습니다.",yun1);
-    } else (
-    {
-        
-    }
-    
-    
-    
-}
 
 @end
 
