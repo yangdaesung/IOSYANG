@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+//구조체에 이름짓기 !
 typedef struct character
 {
     CGFloat height;

@@ -11,7 +11,7 @@
 int main(int argc, const char * argv[]) {
    
     
-    
+  //구조체를 이용!
     
     Person *person = [[Person alloc] init];
     
