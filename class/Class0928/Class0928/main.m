@@ -1,0 +1,24 @@
+//
+//  main.m
+//  Class0928
+//
+//  Created by Yang on 2016. 9. 28..
+//  Copyright © 2016년 Yang. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "DLinkedList.h"
+int main(int argc, const char * argv[]) {
+   
+    DLinkedList *dLink = [[DLinkedList alloc] init];
+    NSInteger newValue=4;
+    [dLink addFirstNodeValue:newValue];
+    [dLink addFirstNodeValue:40];
+    [dLink addFirstNodeValue:50];
+    [dLink addFirstNodeValue:60];
+    
+    
+    
+    
+    return 0;
+}
