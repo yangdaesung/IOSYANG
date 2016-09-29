@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "Node.h"
+
+
+
 @interface NumDLinked : NSObject
 
 @property Node *header;

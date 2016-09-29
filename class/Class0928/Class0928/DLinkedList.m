@@ -13,11 +13,14 @@
 //초기화 하기
 - (instancetype)init
 {
+    //초기화값
     self = [super init];
+    //if를 통해 next와 preve를 nil로 만든다.
     if (self) {
         self.header = [[Node alloc] init];
         self.header.next = nil;
         self.header.preve = nil;
+        //그리고 인덱스를 0으로 만든다.
         self.lastNodeIndex = 0;
     }
     return self;
@@ -26,12 +29,16 @@
 //add 첫번째 넣기
 -(void)addFirstNodeValue:(NSInteger )newValue
 {
+    //새로운 값을 초기화 시킨다.
     Node *newNode = [[Node alloc] init];
     newNode.value = newValue;
+    
+    //초기화 후 header next가 nil 이라면 newNode가 header의 next가 된다.
     if (self.header.next == nil) {
         self.header.next = newNode;
         newNode.preve = self.header;
         newNode.next = nil;
+        //그리고 newnode preve는 header가 되고
     } else {
         newNode.preve = self.header;
         newNode.next = self.header.next;
