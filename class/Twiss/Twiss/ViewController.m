@@ -40,11 +40,11 @@
     
     
     UIView *subView = [[UIView alloc] initWithFrame:CGRectMake(20, self.view.frame.size.height/2+110, self.view.frame.size.width-40, 100)];
-    subView.backgroundColor = [UIColor blackColor];
+    subView.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:subView];
     
     UIView *subview1 = [[UIView alloc] initWithFrame:CGRectMake(20, self.view.frame.size.height/2+230, self.view.frame.size.width-40, 50)];
-    subview1.backgroundColor = [UIColor blackColor];
+    subview1.backgroundColor = [UIColor redColor];
     [self.view addSubview:subview1];
     
     //이미지
@@ -68,8 +68,12 @@
     [img4 setContentMode:UIViewContentModeScaleToFill];
     [mainView addSubview:img4];
     
-    /*텍스트
-    UILabel *lavel1 = [[UILabel alloc] initWithFrame:<#(CGRect)#>]*/
+    //텍스트
+    UILabel *lavel1 = [[UILabel alloc] initWithFrame:CGRectMake(0, img1.frame.size.width,img1.frame.size.width, 30)];
+    lavel1.text = @"sum : 4000";
+    lavel1.textColor = [UIColor grayColor];
+    lavel1.textAlignment = NSTextAlignmentCenter;
+    [img1 addSubview:lavel1];
     
     
     

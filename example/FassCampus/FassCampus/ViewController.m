@@ -34,7 +34,7 @@
     [mainView addSubview:daumText];*/
     
     //다음 로고 !
-    UIImageView *daumLogo = [[UIImageView alloc] initWithFrame:CGRectMake(mainView.frame.size.width/4+20,mainView.frame.size.height/3-10, mainView.frame.size.width/2-50, self.view.frame.size.height/10-40)];
+    UIImageView *daumLogo = [[UIImageView alloc] initWithFrame:CGRectMake(mainView.frame.size.width/4+35,mainView.frame.size.height/3-10, mainView.frame.size.width/2-70, self.view.frame.size.height/10-40)];
     [daumLogo setImage:[UIImage imageNamed:@"다음.png"]];
     [daumLogo setContentMode:UIViewContentModeScaleToFill];
     [mainView addSubview:daumLogo];
@@ -61,7 +61,6 @@
     //검색창
     UISearchBar *search = [[UISearchBar alloc] initWithFrame:CGRectMake(mainView.frame.size.width/13, mainView.frame.size.height, mainView.frame.size.width-20, mainView.frame.size.height)];
     search.text = @"검색";
-    
     search.barTintColor =[UIColor whiteColor];
     [self.view addSubview:search];
     

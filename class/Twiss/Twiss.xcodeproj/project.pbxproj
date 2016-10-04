@@ -13,9 +13,6 @@
 		7C38FCA81D9E3B8B0068B212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C38FCA61D9E3B8B0068B212 /* Main.storyboard */; };
 		7C38FCAA1D9E3B8B0068B212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C38FCA91D9E3B8B0068B212 /* Assets.xcassets */; };
 		7C38FCAD1D9E3B8B0068B212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C38FCAB1D9E3B8B0068B212 /* LaunchScreen.storyboard */; };
-		7C38FCB71D9E4DD40068B212 /* wei.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C38FCB61D9E4DD40068B212 /* wei.png */; };
-		7C38FCB91D9E4DD80068B212 /* dahyun.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C38FCB81D9E4DD80068B212 /* dahyun.png */; };
-		7C38FCBB1D9E4DDE0068B212 /* momo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C38FCBA1D9E4DDE0068B212 /* momo.png */; };
 		7C38FCCD1D9E55DD0068B212 /* 징징이.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C38FCCC1D9E55DD0068B212 /* 징징이.png */; };
 		7C38FCCF1D9E55E00068B212 /* 꽃게사장.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C38FCCE1D9E55E00068B212 /* 꽃게사장.png */; };
 		7C38FCD11D9E55E30068B212 /* 스펀지밥.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C38FCD01D9E55E30068B212 /* 스펀지밥.png */; };
@@ -33,9 +30,6 @@
 		7C38FCA91D9E3B8B0068B212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C38FCAC1D9E3B8B0068B212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C38FCAE1D9E3B8B0068B212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C38FCB61D9E4DD40068B212 /* wei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wei.png; path = ../../../../wei.png; sourceTree = "<group>"; };
-		7C38FCB81D9E4DD80068B212 /* dahyun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dahyun.png; path = ../../../../dahyun.png; sourceTree = "<group>"; };
-		7C38FCBA1D9E4DDE0068B212 /* momo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = momo.png; path = ../../../../momo.png; sourceTree = "<group>"; };
 		7C38FCCC1D9E55DD0068B212 /* 징징이.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "징징이.png"; path = "../../../../징징이.png"; sourceTree = "<group>"; };
 		7C38FCCE1D9E55E00068B212 /* 꽃게사장.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "꽃게사장.png"; path = "../../../../꽃게사장.png"; sourceTree = "<group>"; };
 		7C38FCD01D9E55E30068B212 /* 스펀지밥.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "스펀지밥.png"; path = "../../../../스펀지밥.png"; sourceTree = "<group>"; };
@@ -73,9 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				7C38FCA01D9E3B8B0068B212 /* AppDelegate.h */,
-				7C38FCB61D9E4DD40068B212 /* wei.png */,
-				7C38FCB81D9E4DD80068B212 /* dahyun.png */,
-				7C38FCBA1D9E4DDE0068B212 /* momo.png */,
 				7C38FCA11D9E3B8B0068B212 /* AppDelegate.m */,
 				7C38FCCC1D9E55DD0068B212 /* 징징이.png */,
 				7C38FCD21D9E55E70068B212 /* 다람이.png */,
@@ -159,14 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C38FCAD1D9E3B8B0068B212 /* LaunchScreen.storyboard in Resources */,
-				7C38FCBB1D9E4DDE0068B212 /* momo.png in Resources */,
 				7C38FCD31D9E55E70068B212 /* 다람이.png in Resources */,
 				7C38FCAA1D9E3B8B0068B212 /* Assets.xcassets in Resources */,
 				7C38FCCD1D9E55DD0068B212 /* 징징이.png in Resources */,
 				7C38FCD11D9E55E30068B212 /* 스펀지밥.png in Resources */,
-				7C38FCB71D9E4DD40068B212 /* wei.png in Resources */,
 				7C38FCCF1D9E55E00068B212 /* 꽃게사장.png in Resources */,
-				7C38FCB91D9E4DD80068B212 /* dahyun.png in Resources */,
 				7C38FCA81D9E3B8B0068B212 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +323,7 @@
 				7C38FCB31D9E3B8B0068B212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
