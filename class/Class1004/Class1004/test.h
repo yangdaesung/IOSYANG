@@ -18,8 +18,9 @@
 +(void)getMutiplicationTable:(NSInteger)num;
 +(void)getMutiplicationTabe:(NSInteger)num;
 +(void)factorial:(NSInteger)num;
-
-
++(void)fourmuti:(NSInteger)num;
++(void)minusFactorial:(NSUInteger)num;
++(void)game369:(NSInteger)num;
 
 
 -(NSString *)allbumTitle:(NSDictionary *)data;

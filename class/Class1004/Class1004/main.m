@@ -11,13 +11,14 @@
 
 int main(int argc, const char * argv[]) {
     
-    
-    
+    /*
+    [test fourmuti:4];
     [test getMutiplicationTable:3];
     [test getMutiplicationTabe:3];
+    [test factorial:10];*/
     
-    [test factorial:10];
-    
+    [test minusFactorial:123];
+    [test game369:300];
     
     
     NSDictionary *aoaAlbum = @{@"album_info":@{@"title": @"Heart Attack",@"artist" : @"AOA",}, @"song_list" : @[@{@"name":@"심쿵해", @"artist":@"AOA", @"total_play_time": @223,@"song_info":@{
