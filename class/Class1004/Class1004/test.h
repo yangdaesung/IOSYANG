@@ -21,6 +21,7 @@
 +(void)fourmuti:(NSInteger)num;
 +(void)minusFactorial:(NSUInteger)num;
 +(void)game369:(NSInteger)num;
++(void)numPlus:(NSInteger)num;
 
 
 -(NSString *)allbumTitle:(NSDictionary *)data;

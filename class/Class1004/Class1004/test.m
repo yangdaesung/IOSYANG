@@ -87,7 +87,7 @@
             
         }else  {
             
-            if(i%100==0){
+            if(i%10==0){
                 
                 NSLog(@"*");
                 
@@ -103,27 +103,56 @@
 }
 
 
-//3574 에서 4573으로 바꾸기
+//3574 에서 4753으로 바꾸기
 +(void)numPlus:(NSInteger)num
 {
     
-    NSInteger result = 0;
-    while (num > 0) {
-        result = result + num%10;
-        num = num/10;
+//    NSInteger count = 0;
+//    count = [ray count];
+    
+//    NSLog(@"%ld", count);
+ //  NSString *result = @"";
+    
+    
+    
+    /*string =>integer
+    NSInteger num = str.integerValue;
+    CGFloat num = str.floatValue;*/
+    
+    
+    
+    for (NSInteger i = num; i > 0 ; i /= 10) {
+        //integer = > string 변경
+        NSString *tmpStr = [NSString stringWithFormat:@"%ld",i%10];
+    
+        // 1234 가 예라면 0 번째에서 3번째까지 나온다.
+        NSRange range = NSMakeRange(0, 3);
+    
+        [tmpStr substringWithRange:range];
+        
+        
+        
+     //   NSArray *result = [tmpStr stringByAppendingString:@""];
+        
+        //NSLog(@"%@", tmpStr);
+  //      NSMutableArray *ray = [NSMutableArray array];
+        
+        
+//        [ray addObject:i];
         
     }
-    
-    
-    
+
+    NSLog(@"    %@");
 }
-
-
-
-
-
-
-
+    /*for (NSInteger i = num; i !=0; i /= 10) {
+        ray[count++] = [NSNumber numberWithInteger:i%10];
+        for (NSInteger i = 0; i != count ; i++) {
+        NSLog(@"%@",ray[i]);
+        }
+        
+    }*/
+    
+    
 
 -(NSString *)allbumTitle:(NSDictionary *)data
 {
@@ -131,8 +160,29 @@
         NSDictionary *album_info = [data objectForKey:@"album_info"];
         NSString *title = [album_info objectForKey:@"title"];
         return title;
-    }
+        
+        
+        
+        
+ 
     return nil;
+    }
+}
+
+
+-(void)testmethod{
+    
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"mm:ss"];
+    
+    NSData *date = [formatter dateFromString:@"13:20"];
+    NSLog(@"%@",date);
+    
+    NSString *dateStr = [formatter stringFromDate:date];
+    NSLog(@"%@",dateStr);
+    
+    
+    
 }
 
 
@@ -143,9 +193,6 @@
 
 
 
-
-
-    
 
 
 @end
