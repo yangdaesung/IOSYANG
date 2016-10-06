@@ -28,7 +28,7 @@
 
 -(void)push:(NSInteger)value{
 
-    [self push:self.header newValue:value];
+    [self push:self.last newValue:value];
 
 }
 
@@ -36,23 +36,45 @@
 -(void)push:(Node *)nowNode newValue:(NSInteger)value;
 {
     
-    Node *newNode =[[Node alloc] init];
-    newNode.value = value;
+    Node *newNode =[[Node alloc] init]; //초기화 한다.
+    newNode.value = value;              //들어오는 값은 새로운 노드이다.
     
-    if (self.header.next == nil) {
-        self.header.next = newNode;
-        newNode.preve = self.header;
-        newNode.next = nil;
+    if (self.header.next == nil) {      //만약에 header앞이 nil 이라면
+        self.header.next = newNode;     //header앞은 새로운 노드이다.
+        newNode.preve = self.header;    //새로운 노드 전에는 헤드이다.
+        newNode.next = nil;             //그래서 새로운 노드는 nil이다.
+        self.last=newNode;              //마지막은 새로운 노드이다.
     } else {
-        newNode.preve = self.header;
-        newNode.next = self.header.next;
         
-        self.header.next =newNode;
+        newNode.preve = self.last;      //만약 새로운 노드 전이 last라면
+        
+        newNode.next=nil;               //새로운 노드 다음은 nil이다.
+        
+        self.last=newNode;              //그래서 last 는 새로운 노드이다.
+        
+        
     }
+    NSLog(@"%ld",self.last.value);
 }
 
 //pop !!
-
+-(void)pop
+{
+    NSInteger tempo = self.last.value;
+    
+    
+    
+    
+    Node *before = [[Node alloc] init];
+    before = self.last.preve;
+    NSLog(@"%ld",before.value);
+        before.next = nil;
+        self.last.preve = nil;
+        self.last = before;
+        
+    
+    NSLog(@"%ld",tempo);
+}
 
 
 

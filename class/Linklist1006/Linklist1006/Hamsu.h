@@ -10,8 +10,10 @@
 #import "Node.h"
 @interface Hamsu : NSObject
 @property Node *header;
+@property Node *last;
 @property NSInteger lastIndex;
 
 -(void)push:(NSInteger)value;
 -(void)push:(Node *)nowNode newValue:(NSInteger)value;
+-(void)pop;
 @end

@@ -17,6 +17,8 @@ int main(int argc, const char * argv[]) {
     [dlink push:2];
     [dlink push:3];
     
+    [dlink pop];
+    
     
     
     
