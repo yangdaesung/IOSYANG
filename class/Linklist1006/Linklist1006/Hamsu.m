@@ -60,75 +60,38 @@
 //pop !!
 -(void)pop
 {
-    NSInteger tempo = self.last.value;
-    
-    
-    
-    
+
     Node *before = [[Node alloc] init];
+    
     before = self.last.preve;
-    NSLog(@"%ld",before.value);
-        before.next = nil;
-        self.last.preve = nil;
-        self.last = before;
+    NSLog(@"%ld",self.last.value);
+   
+    if (self.last.next == nil) {
+            before.next = nil;
+            self.last.preve = nil;
+            self.last = before;
         
-    
-    NSLog(@"%ld",tempo);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// 전체 노드 데이터 프린트 하기
-- (void)printAllNode{
-    
-    // 헤더 값 0은 출력 되지 않는 if문
-    if(self.header.next != nil){
+           }else{
         
-        [self printNode:self.header.next];
+        self.last.preve = self.header;
+        before = self.last.preve;
+        self.last.next = nil;
         
     }
-}
 
-- (void)printNode:(Node *)node{
+}
+//is empty
+
+-(BOOL)empty{
     
-    // 다음에 값이 없을때 값을 출력하고 끝
-    if (node.next == nil) {
-        
-        NSLog(@"%ld", node.value);
-        
-        // 값을 출력했는데 다음에 또 값이 있으면 다음으로!
-    }else{
-        
-        NSLog(@"%ld", node.value);
-        
-        [self printNode:node.next];
-        
+    BOOL empty = NO;
+    
+    if (self.last.next == nil) {
+        empty = YES;
     }
-    
+
+    return empty;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 @end

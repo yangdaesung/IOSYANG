@@ -16,4 +16,5 @@
 -(void)push:(NSInteger)value;
 -(void)push:(Node *)nowNode newValue:(NSInteger)value;
 -(void)pop;
+-(BOOL)empty;
 @end
