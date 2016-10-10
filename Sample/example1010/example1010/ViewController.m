@@ -24,7 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    //데이터 !
     self.itemData = @[@"1번째 버튼",@"2번째 버튼",@"3번째 버튼",@"4번째 버튼"];
     self.itemViews = [[NSMutableArray alloc]init];
     
@@ -41,9 +41,9 @@
     [self.view addSubview:itemContainerView];
     self.itemContainerView = itemContainerView;
     
+    
     //버튼 !!!!!
     for (NSInteger i = 0; i < 4; i++) {
-        
         
         UIButton *newBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         newBtn.backgroundColor = [UIColor brownColor];
@@ -60,14 +60,21 @@
         [self.itemContainerView addSubview:newBtn];
         [self.itemViews addObject:newBtn];
     }
-
-        self.disPlayLb = [[UILabel alloc] initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, self.view.frame.size.height)];
+//출력 라벨 !
+        self.disPlayLb = [[UILabel alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height/3+200, self.view.frame.size.width, self.view.frame.size.height/2-150)];
        self.disPlayLb.text = @"버튼 선택 전 입니다.";
         self.disPlayLb.font = [UIFont systemFontOfSize:30];
         self.disPlayLb.textAlignment = NSTextAlignmentCenter;
         [self.view addSubview:self.disPlayLb];
     
     
+    //스위치 누르면 배경화면 바뀌는 스위치
+    UISwitch *touched =[[UISwitch alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2-20, self.view.frame.size.height/2+250, 50, 50)];
+    touched.tintColor = [UIColor redColor];
+    touched.thumbTintColor = [UIColor blueColor];
+    touched.onTintColor = [UIColor greenColor];
+    [touched addTarget:self action:@selector(switchTouched:) forControlEvents:UIControlEventValueChanged];
+    [self.view addSubview:touched];
     
 }
 
@@ -92,7 +99,7 @@
 
 }
 
-
+//함수 구현
 - (void)firstButton:(UIButton *)sender
 {
     
@@ -106,7 +113,7 @@
     {
         
         self.beforBtn.selected = nil;
-//        NSString *text = sender.titleLabel.text;
+
         
         NSInteger senderTag = sender.tag;
         NSString *strBtn = [self.itemData objectAtIndex:senderTag];
@@ -116,7 +123,21 @@
         self.beforBtn = sender;
         
     }
+    
 }
+
+- (void)switchTouched:(UISwitch *)touched
+{
+    if (touched.on) {
+        _itemContainerView.backgroundColor = [UIColor whiteColor];
+    } else {
+        _itemContainerView.backgroundColor = [UIColor grayColor];
+    }
+    
+}
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
