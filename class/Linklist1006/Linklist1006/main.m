@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Hamsu.h"
+#import "Queue.h"
 int main(int argc, const char * argv[]) {
   
     
@@ -41,11 +42,16 @@ int main(int argc, const char * argv[]) {
     [dlink empty];
     
     
+    Queue *que = [[Queue alloc] init];
     
-    
-    
-    
-    
+    [que quPush:1];
+    [que quPush:2];
+    [que quPush:3];
+    [que quPush:4];
+    [que quPush:5];
+    [que quPush:6];
+ 
+    [que get];
     return 0;
 
 }
