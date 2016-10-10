@@ -25,6 +25,7 @@
     
     if (self.header.next == nil) {
         newValue.preve = self.finsh;
+        self.finsh.next = newValue;
         newValue.next = nil;
         self.header = newValue;
         
@@ -32,7 +33,7 @@
         
         newValue.preve = self.finsh;
         newValue.next = self.header;
-        self.finsh = newValue;
+        self.finsh = nowValue;
         
     }
     NSLog(@"%ld",self.header.value);
@@ -40,26 +41,29 @@
 }
 
 //queue get
--(void)get
+-(NSInteger )get
 {
-    Node *nowValue = [[Node alloc] init];
-    nowValue = self.header;
-    NSLog(@"%@",self.header);
+   // Node *nowValue = [[Node alloc] init];
+    //nowValue = self.header;
+    //NSLog(@"%@",self.header);
     
-    if (self.header.next == nil) {  //Queue가 비어있으니 오류!!
-        self.header.preve = self.finsh;
-        nowValue = self.finsh;
-        self.finsh.next = nil;
-        NSLog(@"%@",self.finsh);
-    }else{      //제일 처음노드를 반환하고 리스트에서 삭제
-        
-        
-        
-    }
-        
-    
+//    if (self.header.next == ) {  //Queue가 비어있으니 오류!!
+//        self.header.preve = self.finsh;
+//        nowValue = self.finsh;
+//        self.finsh.next = nil;
+//        NSLog(@"%@",nowValue);
+//    }      //제일 처음노드를 반환하고 리스트에서 삭제
+//
+
+    NSInteger nowValue;
+    nowValue = self.finsh.value;
     
     
+    
+    
+    
+    return nowValue;
+
 }
 
 

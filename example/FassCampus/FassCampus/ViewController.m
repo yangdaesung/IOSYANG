@@ -58,12 +58,9 @@
     [mainView addSubview:myPage];
     
     
-    //검색창
-    UISearchBar *search = [[UISearchBar alloc] initWithFrame:CGRectMake(mainView.frame.size.width/13, mainView.frame.size.height, mainView.frame.size.width-20, mainView.frame.size.height)];
-    search.text = @"검색";
-    search.barTintColor =[UIColor whiteColor];
-    [self.view addSubview:search];
-    
+    CGRect textViewFrame = CGRectMake(mainView.frame.size.width, self.view.frame.size.height/4, mainView.frame.size.width, self.view.frame.size.height/4);
+    UITextView *textView = [[UITextView alloc] initWithFrame:textViewFrame];
+    textView.text = @"검색";
     
     
     

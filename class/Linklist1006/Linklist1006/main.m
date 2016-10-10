@@ -52,6 +52,11 @@ int main(int argc, const char * argv[]) {
     [que quPush:6];
  
     [que get];
+    [que get];
+    [que get];
+    [que get];
+    [que get];
+    
     return 0;
 
 }

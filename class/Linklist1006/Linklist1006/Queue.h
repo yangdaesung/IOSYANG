@@ -17,7 +17,7 @@
 
 -(void)quPush:(NSInteger)Value;
 -(void)quPush:(Node *)nowValue newValue:(NSInteger)value;
--(void)get;
+-(NSInteger )get;
 
 
 
