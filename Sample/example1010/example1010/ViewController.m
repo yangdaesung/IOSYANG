@@ -67,7 +67,6 @@
         self.disPlayLb.textAlignment = NSTextAlignmentCenter;
         [self.view addSubview:self.disPlayLb];
     
-    
     //스위치 누르면 배경화면 바뀌는 스위치
     UISwitch *touched =[[UISwitch alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2-20, self.view.frame.size.height/2+250, 50, 50)];
     touched.tintColor = [UIColor redColor];
@@ -75,6 +74,11 @@
     touched.onTintColor = [UIColor greenColor];
     [touched addTarget:self action:@selector(switchTouched:) forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:touched];
+    
+    
+    
+    
+    
     
 }
 
@@ -114,7 +118,6 @@
         
         self.beforBtn.selected = nil;
 
-        
         NSInteger senderTag = sender.tag;
         NSString *strBtn = [self.itemData objectAtIndex:senderTag];
         NSLog(@"%@",strBtn);
@@ -125,7 +128,7 @@
     }
     
 }
-
+//스위치 구현!
 - (void)switchTouched:(UISwitch *)touched
 {
     if (touched.on) {
@@ -135,7 +138,6 @@
     }
     
 }
-
 
 
 
