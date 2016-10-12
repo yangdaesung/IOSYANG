@@ -99,8 +99,7 @@
 
 
     //상단에 페이지 추가
-    UILabel *pageView = [[UILabel alloc] initWithFrame:CGRectMake(10, 20, 200, 20)];
-    [self.view addSubview:pageView];
+    
     
 }
 

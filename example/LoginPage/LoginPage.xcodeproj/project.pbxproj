@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C267BC91DADC8D80077B40E /* 블랙핑크.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C267BC81DADC8D80077B40E /* 블랙핑크.png */; };
+		7C267BCB1DADD66D0077B40E /* 블랙핑크1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C267BCA1DADD66D0077B40E /* 블랙핑크1.png */; };
+		7C267C211DAE16FA0077B40E /* 지수.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C267C201DAE16FA0077B40E /* 지수.png */; };
+		7C267C231DAE2B630077B40E /* 블랙핑크2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C267C221DAE2B630077B40E /* 블랙핑크2.png */; };
+		7C267C251DAE41600077B40E /* 버튼1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7C267C241DAE41600077B40E /* 버튼1.jpeg */; };
+		7C267C271DAE41640077B40E /* 버튼2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7C267C261DAE41640077B40E /* 버튼2.jpeg */; };
+		7C267C291DAE42C20077B40E /* 회원가입버튼.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7C267C281DAE42C20077B40E /* 회원가입버튼.jpeg */; };
+		7C267C2B1DAE42C50077B40E /* 로그인버튼.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7C267C2A1DAE42C50077B40E /* 로그인버튼.jpeg */; };
+		7C267C2D1DAE42D20077B40E /* pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C267C2C1DAE42D20077B40E /* pink.png */; };
+		7C267C2F1DAE50110077B40E /* 빈체크.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C267C2E1DAE50110077B40E /* 빈체크.png */; };
+		7C267C311DAE50140077B40E /* 체크.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C267C301DAE50140077B40E /* 체크.png */; };
+		7C267C331DAE67D70077B40E /* 체크박스1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C267C321DAE67D70077B40E /* 체크박스1.png */; };
+		7C267C351DAE67DA0077B40E /* 체크1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C267C341DAE67DA0077B40E /* 체크1.png */; };
 		7C5446351DACF14F008B99E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5446341DACF14F008B99E4 /* main.m */; };
 		7C5446381DACF14F008B99E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5446371DACF14F008B99E4 /* AppDelegate.m */; };
 		7C54463B1DACF14F008B99E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C54463A1DACF14F008B99E4 /* ViewController.m */; };
@@ -16,6 +29,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C267BC81DADC8D80077B40E /* 블랙핑크.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "블랙핑크.png"; path = "../../../../블랙핑크.png"; sourceTree = "<group>"; };
+		7C267BCA1DADD66D0077B40E /* 블랙핑크1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "블랙핑크1.png"; path = "../../../../블랙핑크1.png"; sourceTree = "<group>"; };
+		7C267C201DAE16FA0077B40E /* 지수.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "지수.png"; path = "../../../../지수.png"; sourceTree = "<group>"; };
+		7C267C221DAE2B630077B40E /* 블랙핑크2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "블랙핑크2.png"; path = "../../../../블랙핑크2.png"; sourceTree = "<group>"; };
+		7C267C241DAE41600077B40E /* 버튼1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "버튼1.jpeg"; path = "../../../../버튼1.jpeg"; sourceTree = "<group>"; };
+		7C267C261DAE41640077B40E /* 버튼2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "버튼2.jpeg"; path = "../../../../버튼2.jpeg"; sourceTree = "<group>"; };
+		7C267C281DAE42C20077B40E /* 회원가입버튼.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "회원가입버튼.jpeg"; path = "../../../../회원가입버튼.jpeg"; sourceTree = "<group>"; };
+		7C267C2A1DAE42C50077B40E /* 로그인버튼.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "로그인버튼.jpeg"; path = "../../../../로그인버튼.jpeg"; sourceTree = "<group>"; };
+		7C267C2C1DAE42D20077B40E /* pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pink.png; path = ../../../../../Downloads/pink.png; sourceTree = "<group>"; };
+		7C267C2E1DAE50110077B40E /* 빈체크.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "빈체크.png"; path = "../../../../빈체크.png"; sourceTree = "<group>"; };
+		7C267C301DAE50140077B40E /* 체크.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "체크.png"; path = "../../../../체크.png"; sourceTree = "<group>"; };
+		7C267C321DAE67D70077B40E /* 체크박스1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "체크박스1.png"; path = "../../../../체크박스1.png"; sourceTree = "<group>"; };
+		7C267C341DAE67DA0077B40E /* 체크1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "체크1.png"; path = "../../../../체크1.png"; sourceTree = "<group>"; };
 		7C5446301DACF14F008B99E4 /* LoginPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C5446341DACF14F008B99E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7C5446361DACF14F008B99E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,6 +85,19 @@
 			isa = PBXGroup;
 			children = (
 				7C5446361DACF14F008B99E4 /* AppDelegate.h */,
+				7C267C321DAE67D70077B40E /* 체크박스1.png */,
+				7C267C341DAE67DA0077B40E /* 체크1.png */,
+				7C267C2E1DAE50110077B40E /* 빈체크.png */,
+				7C267C301DAE50140077B40E /* 체크.png */,
+				7C267C281DAE42C20077B40E /* 회원가입버튼.jpeg */,
+				7C267C2A1DAE42C50077B40E /* 로그인버튼.jpeg */,
+				7C267C241DAE41600077B40E /* 버튼1.jpeg */,
+				7C267C261DAE41640077B40E /* 버튼2.jpeg */,
+				7C267C221DAE2B630077B40E /* 블랙핑크2.png */,
+				7C267BCA1DADD66D0077B40E /* 블랙핑크1.png */,
+				7C267C2C1DAE42D20077B40E /* pink.png */,
+				7C267BC81DADC8D80077B40E /* 블랙핑크.png */,
+				7C267C201DAE16FA0077B40E /* 지수.png */,
 				7C5446371DACF14F008B99E4 /* AppDelegate.m */,
 				7C5446391DACF14F008B99E4 /* ViewController.h */,
 				7C54463A1DACF14F008B99E4 /* ViewController.m */,
@@ -137,8 +176,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C267BCB1DADD66D0077B40E /* 블랙핑크1.png in Resources */,
+				7C267C2F1DAE50110077B40E /* 빈체크.png in Resources */,
+				7C267C331DAE67D70077B40E /* 체크박스1.png in Resources */,
+				7C267C351DAE67DA0077B40E /* 체크1.png in Resources */,
 				7C5446431DACF14F008B99E4 /* LaunchScreen.storyboard in Resources */,
+				7C267C251DAE41600077B40E /* 버튼1.jpeg in Resources */,
+				7C267C2B1DAE42C50077B40E /* 로그인버튼.jpeg in Resources */,
+				7C267C311DAE50140077B40E /* 체크.png in Resources */,
+				7C267C271DAE41640077B40E /* 버튼2.jpeg in Resources */,
+				7C267C2D1DAE42D20077B40E /* pink.png in Resources */,
+				7C267C231DAE2B630077B40E /* 블랙핑크2.png in Resources */,
 				7C5446401DACF14F008B99E4 /* Assets.xcassets in Resources */,
+				7C267C291DAE42C20077B40E /* 회원가입버튼.jpeg in Resources */,
+				7C267C211DAE16FA0077B40E /* 지수.png in Resources */,
+				7C267BC91DADC8D80077B40E /* 블랙핑크.png in Resources */,
 				7C54463E1DACF14F008B99E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +359,7 @@
 				7C5446491DACF14F008B99E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

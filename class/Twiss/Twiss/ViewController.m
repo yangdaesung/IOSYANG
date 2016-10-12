@@ -64,7 +64,7 @@
     self.mainView = mainView;
     
     //itemView
-    for (NSInteger i = 0; i > 4; i++) {
+    for (NSInteger i = 0; i > 4; i++) {
         <#statements#>
     }
     
