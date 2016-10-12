@@ -74,7 +74,7 @@
     UIView *paddingView1 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 10, 20)];
     
     //ID textField만들기
-    UITextField *idText = [[UITextField alloc] initWithFrame:CGRectMake(self.view.frame.size.width/4-70, scView.frame.size.height/3-30, 250, 30)];
+    UITextField *idText = [[UITextField alloc] initWithFrame:CGRectMake(self.view.frame.size.width/4-40, scView.frame.size.height/3-40, 250, 30)];
     idText.borderStyle = UITextBorderStyleRoundedRect;
     idText.placeholder = @"ID를 입력해 주세요";
     idText.delegate = self;
@@ -84,7 +84,7 @@
     [cenView addSubview:idText];
     
     //PW textField만들기
-    UITextField *pwText = [[UITextField alloc] initWithFrame:CGRectMake(self.view.frame.size.width/4-70, scView.frame.size.height/3+20, 250, 30)];
+    UITextField *pwText = [[UITextField alloc] initWithFrame:CGRectMake(self.view.frame.size.width/4-40, scView.frame.size.height/3+10, 250, 30)];
     pwText.borderStyle = UITextBorderStyleRoundedRect;
     pwText.placeholder = @"PASSWORD를 입력해 주세요";
     pwText.delegate = self;
@@ -95,10 +95,10 @@
     [cenView addSubview:pwText];
     
     //로그인 버튼 만들기
-    UIButton *logBtn = [[UIButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width/4-60, self.view.frame.size.height/3-40, 100, 30)];
+    UIButton *logBtn = [[UIButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width/4-30, self.view.frame.size.height/3-30, 100, 30)];
     [logBtn setTitle:@"로그인" forState:UIControlStateNormal];
     [logBtn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    [logBtn setImage:[UIImage imageNamed:@"로그인버튼.jpeg"] forState:UIControlStateNormal];
+    [logBtn setImage:[UIImage imageNamed:@"로그인.jpeg"] forState:UIControlStateNormal];
     [cenView addSubview:logBtn];
     
 //    //로그인 버튼 이미지
@@ -108,10 +108,10 @@
 //    [cenView addSubview:logImage];
     
     //회원가입 버튼 만들기
-    UIButton *joinBtn = [[UIButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width/4+70, self.view.frame.size.height/3-40, 100, 30)];
+    UIButton *joinBtn = [[UIButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width/4+90, self.view.frame.size.height/3-30, 100, 30)];
     [joinBtn setTitle:@"회원가입" forState:UIControlStateNormal];
     [joinBtn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    [joinBtn setImage:[UIImage imageNamed:@"회원가입버튼.jpeg"] forState:UIControlStateNormal];
+    [joinBtn setImage:[UIImage imageNamed:@"sign.png"] forState:UIControlStateNormal];
     [cenView addSubview:joinBtn];
     
 //    //회원가입 버튼 이미지
@@ -132,9 +132,9 @@
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dismissk:)];
     [self.view addGestureRecognizer:tap];
     
-    //체크박스 !!
+    //아이디 체크박스 !!
     UIButton *ckBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [ckBtn setFrame:CGRectMake(self.view.frame.size.width/4+183, scView.frame.size.height/3+20, 30, 30)];
+    [ckBtn setFrame:CGRectMake(self.view.frame.size.width/4-30, scView.frame.size.height/3+43, 30, 30)];
     
     [ckBtn setImage:[UIImage imageNamed:@"체크1.png"] forState:UIControlStateNormal];
     [ckBtn setImage:[UIImage imageNamed:@"체크박스1.png"] forState:UIControlStateSelected];
@@ -146,13 +146,35 @@
     
     [cenView addSubview:ckBtn];
     
+    //패스워드 체크박스 !!
+    UIButton *ckBtn1 = [UIButton buttonWithType:UIButtonTypeCustom];
+    [ckBtn1 setFrame:CGRectMake(self.view.frame.size.width/4+90, scView.frame.size.height/3+43, 30, 30)];
+    
+    [ckBtn1 setImage:[UIImage imageNamed:@"체크1.png"] forState:UIControlStateNormal];
+    [ckBtn1 setImage:[UIImage imageNamed:@"체크박스1.png"] forState:UIControlStateSelected];
+    
+    [ckBtn1 addTarget:self action:@selector(chkBtnHandler:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [ckBtn1 setTitle:@"no check" forState:UIControlStateNormal];
+    [ckBtn1 setTitle:@"check" forState:UIControlStateSelected];
+    
+    [cenView addSubview:ckBtn1];
+    
     //아이디 저장 뷰!
-    UILabel *logLab = [[UILabel alloc] initWithFrame:CGRectMake(self.view.frame.size.width/4+215, scView.frame.size.height/3+35, 40, 15)];
+    UILabel *logLab = [[UILabel alloc] initWithFrame:CGRectMake(self.view.frame.size.width/4+3, scView.frame.size.height/3+50, 40, 15)];
     logLab.text = @"ID저장";
     logLab.textAlignment = NSTextAlignmentCenter;
     logLab.textColor = [UIColor blackColor];
     logLab.font = [UIFont systemFontOfSize:12];
     [cenView addSubview:logLab];
+    
+    //패스워드 저장 뷰 !
+    UILabel *pwLab = [[UILabel alloc] initWithFrame:CGRectMake(self.view.frame.size.width/4+130, scView.frame.size.height/3+50, 40, 15)];
+    pwLab.text = @"PW저장";
+    pwLab.textAlignment = NSTextAlignmentCenter;
+    pwLab.textColor = [UIColor blackColor];
+    pwLab.font = [UIFont systemFontOfSize:12];
+    [cenView addSubview:pwLab];
 }
 
 //리턴 누를시 키보드 내려감...
