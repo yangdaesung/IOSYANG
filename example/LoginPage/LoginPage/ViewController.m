@@ -15,6 +15,7 @@
 @property (nonatomic)UIScrollView *scrView;
 @property (nonatomic)UITextField *textId;
 @property (nonatomic)UITextField *textPw;
+@property (nonatomic)UILabel *myLog;
 
 @end
 
@@ -48,26 +49,11 @@
     //myPageView
     UILabel *myLogin = [[UILabel alloc] initWithFrame:CGRectMake(0,cenView.frame.size.height/6-40,cenView.frame.size.width, cenView.frame.size.height/6-10)];
     myLogin.backgroundColor = [UIColor whiteColor];
-    myLogin.text = @"MY PAGE LOGIN";
+    myLogin.text = @" 지수 Login Page ";
     myLogin.textColor = [UIColor blackColor];
     myLogin.textAlignment = NSTextAlignmentCenter;
+    self.myLog = myLogin;
     [cenView addSubview:myLogin];
-    
-//    //ID 라벨 만들기
-//    UILabel *IdLabel = [[UILabel alloc] initWithFrame:CGRectMake(scView.frame.size.width/4-30, scView.frame.size.height/3-30, 50, 30)];
-//    IdLabel.text = @"ID  : ";
-//    IdLabel.font = [UIFont boldSystemFontOfSize:20];
-//    IdLabel.textColor = [UIColor blackColor];
-//    IdLabel.textAlignment = NSTextAlignmentCenter;
-//    [cenView addSubview:IdLabel];
-//    
-//    //pw 라벨 만들기
-//    UILabel *pwLabel = [[UILabel alloc] initWithFrame:CGRectMake(scView.frame.size.width/4-30, scView.frame.size.height/3+20, 65, 30)];
-//    pwLabel.text = @"PW: ";
-//    pwLabel.font = [UIFont boldSystemFontOfSize:20];
-//    pwLabel.textColor = [UIColor blackColor];
-//    pwLabel.textAlignment = NSTextAlignmentCenter;
-//    [cenView addSubview:pwLabel];
     
     //왼쪽 들여쓰기 !!
     UIView *paddingView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 10, 20)];
@@ -77,9 +63,11 @@
     UITextField *idText = [[UITextField alloc] initWithFrame:CGRectMake(self.view.frame.size.width/4-40, scView.frame.size.height/3-40, 250, 30)];
     idText.borderStyle = UITextBorderStyleRoundedRect;
     idText.placeholder = @"ID를 입력해 주세요";
+    idText.font = [UIFont systemFontOfSize:13];
     idText.delegate = self;
     idText.leftView = paddingView;
     idText.leftViewMode = UITextFieldViewModeAlways;
+    //[idText setAutocorrectionType:UITextAutocorrectionTypeNo];//자동 완성 끄는 기능...
     self.textId = idText;
     [cenView addSubview:idText];
     
@@ -87,8 +75,10 @@
     UITextField *pwText = [[UITextField alloc] initWithFrame:CGRectMake(self.view.frame.size.width/4-40, scView.frame.size.height/3+10, 250, 30)];
     pwText.borderStyle = UITextBorderStyleRoundedRect;
     pwText.placeholder = @"PASSWORD를 입력해 주세요";
+    pwText.font = [UIFont systemFontOfSize:13];
     pwText.delegate = self;
     pwText.leftView = paddingView1;
+    //[pwText setAutocorrectionType:UITextAutocorrectionTypeNo];
     pwText.leftViewMode = UITextFieldViewModeAlways;
     pwText.secureTextEntry = YES;
     self.textPw = pwText;
@@ -101,12 +91,6 @@
     [logBtn setImage:[UIImage imageNamed:@"로그인.jpeg"] forState:UIControlStateNormal];
     [cenView addSubview:logBtn];
     
-//    //로그인 버튼 이미지
-//    UIImageView *logImage = [[UIImageView alloc] initWithFrame:CGRectMake(self.view.frame.size.width/4-60, self.view.frame.size.height/3-40, 100, 30)];
-//    [logImage setImage:[UIImage imageNamed:@"로그인버튼.jpeg"]];
-//    [logImage setContentMode:UIViewContentModeScaleToFill];
-//    [cenView addSubview:logImage];
-    
     //회원가입 버튼 만들기
     UIButton *joinBtn = [[UIButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width/4+90, self.view.frame.size.height/3-30, 100, 30)];
     [joinBtn setTitle:@"회원가입" forState:UIControlStateNormal];
@@ -114,19 +98,6 @@
     [joinBtn setImage:[UIImage imageNamed:@"sign.png"] forState:UIControlStateNormal];
     [cenView addSubview:joinBtn];
     
-//    //회원가입 버튼 이미지
-//    UIImageView *signImage = [[UIImageView alloc] initWithFrame:CGRectMake(self.view.frame.size.width/4+70, self.view.frame.size.height/3-40, 100, 30)];
-//    [signImage setImage:[UIImage imageNamed:@"회원가입버튼.jpeg"]];
-//    [signImage setContentMode:UIViewContentModeScaleToFill];
-//    [cenView addSubview:signImage];
-    
-//    UIImageView *blackPink2 = [[UIImageView alloc] initWithFrame:CGRectMake(20, self.view.frame.size.height - (self.view.frame.size.height/6+45) , self.view.frame.size.width-40, self.view.frame.size.height/6+45)];
-//    [blackPink2 setImage:[UIImage imageNamed:@"블랙핑크2.png"]];
-////    blackPink2.layer.cornerRadius = 8.f;
-////    blackPink2.layer.borderColor = [UIColor blackColor].CGColor;
-////    blackPink2.layer.borderWidth = 2.0;
-//    [blackPink2 setContentMode:UIViewContentModeScaleToFill];
-//    [self.view addSubview:blackPink2];
     
     //터치시 키보드 내려가는 것 !
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dismissk:)];
@@ -175,6 +146,8 @@
     pwLab.textColor = [UIColor blackColor];
     pwLab.font = [UIFont systemFontOfSize:12];
     [cenView addSubview:pwLab];
+    
+    [self blinkTextInLabel:self.myLog toColor:[UIColor redColor]];
 }
 
 //리턴 누를시 키보드 내려감...
@@ -183,14 +156,26 @@
     bool start;
     
     if ([textField.placeholder isEqualToString:@"ID를 입력해 주세요"]) {
+        
+        [UIView beginAnimations:nil context:nil];
+        [UIView setAnimationDuration:0.4];
+        
         [textField resignFirstResponder];
         [_textPw becomeFirstResponder];
+        
+        [UIView commitAnimations];
         
         start = NO;
     }else
     {
+        [UIView beginAnimations:nil context:nil];
+        [UIView setAnimationDuration:0.4];
+        
         [textField resignFirstResponder];
         [_scrView setContentOffset:CGPointMake(0, 0)];
+        
+        [UIView commitAnimations];
+        
         start = YES;
     }
     
@@ -200,6 +185,7 @@
 //스크롤뷰 올라가는거 !!!!!!!!!!!!!
 - (BOOL)textFieldShouldEndEditing:(UITextField *)textField
 {
+
     [self.scrView setContentOffset:CGPointMake(0, 20)];
     
     return YES;
@@ -224,13 +210,39 @@
     [(UIButton *)sender setSelected:![(UIButton *)sender isSelected]];
 }
 
+//메인 텍스트 컬러 바뀌는 메소드 !
+- (void)blinkTextInLabel:(UILabel *)label toColor:(UIColor *)color
+{
+    [UIView transitionWithView:self.myLog
+                      duration:5.0f
+                       options:UIViewAnimationOptionTransitionCrossDissolve
+                    animations:^{
+        // set to background color (change the color if necessary)
+        self.myLog.textColor = [UIColor yellowColor];
+        }
+                    completion:^(BOOL finished) {
+                        [UIView transitionWithView:self.myLog
+                                          duration:10.0f
+                                           options:UIViewAnimationOptionTransitionCrossDissolve
+                                        animations:^{
+                                            self.myLog.textColor = [UIColor blueColor];
+                                            }
+                                        completion:^(BOOL finished) {
+                                               [UIView transitionWithView:self.myLog
+                                                                 duration:5.0f
+                                                                  options:UIViewAnimationOptionTransitionCrossDissolve
+                                                               animations:^{self.myLog.textColor = [UIColor pu];
+                                                               }
+                                                               completion:nil];
+                                        }];
+        }];
+   
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
 
 
 @end
