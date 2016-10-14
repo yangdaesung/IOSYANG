@@ -15,6 +15,37 @@
 		7CE9D69D1DAF5B9E00184E7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D69B1DAF5B9E00184E7C /* LaunchScreen.storyboard */; };
 		7CE9D6A81DAF5B9E00184E7C /* idol1013Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9D6A71DAF5B9E00184E7C /* idol1013Tests.m */; };
 		7CE9D6B31DAF5B9E00184E7C /* idol1013UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9D6B21DAF5B9E00184E7C /* idol1013UITests.m */; };
+		7CE9D71D1DB061E900184E7C /* bear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D6FE1DB061E900184E7C /* bear.jpg */; };
+		7CE9D71E1DB061E900184E7C /* black_swan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D6FF1DB061E900184E7C /* black_swan.jpg */; };
+		7CE9D71F1DB061E900184E7C /* buffalo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7001DB061E900184E7C /* buffalo.jpg */; };
+		7CE9D7201DB061E900184E7C /* camel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7011DB061E900184E7C /* camel.jpg */; };
+		7CE9D7211DB061E900184E7C /* cockatoo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7021DB061E900184E7C /* cockatoo.jpg */; };
+		7CE9D7221DB061E900184E7C /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7031DB061E900184E7C /* dog.jpg */; };
+		7CE9D7231DB061E900184E7C /* donkey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7041DB061E900184E7C /* donkey.jpg */; };
+		7CE9D7241DB061E900184E7C /* duck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7051DB061E900184E7C /* duck.jpg */; };
+		7CE9D7251DB061E900184E7C /* elephant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7061DB061E900184E7C /* elephant.jpg */; };
+		7CE9D7261DB061E900184E7C /* emu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7071DB061E900184E7C /* emu.jpg */; };
+		7CE9D7271DB061E900184E7C /* giraffe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7081DB061E900184E7C /* giraffe.jpg */; };
+		7CE9D7281DB061E900184E7C /* greater_rhea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7091DB061E900184E7C /* greater_rhea.jpg */; };
+		7CE9D7291DB061E900184E7C /* guinea_pig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D70A1DB061E900184E7C /* guinea_pig.jpg */; };
+		7CE9D72A1DB061E900184E7C /* hippopotamus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D70B1DB061E900184E7C /* hippopotamus.jpg */; };
+		7CE9D72B1DB061E900184E7C /* horse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D70C1DB061E900184E7C /* horse.jpg */; };
+		7CE9D72C1DB061E900184E7C /* koala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D70D1DB061E900184E7C /* koala.jpg */; };
+		7CE9D72D1DB061E900184E7C /* lion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D70E1DB061E900184E7C /* lion.jpg */; };
+		7CE9D72E1DB061E900184E7C /* llama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D70F1DB061E900184E7C /* llama.jpg */; };
+		7CE9D72F1DB061E900184E7C /* manatus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7101DB061E900184E7C /* manatus.jpg */; };
+		7CE9D7301DB061E900184E7C /* meerkat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7111DB061E900184E7C /* meerkat.jpg */; };
+		7CE9D7311DB061E900184E7C /* panda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7121DB061E900184E7C /* panda.jpg */; };
+		7CE9D7321DB061E900184E7C /* peacock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7131DB061E900184E7C /* peacock.jpg */; };
+		7CE9D7331DB061E900184E7C /* pig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7141DB061E900184E7C /* pig.jpg */; };
+		7CE9D7341DB061E900184E7C /* platypus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7151DB061E900184E7C /* platypus.jpg */; };
+		7CE9D7351DB061E900184E7C /* polar_bear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7161DB061E900184E7C /* polar_bear.jpg */; };
+		7CE9D7361DB061E900184E7C /* rhinoceros.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7171DB061E900184E7C /* rhinoceros.jpg */; };
+		7CE9D7371DB061E900184E7C /* seagull.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7181DB061E900184E7C /* seagull.jpg */; };
+		7CE9D7381DB061E900184E7C /* tasmania_devil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7191DB061E900184E7C /* tasmania_devil.jpg */; };
+		7CE9D7391DB061E900184E7C /* whale_shark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D71A1DB061E900184E7C /* whale_shark.jpg */; };
+		7CE9D73A1DB061E900184E7C /* whale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D71B1DB061E900184E7C /* whale.jpg */; };
+		7CE9D73B1DB061E900184E7C /* wombat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D71C1DB061E900184E7C /* wombat.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +82,37 @@
 		7CE9D6AE1DAF5B9E00184E7C /* idol1013UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idol1013UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE9D6B21DAF5B9E00184E7C /* idol1013UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = idol1013UITests.m; sourceTree = "<group>"; };
 		7CE9D6B41DAF5B9E00184E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CE9D6FE1DB061E900184E7C /* bear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bear.jpg; path = ../../../../../Downloads/animailImg/bear.jpg; sourceTree = "<group>"; };
+		7CE9D6FF1DB061E900184E7C /* black_swan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = black_swan.jpg; path = ../../../../../Downloads/animailImg/black_swan.jpg; sourceTree = "<group>"; };
+		7CE9D7001DB061E900184E7C /* buffalo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = buffalo.jpg; path = ../../../../../Downloads/animailImg/buffalo.jpg; sourceTree = "<group>"; };
+		7CE9D7011DB061E900184E7C /* camel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = camel.jpg; path = ../../../../../Downloads/animailImg/camel.jpg; sourceTree = "<group>"; };
+		7CE9D7021DB061E900184E7C /* cockatoo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cockatoo.jpg; path = ../../../../../Downloads/animailImg/cockatoo.jpg; sourceTree = "<group>"; };
+		7CE9D7031DB061E900184E7C /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog.jpg; path = ../../../../../Downloads/animailImg/dog.jpg; sourceTree = "<group>"; };
+		7CE9D7041DB061E900184E7C /* donkey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = donkey.jpg; path = ../../../../../Downloads/animailImg/donkey.jpg; sourceTree = "<group>"; };
+		7CE9D7051DB061E900184E7C /* duck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = duck.jpg; path = ../../../../../Downloads/animailImg/duck.jpg; sourceTree = "<group>"; };
+		7CE9D7061DB061E900184E7C /* elephant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = elephant.jpg; path = ../../../../../Downloads/animailImg/elephant.jpg; sourceTree = "<group>"; };
+		7CE9D7071DB061E900184E7C /* emu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = emu.jpg; path = ../../../../../Downloads/animailImg/emu.jpg; sourceTree = "<group>"; };
+		7CE9D7081DB061E900184E7C /* giraffe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = giraffe.jpg; path = ../../../../../Downloads/animailImg/giraffe.jpg; sourceTree = "<group>"; };
+		7CE9D7091DB061E900184E7C /* greater_rhea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = greater_rhea.jpg; path = ../../../../../Downloads/animailImg/greater_rhea.jpg; sourceTree = "<group>"; };
+		7CE9D70A1DB061E900184E7C /* guinea_pig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = guinea_pig.jpg; path = ../../../../../Downloads/animailImg/guinea_pig.jpg; sourceTree = "<group>"; };
+		7CE9D70B1DB061E900184E7C /* hippopotamus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hippopotamus.jpg; path = ../../../../../Downloads/animailImg/hippopotamus.jpg; sourceTree = "<group>"; };
+		7CE9D70C1DB061E900184E7C /* horse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = horse.jpg; path = ../../../../../Downloads/animailImg/horse.jpg; sourceTree = "<group>"; };
+		7CE9D70D1DB061E900184E7C /* koala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = koala.jpg; path = ../../../../../Downloads/animailImg/koala.jpg; sourceTree = "<group>"; };
+		7CE9D70E1DB061E900184E7C /* lion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lion.jpg; path = ../../../../../Downloads/animailImg/lion.jpg; sourceTree = "<group>"; };
+		7CE9D70F1DB061E900184E7C /* llama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = llama.jpg; path = ../../../../../Downloads/animailImg/llama.jpg; sourceTree = "<group>"; };
+		7CE9D7101DB061E900184E7C /* manatus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = manatus.jpg; path = ../../../../../Downloads/animailImg/manatus.jpg; sourceTree = "<group>"; };
+		7CE9D7111DB061E900184E7C /* meerkat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = meerkat.jpg; path = ../../../../../Downloads/animailImg/meerkat.jpg; sourceTree = "<group>"; };
+		7CE9D7121DB061E900184E7C /* panda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = panda.jpg; path = ../../../../../Downloads/animailImg/panda.jpg; sourceTree = "<group>"; };
+		7CE9D7131DB061E900184E7C /* peacock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = peacock.jpg; path = ../../../../../Downloads/animailImg/peacock.jpg; sourceTree = "<group>"; };
+		7CE9D7141DB061E900184E7C /* pig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pig.jpg; path = ../../../../../Downloads/animailImg/pig.jpg; sourceTree = "<group>"; };
+		7CE9D7151DB061E900184E7C /* platypus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = platypus.jpg; path = ../../../../../Downloads/animailImg/platypus.jpg; sourceTree = "<group>"; };
+		7CE9D7161DB061E900184E7C /* polar_bear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = polar_bear.jpg; path = ../../../../../Downloads/animailImg/polar_bear.jpg; sourceTree = "<group>"; };
+		7CE9D7171DB061E900184E7C /* rhinoceros.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rhinoceros.jpg; path = ../../../../../Downloads/animailImg/rhinoceros.jpg; sourceTree = "<group>"; };
+		7CE9D7181DB061E900184E7C /* seagull.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = seagull.jpg; path = ../../../../../Downloads/animailImg/seagull.jpg; sourceTree = "<group>"; };
+		7CE9D7191DB061E900184E7C /* tasmania_devil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tasmania_devil.jpg; path = ../../../../../Downloads/animailImg/tasmania_devil.jpg; sourceTree = "<group>"; };
+		7CE9D71A1DB061E900184E7C /* whale_shark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = whale_shark.jpg; path = ../../../../../Downloads/animailImg/whale_shark.jpg; sourceTree = "<group>"; };
+		7CE9D71B1DB061E900184E7C /* whale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = whale.jpg; path = ../../../../../Downloads/animailImg/whale.jpg; sourceTree = "<group>"; };
+		7CE9D71C1DB061E900184E7C /* wombat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wombat.jpg; path = ../../../../../Downloads/animailImg/wombat.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +163,37 @@
 		7CE9D68C1DAF5B9E00184E7C /* idol1013 */ = {
 			isa = PBXGroup;
 			children = (
+				7CE9D6FE1DB061E900184E7C /* bear.jpg */,
+				7CE9D6FF1DB061E900184E7C /* black_swan.jpg */,
+				7CE9D7001DB061E900184E7C /* buffalo.jpg */,
+				7CE9D7011DB061E900184E7C /* camel.jpg */,
+				7CE9D7021DB061E900184E7C /* cockatoo.jpg */,
+				7CE9D7031DB061E900184E7C /* dog.jpg */,
+				7CE9D7041DB061E900184E7C /* donkey.jpg */,
+				7CE9D7051DB061E900184E7C /* duck.jpg */,
+				7CE9D7061DB061E900184E7C /* elephant.jpg */,
+				7CE9D7071DB061E900184E7C /* emu.jpg */,
+				7CE9D7081DB061E900184E7C /* giraffe.jpg */,
+				7CE9D7091DB061E900184E7C /* greater_rhea.jpg */,
+				7CE9D70A1DB061E900184E7C /* guinea_pig.jpg */,
+				7CE9D70B1DB061E900184E7C /* hippopotamus.jpg */,
+				7CE9D70C1DB061E900184E7C /* horse.jpg */,
+				7CE9D70D1DB061E900184E7C /* koala.jpg */,
+				7CE9D70E1DB061E900184E7C /* lion.jpg */,
+				7CE9D70F1DB061E900184E7C /* llama.jpg */,
+				7CE9D7101DB061E900184E7C /* manatus.jpg */,
+				7CE9D7111DB061E900184E7C /* meerkat.jpg */,
+				7CE9D7121DB061E900184E7C /* panda.jpg */,
+				7CE9D7131DB061E900184E7C /* peacock.jpg */,
+				7CE9D7141DB061E900184E7C /* pig.jpg */,
+				7CE9D7151DB061E900184E7C /* platypus.jpg */,
+				7CE9D7161DB061E900184E7C /* polar_bear.jpg */,
+				7CE9D7171DB061E900184E7C /* rhinoceros.jpg */,
+				7CE9D7181DB061E900184E7C /* seagull.jpg */,
+				7CE9D7191DB061E900184E7C /* tasmania_devil.jpg */,
+				7CE9D71A1DB061E900184E7C /* whale_shark.jpg */,
+				7CE9D71B1DB061E900184E7C /* whale.jpg */,
+				7CE9D71C1DB061E900184E7C /* wombat.jpg */,
 				7CE9D6901DAF5B9E00184E7C /* AppDelegate.h */,
 				7CE9D6911DAF5B9E00184E7C /* AppDelegate.m */,
 				7CE9D6931DAF5B9E00184E7C /* ViewController.h */,
@@ -247,8 +340,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CE9D69D1DAF5B9E00184E7C /* LaunchScreen.storyboard in Resources */,
+				7CE9D72F1DB061E900184E7C /* manatus.jpg in Resources */,
+				7CE9D7331DB061E900184E7C /* pig.jpg in Resources */,
+				7CE9D7361DB061E900184E7C /* rhinoceros.jpg in Resources */,
+				7CE9D72D1DB061E900184E7C /* lion.jpg in Resources */,
+				7CE9D73A1DB061E900184E7C /* whale.jpg in Resources */,
+				7CE9D7321DB061E900184E7C /* peacock.jpg in Resources */,
+				7CE9D72B1DB061E900184E7C /* horse.jpg in Resources */,
+				7CE9D7391DB061E900184E7C /* whale_shark.jpg in Resources */,
+				7CE9D73B1DB061E900184E7C /* wombat.jpg in Resources */,
+				7CE9D7371DB061E900184E7C /* seagull.jpg in Resources */,
+				7CE9D72A1DB061E900184E7C /* hippopotamus.jpg in Resources */,
+				7CE9D7201DB061E900184E7C /* camel.jpg in Resources */,
+				7CE9D71D1DB061E900184E7C /* bear.jpg in Resources */,
 				7CE9D69A1DAF5B9E00184E7C /* Assets.xcassets in Resources */,
+				7CE9D72E1DB061E900184E7C /* llama.jpg in Resources */,
+				7CE9D7271DB061E900184E7C /* giraffe.jpg in Resources */,
+				7CE9D72C1DB061E900184E7C /* koala.jpg in Resources */,
+				7CE9D7341DB061E900184E7C /* platypus.jpg in Resources */,
+				7CE9D7291DB061E900184E7C /* guinea_pig.jpg in Resources */,
+				7CE9D71F1DB061E900184E7C /* buffalo.jpg in Resources */,
 				7CE9D6981DAF5B9E00184E7C /* Main.storyboard in Resources */,
+				7CE9D7281DB061E900184E7C /* greater_rhea.jpg in Resources */,
+				7CE9D7221DB061E900184E7C /* dog.jpg in Resources */,
+				7CE9D7261DB061E900184E7C /* emu.jpg in Resources */,
+				7CE9D7351DB061E900184E7C /* polar_bear.jpg in Resources */,
+				7CE9D7381DB061E900184E7C /* tasmania_devil.jpg in Resources */,
+				7CE9D7211DB061E900184E7C /* cockatoo.jpg in Resources */,
+				7CE9D7251DB061E900184E7C /* elephant.jpg in Resources */,
+				7CE9D7241DB061E900184E7C /* duck.jpg in Resources */,
+				7CE9D7311DB061E900184E7C /* panda.jpg in Resources */,
+				7CE9D7301DB061E900184E7C /* meerkat.jpg in Resources */,
+				7CE9D71E1DB061E900184E7C /* black_swan.jpg in Resources */,
+				7CE9D7231DB061E900184E7C /* donkey.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +629,7 @@
 				7CE9D6B91DAF5B9E00184E7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CE9D6BA1DAF5B9E00184E7C /* Build configuration list for PBXNativeTarget "idol1013Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +638,7 @@
 				7CE9D6BC1DAF5B9E00184E7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CE9D6BD1DAF5B9E00184E7C /* Build configuration list for PBXNativeTarget "idol1013UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +647,7 @@
 				7CE9D6BF1DAF5B9E00184E7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

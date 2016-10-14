@@ -19,8 +19,14 @@
 
 - (void)viewDidLoad {
     
-    self.carName = @[@"티코",@"람보",@"미니쿠퍼",@"맥라렌",@"레토나",@"포니",@"부가티",@"벨로스터",@"시발차",@"두돈반"];
-    self.idol = @[@"블랙핑크",@"에이핑크",@"마마무",@"레드벨벳",@"소녀시대"];
+    self.carName = @[@{@"title":@"CarName",
+                       @"List":@[@"티코",@"람보",@"미니쿠퍼",@"맥라렌",@"레토나",@"포니",@"부가티",@"벨로스터",@"시발차",@"두돈반"]},
+                     @{@"title":@"IdolName",
+                       @"List":@[@"블랙핑크",@"에이핑크",@"마마무",@"레드벨벳",@"소녀시대"]}
+                     ];
+                       
+                       
+//    self.idol = @[@"블랙핑크",@"에이핑크",@"마마무",@"레드벨벳",@"소녀시대"];
     
     
     
@@ -34,21 +40,24 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    if (section == 0) {
-        return self.carName.count;
-    }else {
-        return self.idol.count;
-    }
+//    if (section == 0) {
+//        return self.carName.count;
+//    }else {
+//        return self.idol.count;
+//    }
+    
+    NSDictionary *list = self.carName[section];
+    
+    NSArray *listCount = [list objectForKey:@"List"];
+    
+    return listCount.count;
 }
-
-
-
-
 
 //표현할 데이터의 총세션의 갯수
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 2;
+    
+    return self.carName.count;
 }
 
 //표현할 데이터에서 하나의 세션에 있는 로우의 갯수
@@ -61,13 +70,14 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"cell"];
     }
-    if (indexPath.section == 0) {
-        cell.textLabel.text = self.carName[indexPath.row];
+    
+    NSDictionary *dataList = self.carName[indexPath.section];
+    NSArray *dataListName = [dataList objectForKey:@"List"];
+    
+        cell.textLabel.text = dataListName[indexPath.row];
         cell.imageView.image = [UIImage imageNamed:@"emu.jpg"];
-    }else {
-        cell.textLabel.text = self.idol[indexPath.row];
-        cell.imageView.image = [UIImage imageNamed:@"duck.jpg"];
-    }return cell;
+    
+    return cell;
 }
 
 //셀높이
