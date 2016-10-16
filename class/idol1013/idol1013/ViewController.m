@@ -15,7 +15,7 @@
 @property NSArray *idol;
 @property NSArray *animals;
 @property UITableView *NewIdol;
-@property UIBarButtonItem *button;
+;
 @property BOOL isEditng;
 @property NSArray *checkOnList;
 
@@ -55,8 +55,11 @@
     self.NewIdol.delegate = self;
     [self.view addSubview:self.NewIdol];
     
-       self.button = [[UIBarButtonItem alloc]initWithTitle:@"Edit" style:UIBarButtonItemStylePlain target:self action:@selector(onClickEditButton:)];
     
+    
+       UIBarButtonItem *button = [[UIBarButtonItem alloc]initWithTitle:@"Edit" style:UIBarButtonItemStylePlain target:self action:@selector(onClickEditButton:)];
+    
+    [self.navigationItem setRightBarButtonItem:button animated:YES];
     
 
     //에디터 버튼 넣어주는것
@@ -91,9 +94,29 @@
     
     cell.textLabel.text = self.animals[indexPath.section][@"item"][indexPath.row][@"name"];
     cell.imageView.image = [UIImage imageNamed:self.animals[indexPath.section][@"item"][indexPath.row][@"image"]];
+   
+    //스위치 !
+        UISwitch* s = [[UISwitch alloc] init];
+        CGSize switchSize = [s sizeThatFits:CGSizeZero];
+        s.frame = CGRectMake(cell.contentView.bounds.size.width - switchSize.width - 5.0f,
+                             (cell.contentView.bounds.size.height - switchSize.height) / 2.0f+30,
+                             switchSize.width,
+                             switchSize.height);
+        s.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin;
+        s.tag = 100;
+        [s addTarget:self action:@selector(switchChanged:) forControlEvents:UIControlEventValueChanged];
+        [cell.contentView addSubview:s];
     
     return cell;
 }
+
+-(void) switchChanged:(id)sender {
+    UISwitch* switcher = (UISwitch*)sender;
+    BOOL value = switcher.on;
+    // Store the value and/or respond appropriately
+}
+
+
 
 //셀 하나의 높이 설정
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -111,13 +134,20 @@
 //선택을 해도 선택되지 않고 하일라이트 상태에서만 가능함.
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-
+    //경고창 !
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"와우!"
                                                                    message:@"확인"
                                                                 preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction *okBtn = [UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleCancel handler:nil];
     [alert addAction:okBtn];
     [self presentViewController:alert animated:YES completion:nil];
+    
+    //스위치 !!
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+    UITableViewCell* cell = [tableView cellForRowAtIndexPath:indexPath];
+    UISwitch* switcher = (UISwitch*)[cell.contentView viewWithTag:100];
+    [switcher setOn:!switcher.on animated:YES];
+    [self switchChanged:switcher];
     
     
 }
@@ -168,6 +198,7 @@
 
 //-----------------------------------------------------------------------------------------------edit endding
 
+//스위치 만들기
 
 
     - (void)didReceiveMemoryWarning {
