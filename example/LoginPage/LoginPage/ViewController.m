@@ -218,7 +218,8 @@
                        options:UIViewAnimationOptionTransitionCrossDissolve
                     animations:^{
         // set to background color (change the color if necessary)
-        self.myLog.textColor = [UIColor yellowColor];
+        
+                        self.myLog.textColor = [UIColor yellowColor];
         }
                     completion:^(BOOL finished) {
                         [UIView transitionWithView:self.myLog
@@ -231,7 +232,7 @@
                                                [UIView transitionWithView:self.myLog
                                                                  duration:5.0f
                                                                   options:UIViewAnimationOptionTransitionCrossDissolve
-                                                               animations:^{self.myLog.textColor = [UIColor pu];
+                                                               animations:^{self.myLog.textColor = [UIColor purpleColor];
                                                                }
                                                                completion:nil];
                                         }];
