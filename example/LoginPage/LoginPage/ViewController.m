@@ -11,7 +11,7 @@
 @interface ViewController ()
 
 <UIScrollViewDelegate,UITextFieldDelegate>
-
+//scr -scro
 @property (nonatomic)UIScrollView *scrView;
 @property (nonatomic)UITextField *textId;
 @property (nonatomic)UITextField *textPw;
@@ -72,6 +72,8 @@
     [cenView addSubview:idText];
     
     //PW textField만들기
+    
+    //pw -> passward 로 길게 써야한다.
     UITextField *pwText = [[UITextField alloc] initWithFrame:CGRectMake(self.view.frame.size.width/4-40, scView.frame.size.height/3+10, 250, 30)];
     pwText.borderStyle = UITextBorderStyleRoundedRect;
     pwText.placeholder = @"PASSWORD를 입력해 주세요";
@@ -85,6 +87,7 @@
     [cenView addSubview:pwText];
     
     //로그인 버튼 만들기
+    //btn
     UIButton *logBtn = [[UIButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width/4-30, self.view.frame.size.height/3-30, 100, 30)];
     [logBtn setTitle:@"로그인" forState:UIControlStateNormal];
     [logBtn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
