@@ -13,7 +13,7 @@ UIButton *loginButton (o)
 ### 접근자 메소드
 ```
 - (void)chkBtnHandler:(id)sender{ (x)
-- (void)checkButtonHandler:(id)sender{
+- (void)checkButtonHandler:(id)sender {
     (o)
 
     //터치시 버튼이 내려가는 메소드
