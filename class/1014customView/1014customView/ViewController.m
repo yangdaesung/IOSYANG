@@ -23,8 +23,8 @@
     
     self.blackPink = @[@{@"title":@"블랙핑크", @"imageUrl":@"블랙핑크1.jpg"},
                        @{@"title":@"블랙핑크 단체", @"imageUrl":@"블랙핑크2.jpg"},
-                       @{@"title":@"제니", @"imageUrl":@"블랙핑크3.jpeg"},
-                       @{@"title":@"지수", @"imageUrl":@"블랙핑크4.jpg"}];
+                       @{@"title":@"제니", @"imageUrl":@"블랙핑크3.png"},
+                       @{@"title":@"지수", @"imageUrl":@"블랙핑크4.png"}];
     
     
     
