@@ -55,9 +55,7 @@
         cell = [[IdolCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
     }
     
-    
-    
-    
+
     cell.textLabel.text = [NSString stringWithFormat:@"%ld",indexPath.row];
     
     NSDictionary *data = self.blackPink[indexPath.row];
@@ -69,9 +67,7 @@
     return cell;
 }
 
-
-
-
+-tableViewobje
 
 
 
