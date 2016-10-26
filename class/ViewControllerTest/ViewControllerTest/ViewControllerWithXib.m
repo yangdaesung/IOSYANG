@@ -20,6 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"viewDidLoad xib");
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,6 +36,15 @@
 //    //객체만들기
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     Viewcontroller2 *vc2 = [storyboard instantiateViewControllerWithIdentifier:@"Viewcontroller2"];
+//    
+//    UITabBarController *tabVC = [[UITabBarController alloc] init];
+//    tabVC.viewControllers = @[vc2];
+//    
+//    UITabBarItem *item = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemHistory tag:0];
+//    
+
+    
+    
 //    
 //    //애니메이션
 //    

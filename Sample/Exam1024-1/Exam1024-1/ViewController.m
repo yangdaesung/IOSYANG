@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  ViewControllerTest
+//  Exam1024-1
 //
 //  Created by Yang on 2016. 10. 24..
 //  Copyright © 2016년 Yang. All rights reserved.
@@ -16,6 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+
+    
     
 }
 

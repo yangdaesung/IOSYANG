@@ -1,15 +1,12 @@
 //
 //  AppDelegate.m
-//  ViewControllerTest
+//  NavigationBar1025
 //
-//  Created by Yang on 2016. 10. 24..
+//  Created by Yang on 2016. 10. 25..
 //  Copyright © 2016년 Yang. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
-#import "Viewcontroller2.h"
-#import "ViewControllerWithXib.h"
 
 @interface AppDelegate ()
 
@@ -17,48 +14,9 @@
 
 @implementation AppDelegate
 
-//뷰만들기
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    //NSBundle에는 nil을 넣어도 된다.
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    //화살펴 즉 먼저 실행하는것
-    [storyboard instantiateInitialViewController];
-    //뷰컨트롤러 만든다.
-    UINavigationController *vc = [storyboard instantiateInitialViewController];
-    ViewController *vc2 = [storyboard instantiateViewControllerWithIdentifier:@"Viewcontroller2"];
-    
-    UITabBarController *tabVC = [[UITabBarController alloc] init];
-    tabVC.viewControllers = @[vc,vc2];
-    
-    UITabBarItem *item = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemSearch tag:0];
-    UITabBarItem *item2 = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemTopRated tag:0];
-    vc.tabBarItem = item;
-    vc2.tabBarItem = item2;
-    
-    
-    
-  
-    
-    
-
-   // ViewControllerWithXib *vcWithX = [[ViewControllerWithXib alloc] init];
-    
-    //이름이 다를때에는 밑에 껄 사용한다.
-//    ViewControllerWithXib *vcWithX = [[ViewControllerWithXib alloc] initWithNibName:@"viewControllerWithXib" bundle:nil];
-    
-    //네비게이터 만들어진다.
-   // UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vcWithX];
-    
-    //윈도우를 만든다. 사이즈는 스크린의 사이즈를 가져온다.
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    //첫번째 뷰컨트롤러를 설정해준다.
-    self.window.rootViewController = tabVC;
-    //가장 기본적인 윈도우가 keyWindow이다.
-    [self.window makeKeyAndVisible];
-    
-    
     return YES;
 }
 
