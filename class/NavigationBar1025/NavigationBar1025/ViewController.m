@@ -50,7 +50,7 @@
     
     
     UIBarButtonItem *cItem = [[UIBarButtonItem alloc] initWithCustomView:itemBtn];
-    
+    -
     //오른쪽 버튼 만들기!
     UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"YNAG"
                                                         style:UIBarButtonItemStylePlain

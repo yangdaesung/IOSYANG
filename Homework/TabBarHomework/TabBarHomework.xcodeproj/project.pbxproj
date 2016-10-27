@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C4A34B11DC075A400505A28 /* ViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A34B01DC075A400505A28 /* ViewController5.m */; };
+		7C4A34B41DC0800200505A28 /* ViewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A34B31DC0800200505A28 /* ViewController6.m */; };
 		7C7340A71DBF4D3000E4BE5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7340A61DBF4D3000E4BE5A /* main.m */; };
 		7C7340AA1DBF4D3000E4BE5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7340A91DBF4D3000E4BE5A /* AppDelegate.m */; };
 		7C7340AD1DBF4D3000E4BE5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7340AC1DBF4D3000E4BE5A /* ViewController.m */; };
@@ -15,6 +17,9 @@
 		7C7340B51DBF4D3000E4BE5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7340B31DBF4D3000E4BE5A /* LaunchScreen.storyboard */; };
 		7C7340C01DBF4D3000E4BE5A /* TabBarHomeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7340BF1DBF4D3000E4BE5A /* TabBarHomeworkTests.m */; };
 		7C7340CB1DBF4D3000E4BE5A /* TabBarHomeworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7340CA1DBF4D3000E4BE5A /* TabBarHomeworkUITests.m */; };
+		7C7340DA1DC03D3000E4BE5A /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7340D91DC03D3000E4BE5A /* ViewController2.m */; };
+		7C7340DD1DC0400D00E4BE5A /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7340DC1DC0400D00E4BE5A /* ViewController3.m */; };
+		7C7340E01DC0645A00E4BE5A /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7340DF1DC0645A00E4BE5A /* ViewController4.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C4A34AF1DC075A400505A28 /* ViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController5.h; sourceTree = "<group>"; };
+		7C4A34B01DC075A400505A28 /* ViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController5.m; sourceTree = "<group>"; };
+		7C4A34B21DC0800200505A28 /* ViewController6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController6.h; sourceTree = "<group>"; };
+		7C4A34B31DC0800200505A28 /* ViewController6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController6.m; sourceTree = "<group>"; };
 		7C7340A21DBF4D3000E4BE5A /* TabBarHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C7340A61DBF4D3000E4BE5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7C7340A81DBF4D3000E4BE5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,12 @@
 		7C7340C61DBF4D3000E4BE5A /* TabBarHomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarHomeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C7340CA1DBF4D3000E4BE5A /* TabBarHomeworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarHomeworkUITests.m; sourceTree = "<group>"; };
 		7C7340CC1DBF4D3000E4BE5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C7340D81DC03D3000E4BE5A /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		7C7340D91DC03D3000E4BE5A /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		7C7340DB1DC0400D00E4BE5A /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		7C7340DC1DC0400D00E4BE5A /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		7C7340DE1DC0645A00E4BE5A /* ViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
+		7C7340DF1DC0645A00E4BE5A /* ViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +118,16 @@
 			children = (
 				7C7340A81DBF4D3000E4BE5A /* AppDelegate.h */,
 				7C7340A91DBF4D3000E4BE5A /* AppDelegate.m */,
+				7C4A34B21DC0800200505A28 /* ViewController6.h */,
+				7C4A34B31DC0800200505A28 /* ViewController6.m */,
+				7C4A34AF1DC075A400505A28 /* ViewController5.h */,
+				7C4A34B01DC075A400505A28 /* ViewController5.m */,
+				7C7340DE1DC0645A00E4BE5A /* ViewController4.h */,
+				7C7340DF1DC0645A00E4BE5A /* ViewController4.m */,
+				7C7340DB1DC0400D00E4BE5A /* ViewController3.h */,
+				7C7340DC1DC0400D00E4BE5A /* ViewController3.m */,
+				7C7340D81DC03D3000E4BE5A /* ViewController2.h */,
+				7C7340D91DC03D3000E4BE5A /* ViewController2.m */,
 				7C7340AB1DBF4D3000E4BE5A /* ViewController.h */,
 				7C7340AC1DBF4D3000E4BE5A /* ViewController.m */,
 				7C7340AE1DBF4D3000E4BE5A /* Main.storyboard */,
@@ -274,8 +299,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C7340AD1DBF4D3000E4BE5A /* ViewController.m in Sources */,
+				7C4A34B41DC0800200505A28 /* ViewController6.m in Sources */,
+				7C7340DA1DC03D3000E4BE5A /* ViewController2.m in Sources */,
 				7C7340AA1DBF4D3000E4BE5A /* AppDelegate.m in Sources */,
 				7C7340A71DBF4D3000E4BE5A /* main.m in Sources */,
+				7C4A34B11DC075A400505A28 /* ViewController5.m in Sources */,
+				7C7340DD1DC0400D00E4BE5A /* ViewController3.m in Sources */,
+				7C7340E01DC0645A00E4BE5A /* ViewController4.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +535,7 @@
 				7C7340D11DBF4D3000E4BE5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C7340D21DBF4D3000E4BE5A /* Build configuration list for PBXNativeTarget "TabBarHomeworkTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +544,7 @@
 				7C7340D41DBF4D3000E4BE5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C7340D51DBF4D3000E4BE5A /* Build configuration list for PBXNativeTarget "TabBarHomeworkUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +553,7 @@
 				7C7340D71DBF4D3000E4BE5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -37,11 +37,6 @@
     vc.tabBarItem = item;
     vc2.tabBarItem = item2;
     
-    
-    
-  
-    
-    
 
    // ViewControllerWithXib *vcWithX = [[ViewControllerWithXib alloc] init];
     
