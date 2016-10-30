@@ -18,13 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KhN-BE-Q23">
-                                <frame key="frameInset" minY="72" width="375" height="595"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KhN-BE-Q23">
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="KhN-BE-Q23" secondAttribute="trailing" id="Pdq-jC-pa2"/>
+                            <constraint firstItem="KhN-BE-Q23" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="UqH-wq-tu8"/>
+                            <constraint firstItem="KhN-BE-Q23" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ewD-hf-m4j"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KhN-BE-Q23" secondAttribute="bottom" id="gF9-x2-m0y"/>
+                        </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="HQQ-1o-HFy" appends="YES" id="Tau-9n-KKO"/>
                         </connections>

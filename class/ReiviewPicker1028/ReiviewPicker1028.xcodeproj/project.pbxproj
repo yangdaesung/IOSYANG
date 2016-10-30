@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CFA734D1DC2F2B200021C11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA734C1DC2F2B200021C11 /* main.m */; };
+		7CFA73501DC2F2B200021C11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA734F1DC2F2B200021C11 /* AppDelegate.m */; };
+		7CFA73531DC2F2B200021C11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA73521DC2F2B200021C11 /* ViewController.m */; };
+		7CFA73561DC2F2B200021C11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA73541DC2F2B200021C11 /* Main.storyboard */; };
+		7CFA73581DC2F2B200021C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA73571DC2F2B200021C11 /* Assets.xcassets */; };
+		7CFA735B1DC2F2B200021C11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA73591DC2F2B200021C11 /* LaunchScreen.storyboard */; };
+		7CFA73661DC2F2B200021C11 /* ReiviewPicker1028Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA73651DC2F2B200021C11 /* ReiviewPicker1028Tests.m */; };
+		7CFA73711DC2F2B200021C11 /* ReiviewPicker1028UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA73701DC2F2B200021C11 /* ReiviewPicker1028UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CFA73621DC2F2B200021C11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CFA73401DC2F2B200021C11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CFA73471DC2F2B200021C11;
+			remoteInfo = ReiviewPicker1028;
+		};
+		7CFA736D1DC2F2B200021C11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CFA73401DC2F2B200021C11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CFA73471DC2F2B200021C11;
+			remoteInfo = ReiviewPicker1028;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CFA73481DC2F2B200021C11 /* ReiviewPicker1028.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReiviewPicker1028.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFA734C1DC2F2B200021C11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CFA734E1DC2F2B200021C11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CFA734F1DC2F2B200021C11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CFA73511DC2F2B200021C11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CFA73521DC2F2B200021C11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CFA73551DC2F2B200021C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CFA73571DC2F2B200021C11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CFA735A1DC2F2B200021C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CFA735C1DC2F2B200021C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CFA73611DC2F2B200021C11 /* ReiviewPicker1028Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReiviewPicker1028Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFA73651DC2F2B200021C11 /* ReiviewPicker1028Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReiviewPicker1028Tests.m; sourceTree = "<group>"; };
+		7CFA73671DC2F2B200021C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CFA736C1DC2F2B200021C11 /* ReiviewPicker1028UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReiviewPicker1028UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFA73701DC2F2B200021C11 /* ReiviewPicker1028UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReiviewPicker1028UITests.m; sourceTree = "<group>"; };
+		7CFA73721DC2F2B200021C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CFA73451DC2F2B200021C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA735E1DC2F2B200021C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA73691DC2F2B200021C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CFA733F1DC2F2B200021C11 = {
+			isa = PBXGroup;
+			children = (
+				7CFA734A1DC2F2B200021C11 /* ReiviewPicker1028 */,
+				7CFA73641DC2F2B200021C11 /* ReiviewPicker1028Tests */,
+				7CFA736F1DC2F2B200021C11 /* ReiviewPicker1028UITests */,
+				7CFA73491DC2F2B200021C11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CFA73491DC2F2B200021C11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA73481DC2F2B200021C11 /* ReiviewPicker1028.app */,
+				7CFA73611DC2F2B200021C11 /* ReiviewPicker1028Tests.xctest */,
+				7CFA736C1DC2F2B200021C11 /* ReiviewPicker1028UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CFA734A1DC2F2B200021C11 /* ReiviewPicker1028 */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA734E1DC2F2B200021C11 /* AppDelegate.h */,
+				7CFA734F1DC2F2B200021C11 /* AppDelegate.m */,
+				7CFA73511DC2F2B200021C11 /* ViewController.h */,
+				7CFA73521DC2F2B200021C11 /* ViewController.m */,
+				7CFA73541DC2F2B200021C11 /* Main.storyboard */,
+				7CFA73571DC2F2B200021C11 /* Assets.xcassets */,
+				7CFA73591DC2F2B200021C11 /* LaunchScreen.storyboard */,
+				7CFA735C1DC2F2B200021C11 /* Info.plist */,
+				7CFA734B1DC2F2B200021C11 /* Supporting Files */,
+			);
+			path = ReiviewPicker1028;
+			sourceTree = "<group>";
+		};
+		7CFA734B1DC2F2B200021C11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA734C1DC2F2B200021C11 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CFA73641DC2F2B200021C11 /* ReiviewPicker1028Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA73651DC2F2B200021C11 /* ReiviewPicker1028Tests.m */,
+				7CFA73671DC2F2B200021C11 /* Info.plist */,
+			);
+			path = ReiviewPicker1028Tests;
+			sourceTree = "<group>";
+		};
+		7CFA736F1DC2F2B200021C11 /* ReiviewPicker1028UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA73701DC2F2B200021C11 /* ReiviewPicker1028UITests.m */,
+				7CFA73721DC2F2B200021C11 /* Info.plist */,
+			);
+			path = ReiviewPicker1028UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CFA73471DC2F2B200021C11 /* ReiviewPicker1028 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CFA73751DC2F2B200021C11 /* Build configuration list for PBXNativeTarget "ReiviewPicker1028" */;
+			buildPhases = (
+				7CFA73441DC2F2B200021C11 /* Sources */,
+				7CFA73451DC2F2B200021C11 /* Frameworks */,
+				7CFA73461DC2F2B200021C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReiviewPicker1028;
+			productName = ReiviewPicker1028;
+			productReference = 7CFA73481DC2F2B200021C11 /* ReiviewPicker1028.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CFA73601DC2F2B200021C11 /* ReiviewPicker1028Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CFA73781DC2F2B200021C11 /* Build configuration list for PBXNativeTarget "ReiviewPicker1028Tests" */;
+			buildPhases = (
+				7CFA735D1DC2F2B200021C11 /* Sources */,
+				7CFA735E1DC2F2B200021C11 /* Frameworks */,
+				7CFA735F1DC2F2B200021C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CFA73631DC2F2B200021C11 /* PBXTargetDependency */,
+			);
+			name = ReiviewPicker1028Tests;
+			productName = ReiviewPicker1028Tests;
+			productReference = 7CFA73611DC2F2B200021C11 /* ReiviewPicker1028Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CFA736B1DC2F2B200021C11 /* ReiviewPicker1028UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CFA737B1DC2F2B200021C11 /* Build configuration list for PBXNativeTarget "ReiviewPicker1028UITests" */;
+			buildPhases = (
+				7CFA73681DC2F2B200021C11 /* Sources */,
+				7CFA73691DC2F2B200021C11 /* Frameworks */,
+				7CFA736A1DC2F2B200021C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CFA736E1DC2F2B200021C11 /* PBXTargetDependency */,
+			);
+			name = ReiviewPicker1028UITests;
+			productName = ReiviewPicker1028UITests;
+			productReference = 7CFA736C1DC2F2B200021C11 /* ReiviewPicker1028UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CFA73401DC2F2B200021C11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Yang;
+				TargetAttributes = {
+					7CFA73471DC2F2B200021C11 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					7CFA73601DC2F2B200021C11 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CFA73471DC2F2B200021C11;
+					};
+					7CFA736B1DC2F2B200021C11 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CFA73471DC2F2B200021C11;
+					};
+				};
+			};
+			buildConfigurationList = 7CFA73431DC2F2B200021C11 /* Build configuration list for PBXProject "ReiviewPicker1028" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CFA733F1DC2F2B200021C11;
+			productRefGroup = 7CFA73491DC2F2B200021C11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CFA73471DC2F2B200021C11 /* ReiviewPicker1028 */,
+				7CFA73601DC2F2B200021C11 /* ReiviewPicker1028Tests */,
+				7CFA736B1DC2F2B200021C11 /* ReiviewPicker1028UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CFA73461DC2F2B200021C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFA735B1DC2F2B200021C11 /* LaunchScreen.storyboard in Resources */,
+				7CFA73581DC2F2B200021C11 /* Assets.xcassets in Resources */,
+				7CFA73561DC2F2B200021C11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA735F1DC2F2B200021C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA736A1DC2F2B200021C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CFA73441DC2F2B200021C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFA73531DC2F2B200021C11 /* ViewController.m in Sources */,
+				7CFA73501DC2F2B200021C11 /* AppDelegate.m in Sources */,
+				7CFA734D1DC2F2B200021C11 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA735D1DC2F2B200021C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFA73661DC2F2B200021C11 /* ReiviewPicker1028Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA73681DC2F2B200021C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFA73711DC2F2B200021C11 /* ReiviewPicker1028UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CFA73631DC2F2B200021C11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CFA73471DC2F2B200021C11 /* ReiviewPicker1028 */;
+			targetProxy = 7CFA73621DC2F2B200021C11 /* PBXContainerItemProxy */;
+		};
+		7CFA736E1DC2F2B200021C11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CFA73471DC2F2B200021C11 /* ReiviewPicker1028 */;
+			targetProxy = 7CFA736D1DC2F2B200021C11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CFA73541DC2F2B200021C11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CFA73551DC2F2B200021C11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CFA73591DC2F2B200021C11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CFA735A1DC2F2B200021C11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CFA73731DC2F2B200021C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7CFA73741DC2F2B200021C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CFA73761DC2F2B200021C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReiviewPicker1028/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easyspub.ReiviewPicker1028;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CFA73771DC2F2B200021C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReiviewPicker1028/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easyspub.ReiviewPicker1028;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CFA73791DC2F2B200021C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReiviewPicker1028Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easyspub.ReiviewPicker1028Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReiviewPicker1028.app/ReiviewPicker1028";
+			};
+			name = Debug;
+		};
+		7CFA737A1DC2F2B200021C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReiviewPicker1028Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easyspub.ReiviewPicker1028Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReiviewPicker1028.app/ReiviewPicker1028";
+			};
+			name = Release;
+		};
+		7CFA737C1DC2F2B200021C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReiviewPicker1028UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easyspub.ReiviewPicker1028UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReiviewPicker1028;
+			};
+			name = Debug;
+		};
+		7CFA737D1DC2F2B200021C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReiviewPicker1028UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easyspub.ReiviewPicker1028UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReiviewPicker1028;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CFA73431DC2F2B200021C11 /* Build configuration list for PBXProject "ReiviewPicker1028" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFA73731DC2F2B200021C11 /* Debug */,
+				7CFA73741DC2F2B200021C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CFA73751DC2F2B200021C11 /* Build configuration list for PBXNativeTarget "ReiviewPicker1028" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFA73761DC2F2B200021C11 /* Debug */,
+				7CFA73771DC2F2B200021C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CFA73781DC2F2B200021C11 /* Build configuration list for PBXNativeTarget "ReiviewPicker1028Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFA73791DC2F2B200021C11 /* Debug */,
+				7CFA737A1DC2F2B200021C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CFA737B1DC2F2B200021C11 /* Build configuration list for PBXNativeTarget "ReiviewPicker1028UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFA737C1DC2F2B200021C11 /* Debug */,
+				7CFA737D1DC2F2B200021C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CFA73401DC2F2B200021C11 /* Project object */;
+}

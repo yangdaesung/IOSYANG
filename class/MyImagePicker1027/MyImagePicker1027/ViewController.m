@@ -17,7 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
 
 }
 
@@ -66,10 +65,10 @@
         }
     
     };
+    //메인 Alert
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"이미지" message:@"" preferredStyle:style];
     
-     //앨범버튼
-    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"이미지" message:@"짜잔" preferredStyle:style];
-    
+    //앨범버튼
     UIAlertAction *live = [UIAlertAction actionWithTitle:@"앨범" style:UIAlertActionStyleDefault handler:handlerBlock];
     [alertController addAction:live];
     
@@ -81,32 +80,48 @@
     UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"취소" style:UIAlertActionStyleCancel handler:handlerBlock];
     [alertController addAction:cancel];
     
+    
     [self presentViewController:alertController animated:YES completion:nil];
 
 }
 
-
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
     
-  
+    //이미지 불러오기
     UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
-    if (picker.sourceType == UIImagePickerControllerSourceTypePhotoLibrary) {
-        self.imageView.image = image;
-        [self.imageView setContentMode:UIViewContentModeScaleAspectFill];
-    }else {
-        self.imageView.image = image;
-        [self.imageView setContentMode:UIViewContentModeScaleAspectFill];
+    
+    switch (picker.sourceType) {
+        case UIImagePickerControllerSourceTypePhotoLibrary:
+            self.imageView.image = image;
+            [self.imageView setContentMode:UIViewContentModeScaleToFill];
+            break;
+        case UIImagePickerControllerSourceTypeSavedPhotosAlbum:
+            self.imageView.image = image;
+            [self.imageView setContentMode:UIViewContentModeScaleAspectFill];
+        default:
+            break;
     }
-        
+//    if (picker.sourceType == UIImagePickerControllerSourceTypePhotoLibrary) {
+//        self.imageView.image = image;
+//        [self.imageView setContentMode:UIViewContentModeScaleAspectFill];
+//    }else {
+//        self.imageView.image = image;
+//        [self.imageView setContentMode:UIViewContentModeScaleAspectFill];
+//    }
+    //이미지 불러왔을때 알람!
+    UIAlertController *imgAlert = [UIAlertController alertControllerWithTitle:@"이미지 나왔어요 " message:@"" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *imgAction = [UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleCancel handler:nil];
+    [imgAlert addAction:imgAction];
     [picker dismissViewControllerAnimated:YES completion:nil];
-   
+    [self presentViewController:imgAlert animated:YES completion:nil];
+
 }
-- (IBAction)cancelTitle:(id)sender {
-    
-    
-    
-    
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
+    NSLog(@"Image Picker Controller Cancelled");
+    [picker dismissViewControllerAnimated:YES completion:nil];
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
