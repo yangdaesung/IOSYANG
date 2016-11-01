@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CB80CF11DC70F5F00FF817D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB80CF01DC70F5F00FF817D /* main.m */; };
+		7CB80CF41DC70F5F00FF817D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB80CF31DC70F5F00FF817D /* AppDelegate.m */; };
+		7CB80CF71DC70F5F00FF817D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB80CF61DC70F5F00FF817D /* ViewController.m */; };
+		7CB80CFA1DC70F5F00FF817D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB80CF81DC70F5F00FF817D /* Main.storyboard */; };
+		7CB80CFC1DC70F5F00FF817D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB80CFB1DC70F5F00FF817D /* Assets.xcassets */; };
+		7CB80CFF1DC70F5F00FF817D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB80CFD1DC70F5F00FF817D /* LaunchScreen.storyboard */; };
+		7CB80D0A1DC70F6000FF817D /* NotificationCenterKeybordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB80D091DC70F6000FF817D /* NotificationCenterKeybordTests.m */; };
+		7CB80D151DC70F6000FF817D /* NotificationCenterKeybordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB80D141DC70F6000FF817D /* NotificationCenterKeybordUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CB80D061DC70F6000FF817D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CB80CE41DC70F5F00FF817D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CB80CEB1DC70F5F00FF817D;
+			remoteInfo = NotificationCenterKeybord;
+		};
+		7CB80D111DC70F6000FF817D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CB80CE41DC70F5F00FF817D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CB80CEB1DC70F5F00FF817D;
+			remoteInfo = NotificationCenterKeybord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CB80CEC1DC70F5F00FF817D /* NotificationCenterKeybord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationCenterKeybord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB80CF01DC70F5F00FF817D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CB80CF21DC70F5F00FF817D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CB80CF31DC70F5F00FF817D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CB80CF51DC70F5F00FF817D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CB80CF61DC70F5F00FF817D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CB80CF91DC70F5F00FF817D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CB80CFB1DC70F5F00FF817D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CB80CFE1DC70F5F00FF817D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CB80D001DC70F5F00FF817D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CB80D051DC70F6000FF817D /* NotificationCenterKeybordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationCenterKeybordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB80D091DC70F6000FF817D /* NotificationCenterKeybordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationCenterKeybordTests.m; sourceTree = "<group>"; };
+		7CB80D0B1DC70F6000FF817D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CB80D101DC70F6000FF817D /* NotificationCenterKeybordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationCenterKeybordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB80D141DC70F6000FF817D /* NotificationCenterKeybordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationCenterKeybordUITests.m; sourceTree = "<group>"; };
+		7CB80D161DC70F6000FF817D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CB80CE91DC70F5F00FF817D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB80D021DC70F6000FF817D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB80D0D1DC70F6000FF817D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CB80CE31DC70F5F00FF817D = {
+			isa = PBXGroup;
+			children = (
+				7CB80CEE1DC70F5F00FF817D /* NotificationCenterKeybord */,
+				7CB80D081DC70F6000FF817D /* NotificationCenterKeybordTests */,
+				7CB80D131DC70F6000FF817D /* NotificationCenterKeybordUITests */,
+				7CB80CED1DC70F5F00FF817D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CB80CED1DC70F5F00FF817D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CB80CEC1DC70F5F00FF817D /* NotificationCenterKeybord.app */,
+				7CB80D051DC70F6000FF817D /* NotificationCenterKeybordTests.xctest */,
+				7CB80D101DC70F6000FF817D /* NotificationCenterKeybordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CB80CEE1DC70F5F00FF817D /* NotificationCenterKeybord */ = {
+			isa = PBXGroup;
+			children = (
+				7CB80CF21DC70F5F00FF817D /* AppDelegate.h */,
+				7CB80CF31DC70F5F00FF817D /* AppDelegate.m */,
+				7CB80CF51DC70F5F00FF817D /* ViewController.h */,
+				7CB80CF61DC70F5F00FF817D /* ViewController.m */,
+				7CB80CF81DC70F5F00FF817D /* Main.storyboard */,
+				7CB80CFB1DC70F5F00FF817D /* Assets.xcassets */,
+				7CB80CFD1DC70F5F00FF817D /* LaunchScreen.storyboard */,
+				7CB80D001DC70F5F00FF817D /* Info.plist */,
+				7CB80CEF1DC70F5F00FF817D /* Supporting Files */,
+			);
+			path = NotificationCenterKeybord;
+			sourceTree = "<group>";
+		};
+		7CB80CEF1DC70F5F00FF817D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CB80CF01DC70F5F00FF817D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CB80D081DC70F6000FF817D /* NotificationCenterKeybordTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CB80D091DC70F6000FF817D /* NotificationCenterKeybordTests.m */,
+				7CB80D0B1DC70F6000FF817D /* Info.plist */,
+			);
+			path = NotificationCenterKeybordTests;
+			sourceTree = "<group>";
+		};
+		7CB80D131DC70F6000FF817D /* NotificationCenterKeybordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CB80D141DC70F6000FF817D /* NotificationCenterKeybordUITests.m */,
+				7CB80D161DC70F6000FF817D /* Info.plist */,
+			);
+			path = NotificationCenterKeybordUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CB80CEB1DC70F5F00FF817D /* NotificationCenterKeybord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CB80D191DC70F6000FF817D /* Build configuration list for PBXNativeTarget "NotificationCenterKeybord" */;
+			buildPhases = (
+				7CB80CE81DC70F5F00FF817D /* Sources */,
+				7CB80CE91DC70F5F00FF817D /* Frameworks */,
+				7CB80CEA1DC70F5F00FF817D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationCenterKeybord;
+			productName = NotificationCenterKeybord;
+			productReference = 7CB80CEC1DC70F5F00FF817D /* NotificationCenterKeybord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CB80D041DC70F6000FF817D /* NotificationCenterKeybordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CB80D1C1DC70F6000FF817D /* Build configuration list for PBXNativeTarget "NotificationCenterKeybordTests" */;
+			buildPhases = (
+				7CB80D011DC70F6000FF817D /* Sources */,
+				7CB80D021DC70F6000FF817D /* Frameworks */,
+				7CB80D031DC70F6000FF817D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CB80D071DC70F6000FF817D /* PBXTargetDependency */,
+			);
+			name = NotificationCenterKeybordTests;
+			productName = NotificationCenterKeybordTests;
+			productReference = 7CB80D051DC70F6000FF817D /* NotificationCenterKeybordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CB80D0F1DC70F6000FF817D /* NotificationCenterKeybordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CB80D1F1DC70F6000FF817D /* Build configuration list for PBXNativeTarget "NotificationCenterKeybordUITests" */;
+			buildPhases = (
+				7CB80D0C1DC70F6000FF817D /* Sources */,
+				7CB80D0D1DC70F6000FF817D /* Frameworks */,
+				7CB80D0E1DC70F6000FF817D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CB80D121DC70F6000FF817D /* PBXTargetDependency */,
+			);
+			name = NotificationCenterKeybordUITests;
+			productName = NotificationCenterKeybordUITests;
+			productReference = 7CB80D101DC70F6000FF817D /* NotificationCenterKeybordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CB80CE41DC70F5F00FF817D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Yang;
+				TargetAttributes = {
+					7CB80CEB1DC70F5F00FF817D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					7CB80D041DC70F6000FF817D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CB80CEB1DC70F5F00FF817D;
+					};
+					7CB80D0F1DC70F6000FF817D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CB80CEB1DC70F5F00FF817D;
+					};
+				};
+			};
+			buildConfigurationList = 7CB80CE71DC70F5F00FF817D /* Build configuration list for PBXProject "NotificationCenterKeybord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CB80CE31DC70F5F00FF817D;
+			productRefGroup = 7CB80CED1DC70F5F00FF817D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CB80CEB1DC70F5F00FF817D /* NotificationCenterKeybord */,
+				7CB80D041DC70F6000FF817D /* NotificationCenterKeybordTests */,
+				7CB80D0F1DC70F6000FF817D /* NotificationCenterKeybordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CB80CEA1DC70F5F00FF817D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB80CFF1DC70F5F00FF817D /* LaunchScreen.storyboard in Resources */,
+				7CB80CFC1DC70F5F00FF817D /* Assets.xcassets in Resources */,
+				7CB80CFA1DC70F5F00FF817D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB80D031DC70F6000FF817D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB80D0E1DC70F6000FF817D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CB80CE81DC70F5F00FF817D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB80CF71DC70F5F00FF817D /* ViewController.m in Sources */,
+				7CB80CF41DC70F5F00FF817D /* AppDelegate.m in Sources */,
+				7CB80CF11DC70F5F00FF817D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB80D011DC70F6000FF817D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB80D0A1DC70F6000FF817D /* NotificationCenterKeybordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB80D0C1DC70F6000FF817D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB80D151DC70F6000FF817D /* NotificationCenterKeybordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CB80D071DC70F6000FF817D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CB80CEB1DC70F5F00FF817D /* NotificationCenterKeybord */;
+			targetProxy = 7CB80D061DC70F6000FF817D /* PBXContainerItemProxy */;
+		};
+		7CB80D121DC70F6000FF817D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CB80CEB1DC70F5F00FF817D /* NotificationCenterKeybord */;
+			targetProxy = 7CB80D111DC70F6000FF817D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CB80CF81DC70F5F00FF817D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CB80CF91DC70F5F00FF817D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CB80CFD1DC70F5F00FF817D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CB80CFE1DC70F5F00FF817D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CB80D171DC70F6000FF817D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7CB80D181DC70F6000FF817D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CB80D1A1DC70F6000FF817D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NotificationCenterKeybord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easyspub.NotificationCenterKeybord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CB80D1B1DC70F6000FF817D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NotificationCenterKeybord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easyspub.NotificationCenterKeybord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CB80D1D1DC70F6000FF817D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NotificationCenterKeybordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easyspub.NotificationCenterKeybordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotificationCenterKeybord.app/NotificationCenterKeybord";
+			};
+			name = Debug;
+		};
+		7CB80D1E1DC70F6000FF817D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NotificationCenterKeybordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easyspub.NotificationCenterKeybordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotificationCenterKeybord.app/NotificationCenterKeybord";
+			};
+			name = Release;
+		};
+		7CB80D201DC70F6000FF817D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NotificationCenterKeybordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easyspub.NotificationCenterKeybordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NotificationCenterKeybord;
+			};
+			name = Debug;
+		};
+		7CB80D211DC70F6000FF817D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NotificationCenterKeybordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easyspub.NotificationCenterKeybordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NotificationCenterKeybord;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CB80CE71DC70F5F00FF817D /* Build configuration list for PBXProject "NotificationCenterKeybord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB80D171DC70F6000FF817D /* Debug */,
+				7CB80D181DC70F6000FF817D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CB80D191DC70F6000FF817D /* Build configuration list for PBXNativeTarget "NotificationCenterKeybord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB80D1A1DC70F6000FF817D /* Debug */,
+				7CB80D1B1DC70F6000FF817D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CB80D1C1DC70F6000FF817D /* Build configuration list for PBXNativeTarget "NotificationCenterKeybordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB80D1D1DC70F6000FF817D /* Debug */,
+				7CB80D1E1DC70F6000FF817D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CB80D1F1DC70F6000FF817D /* Build configuration list for PBXNativeTarget "NotificationCenterKeybordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB80D201DC70F6000FF817D /* Debug */,
+				7CB80D211DC70F6000FF817D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CB80CE41DC70F5F00FF817D /* Project object */;
+}

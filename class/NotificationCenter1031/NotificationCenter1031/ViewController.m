@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  MyFirstMusicPlayer
+//  NotificationCenter1031
 //
-//  Created by Yang on 2016. 9. 23..
+//  Created by Yang on 2016. 10. 31..
 //  Copyright © 2016년 Yang. All rights reserved.
 //
 
@@ -14,6 +14,7 @@
 @property UIButton *playButton;
 @property UILabel *timeLabel;
 @property NSTimer *timer;
+@property BOOL shouldContinuePlay;
 
 //무엇무엇을 할수 있는 행위
 -(void)displayTime:(NSTimeInterval)currentTime
@@ -27,7 +28,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
     CGRect labelFrame = CGRectMake(30.0f, 30.0f, 250.f, 30.f);
     CGRect buttonFrame = CGRectMake(30.f, 70.f, 50.f, 30.f);
     
@@ -48,15 +49,40 @@
     [self displayTime:0 duration:0];
     
     
-    NSURL *soundFileURL = [[NSBundle mainBundle] URLForResource:@"sound"
+    NSURL *soundFileURL = [[NSBundle mainBundle] URLForResource:@"03. You(=I)"
                                                   withExtension:@"mp3"];
     
     self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:soundFileURL error:nil];
     
     [self.player setDelegate:self];
-    
+//-------------------------------------------noti!-----------
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didReceiveApplicationStateChangeNotification:) name:UIApplicationDidBecomeActiveNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didReceiveApplicationStateChangeNotification:) name:UIApplicationDidBecomeActiveNotification object:nil];
 }
 
+- (void)didReceiveApplicationStateChangeNotification:(NSNotification *)noti
+{
+    NSLog(@"____ state chaged %@", noti.name);
+}
+
+-(void)didReceiveWillResignActiveBotification:(NSNotification *)noti
+{
+    NSLog(@"----------Will notinoti");
+    if ([[self player] isPlaying]) {
+        [self setShouldContinuePlay:YES];
+        [self.player pause];
+    }
+}
+
+-(void)didReceiveDidBecomeActiveBotification:(NSNotification *)noti
+{
+    NSLog(@"----------Did notinoti");
+    if ([[self player] play]) {
+        [self setShouldContinuePlay:NO];
+        [self.player play];
+    }
+}
+//-------------------------------------------noti!-----------
 #pragma mark = Display Something
 
 - (void)displayTime:(NSTimeInterval)currentTime duration:(NSTimeInterval)duration
@@ -64,8 +90,8 @@
     NSInteger currentMin = (NSInteger)(currentTime / 60.0);
     NSInteger currentSec = ((NSInteger)currentTime % 60);
     
-    NSInteger durationMin = (NSInteger)(currentTime / 60.0);
-    NSInteger durationSec = ((NSInteger)currentTime % 60);
+    NSInteger durationMin = (NSInteger)(duration / 60.0);
+    NSInteger durationSec = ((NSInteger)duration % 60);
     
     NSString *timeString = [[NSString alloc] initWithFormat:@"%02ld:%02ld / %02ld:%02ld",currentMin,currentSec,durationMin,durationSec ];
     
@@ -75,7 +101,7 @@
 #pragma mark = Button Method
 
 - (void)clickPlayButton:(UIButton *)sender {
-  [sender setSelected:!sender.selected];
+    [sender setSelected:!sender.selected];
     
     if (sender.isSelected == YES) {
         [self.player play];
@@ -88,10 +114,11 @@
     } else {
         [self.player pause];
         [self.timer invalidate];
-      
+        
         self.timer = nil;
     }
-    
+
+ 
     return;
 }
 -(void)checkTime{
@@ -112,16 +139,21 @@
     [alert addAction:[UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleDefault handler:nil]];
     [self presentViewController:alert animated:YES completion:^{
         NSLog(@"decode error occured : %@", error.localizedDescription);}];
+    
+
+    
 }
 
 -(void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag {
     NSLog(@"음악재생이 종료됨");
     
-      [self displayTime : 0
-                duration:self.player.duration];
+    [self displayTime : 0
+              duration:self.player.duration];
     [self.playButton setSelected:NO];
     
 }
+
+
 
 
 @end

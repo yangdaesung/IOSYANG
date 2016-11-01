@@ -19,7 +19,7 @@
 @end
 
 @implementation ViewController
-@synthesize scrollView,pageControl;
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -31,15 +31,13 @@
                        @{@"name":@"제니",@"image":@"제니.jpeg"},
                        @{@"name":@"지수",@"image":@"지수.jpg"}];
     
+    //이미지 불러오기
     NSUInteger i = 0;
-    //self.Blackpink = i;
-    
     NSMutableArray *thisImg = [[NSMutableArray alloc] init];
     
     for(NSDictionary *songName in self.Blackpink){
         [thisImg addObject:[songName objectForKey:@"image"]];
     }
-    
     i = thisImg.count;
     [self.scrollView setContentSize:CGSizeMake(self.scrollView.frame.size.width * i, self.scrollView.frame.size.height)];
     
@@ -59,51 +57,48 @@
         }
     }
     //ScrollView에 필요한 옵션을 적용한다.
+    
+    //vertical = 세로 , Horizontal = 가로 스크롤효과를 적용.
     self.scrollView.showsVerticalScrollIndicator=NO;
     self.scrollView.showsHorizontalScrollIndicator=YES;
+    // 스크롤이 경계에 도달하면 바운싱효과를 적용
     self.scrollView.alwaysBounceVertical=NO;
-    self.scrollView.alwaysBounceHorizontal=NO;
-    self.scrollView.pagingEnabled=YES;          //페이징 가능 여부 YES
+    self.scrollView.alwaysBounceHorizontal=YES;
+    //페이징 가능 여부 YES
+    self.scrollView.pagingEnabled=YES;
     self.scrollView.delegate=self;
-    
     //pageControl에 필요한 옵션을 적용한다.
-    self.pageControl.currentPage =0;               //현재 페이지 index는 0
-    self.pageControl.numberOfPages=self.Blackpink.count;          //페이지 갯수는 3개
-    //    [pageControl addTarget:self action:@selector(pageChangeValue:) forControlEvents:UIControlEventValueChanged]; //페이지 컨트롤 값변경시 이벤트 처리 등록
+    //현재 페이지 index는 0
+    self.pageControl.currentPage =0;
+    //페이지 갯수
+    self.pageControl.numberOfPages=self.Blackpink.count;
+     //페이지 컨트롤 값변경시 이벤트 처리 등록
+    [self.pageControl addTarget:self action:@selector(pageChangeValue:) forControlEvents:UIControlEventValueChanged];
     
     [self.view addSubview:self.pageControl];
-    
-    
-    
-    ////페이지 컨트롤 값이 변경될때, 스크롤뷰 위치 설정
-    //- (void) pageChangeValue:(id)sender {
-    //    UIPageControl *pControl = (UIPageControl *) sender;
-    //    [scrollView setContentOffset:CGPointMake(pControl.currentPage*320, 0) animated:YES];
 }
 
 //스크롤이 변경될때 page의 currentPage 설정
 - (void)scrollViewDidScroll:(UIScrollView *)sender {
-    CGFloat pageWidth = self.scrollView.frame.size.width;
-    pageControl.currentPage = floor((scrollView.contentOffset.x - pageWidth / 3) / pageWidth) + 1;
+//    CGFloat pageWidth = self.scrollView.frame.size.width;
+//    self.pageControl.currentPage = floor((self.scrollView.contentOffset.x - pageWidth / 3) / pageWidth) + 1;
+    self.pageControl.currentPage = self.scrollView.contentOffset.x/self.scrollView.frame.size.width;
 }
-
-
-
-- (void)didReceiveMemoryWarning {
-    // Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-    
-    // Release any cached data, images, etc that aren't in use.
+//페이지 컨트롤 값이 변경될때, 스크롤뷰 위치 설정
+- (void) pageChangeValue:(id)sender {
+    UIPageControl *pControl = (UIPageControl *) sender;
+    [self.scrollView setContentOffset:CGPointMake(pControl.currentPage*320, 0) animated:YES];
 }
-
+ // 스크롤바를 보였다가 사라지게 함
 - (void)viewDidAppear:(BOOL)animated
 {
-    [self.scrollView flashScrollIndicators]; // 스크롤바를 보였다가 사라지게 함
+    [self.scrollView flashScrollIndicators];
 }
 
-- (void)viewDidUnload {
-    [super viewDidUnload];
+- (void)didReceiveMemoryWarning {
+
+    [super didReceiveMemoryWarning];
     
-    self.scrollView = nil;
-    self.pageControl = nil;
-}@end
+}
+
+@end

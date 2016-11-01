@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  Precompiled1031
+//
+//  Created by Yang on 2016. 10. 31..
+//  Copyright © 2016년 Yang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "MySingleton.h"
+
+static NSString *const MyName = @"yagom";
+static const NSInteger MaxStudentCount = 30;
+
+
+#endif /* PrefixHeader_pch */

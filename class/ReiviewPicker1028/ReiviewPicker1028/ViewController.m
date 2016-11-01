@@ -89,7 +89,7 @@
     [userDefault setObject:imageData forKey:@"imageData"];
     [userDefault synchronize];
     //--------------------------------------------------------------------------
-    [[self ImageView] setImage:pickedImage];
+    //[[self ImageView] setImage:pickedImage];
     
     [picker dismissViewControllerAnimated:YES completion:^{
         
@@ -103,6 +103,21 @@
     UIImage *image = [UIImage imageWithData:imageData];
     [[self ImageView] setImage:image];
     
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(didUserDefaultsChange:)
+                                                 name:NSUserDefaultsDidChangeNotification
+                                                object:nil];
+    
+}
+
+
+-(void)didUserDefaultsChange:(NSNotification *)noti
+{
+    NSLog(@"user default changed");
+    NSData *imageData = [[NSUserDefaults standardUserDefaults] objectForKey:@"imageData"];
+    UIImage *image = [UIImage imageWithData:imageData];
+    [[self ImageView] setImage:image];
+    
 }
 
 
@@ -110,6 +125,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+
 
 
 @end
