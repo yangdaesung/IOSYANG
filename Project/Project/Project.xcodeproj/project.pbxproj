@@ -13,6 +13,7 @@
 		7C3A762F1DC6DB8100A30DE2 /* 블랙핑크5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C3A76291DC6DB8100A30DE2 /* 블랙핑크5.png */; };
 		7C3A76301DC6DB8100A30DE2 /* 제니.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7C3A762A1DC6DB8100A30DE2 /* 제니.jpeg */; };
 		7C3A76311DC6DB8100A30DE2 /* 지수.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C3A762B1DC6DB8100A30DE2 /* 지수.jpg */; };
+		7CCB9ED11DC88B4A006D93E7 /* 블랙핑크1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CCB9ED01DC88B4A006D93E7 /* 블랙핑크1.jpg */; };
 		7CD9AC261DC4755A00445697 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD9AC251DC4755A00445697 /* main.m */; };
 		7CD9AC291DC4755A00445697 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD9AC281DC4755A00445697 /* AppDelegate.m */; };
 		7CD9AC2C1DC4755A00445697 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD9AC2B1DC4755A00445697 /* ViewController.m */; };
@@ -47,6 +48,7 @@
 		7C3A76291DC6DB8100A30DE2 /* 블랙핑크5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "블랙핑크5.png"; path = "../../../../사진 모음/블랙핑크5.png"; sourceTree = "<group>"; };
 		7C3A762A1DC6DB8100A30DE2 /* 제니.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "제니.jpeg"; path = "../../../../사진 모음/제니.jpeg"; sourceTree = "<group>"; };
 		7C3A762B1DC6DB8100A30DE2 /* 지수.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "지수.jpg"; path = "../../../../사진 모음/지수.jpg"; sourceTree = "<group>"; };
+		7CCB9ED01DC88B4A006D93E7 /* 블랙핑크1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "블랙핑크1.jpg"; path = "../../../../사진 모음/블랙핑크1.jpg"; sourceTree = "<group>"; };
 		7CD9AC211DC4755A00445697 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CD9AC251DC4755A00445697 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7CD9AC271DC4755A00445697 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 		7CD9AC231DC4755A00445697 /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				7CCB9ED01DC88B4A006D93E7 /* 블랙핑크1.jpg */,
 				7C3A76261DC6DB8100A30DE2 /* 블랙핑크2.jpg */,
 				7C3A76271DC6DB8100A30DE2 /* 블랙핑크3.png */,
 				7C3A76281DC6DB8100A30DE2 /* 블랙핑크4.png */,
@@ -264,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CCB9ED11DC88B4A006D93E7 /* 블랙핑크1.jpg in Resources */,
 				7C3A762D1DC6DB8100A30DE2 /* 블랙핑크3.png in Resources */,
 				7CD9AC341DC4755A00445697 /* LaunchScreen.storyboard in Resources */,
 				7C3A76311DC6DB8100A30DE2 /* 지수.jpg in Resources */,

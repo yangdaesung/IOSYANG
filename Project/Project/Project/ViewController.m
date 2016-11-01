@@ -29,8 +29,11 @@
                        @{@"name":@"블랙핑크",@"image":@"블랙핑크4.png"},
                        @{@"name":@"블랙핑크",@"image":@"블랙핑크5.png"},
                        @{@"name":@"제니",@"image":@"제니.jpeg"},
-                       @{@"name":@"지수",@"image":@"지수.jpg"}];
+                       @{@"name":@"지수",@"image":@"지수.jpg"},
+                       @{@"name":@"블랙핑크",@"image":@"블랙핑크1.jpg"}];
     
+    
+
     //이미지 불러오기
     NSUInteger i = 0;
     NSMutableArray *thisImg = [[NSMutableArray alloc] init];
@@ -48,7 +51,7 @@
         UIImageView *imgView = [[UIImageView alloc] init];
         imgView.frame = CGRectMake(self.scrollView.frame.size.width*i, 0, self.scrollView.frame.size.width, self.scrollView.frame.size.height);
         
-        imgView.contentMode = UIViewContentModeScaleAspectFit;
+        imgView.contentMode = UIViewContentModeScaleToFill;
         [imgView setImage:img];
         [self.scrollView addSubview:imgView];
         if(i == 0){
