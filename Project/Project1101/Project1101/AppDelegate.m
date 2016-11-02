@@ -1,15 +1,12 @@
 //
 //  AppDelegate.m
-//  LoginPage1024
+//  Project1101
 //
-//  Created by Yang on 2016. 10. 24..
+//  Created by Yang on 2016. 11. 1..
 //  Copyright © 2016년 Yang. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "ViewController2.h"
-#import "ViewController3.h"
-
 
 @interface AppDelegate ()
 
@@ -19,21 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    
-    
-    ViewController3 *ViewNavi = [[ViewController3 alloc] init];
-    
-    ViewNavi = [storyboard instantiateInitialViewController];
-    
-    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:ViewNavi];
-    
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = navi;
-    [self.window makeKeyAndVisible];
-    
-    
+    // Override point for customization after application launch.
     return YES;
 }
 

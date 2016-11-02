@@ -8,20 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		7C267C2D1DAE42D20077B40E /* pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C267C2C1DAE42D20077B40E /* pink.png */; };
-		7C267C331DAE67D70077B40E /* 체크박스1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C267C321DAE67D70077B40E /* 체크박스1.png */; };
-		7C267C351DAE67DA0077B40E /* 체크1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C267C341DAE67DA0077B40E /* 체크1.png */; };
 		7C5446351DACF14F008B99E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5446341DACF14F008B99E4 /* main.m */; };
 		7C5446381DACF14F008B99E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5446371DACF14F008B99E4 /* AppDelegate.m */; };
 		7C54463B1DACF14F008B99E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C54463A1DACF14F008B99E4 /* ViewController.m */; };
 		7C54463E1DACF14F008B99E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C54463C1DACF14F008B99E4 /* Main.storyboard */; };
 		7C5446401DACF14F008B99E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C54463F1DACF14F008B99E4 /* Assets.xcassets */; };
 		7C5446431DACF14F008B99E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C5446411DACF14F008B99E4 /* LaunchScreen.storyboard */; };
+		7CBF496B1DC975F7003A01CA /* 체크1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBF49691DC975F7003A01CA /* 체크1.png */; };
+		7CBF496C1DC975F7003A01CA /* 체크박스1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBF496A1DC975F7003A01CA /* 체크박스1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C267C2C1DAE42D20077B40E /* pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pink.png; path = ../../../../../Downloads/pink.png; sourceTree = "<group>"; };
-		7C267C321DAE67D70077B40E /* 체크박스1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "체크박스1.png"; path = "../../../../체크박스1.png"; sourceTree = "<group>"; };
-		7C267C341DAE67DA0077B40E /* 체크1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "체크1.png"; path = "../../../../체크1.png"; sourceTree = "<group>"; };
 		7C5446301DACF14F008B99E4 /* LoginPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C5446341DACF14F008B99E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7C5446361DACF14F008B99E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -32,6 +30,8 @@
 		7C54463F1DACF14F008B99E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C5446421DACF14F008B99E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C5446441DACF14F008B99E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CBF49691DC975F7003A01CA /* 체크1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "체크1.png"; path = "../../../../사진 모음/체크1.png"; sourceTree = "<group>"; };
+		7CBF496A1DC975F7003A01CA /* 체크박스1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "체크박스1.png"; path = "../../../../사진 모음/체크박스1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +64,9 @@
 		7C5446321DACF14F008B99E4 /* LoginPage */ = {
 			isa = PBXGroup;
 			children = (
+				7CBF49691DC975F7003A01CA /* 체크1.png */,
+				7CBF496A1DC975F7003A01CA /* 체크박스1.png */,
 				7C5446361DACF14F008B99E4 /* AppDelegate.h */,
-				7C267C321DAE67D70077B40E /* 체크박스1.png */,
-				7C267C341DAE67DA0077B40E /* 체크1.png */,
 				7C267C2C1DAE42D20077B40E /* pink.png */,
 				7C5446371DACF14F008B99E4 /* AppDelegate.m */,
 				7C5446391DACF14F008B99E4 /* ViewController.h */,
@@ -114,7 +114,7 @@
 		7C5446281DACF14E008B99E4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Yang;
 				TargetAttributes = {
 					7C54462F1DACF14E008B99E4 = {
@@ -146,9 +146,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C267C331DAE67D70077B40E /* 체크박스1.png in Resources */,
-				7C267C351DAE67DA0077B40E /* 체크1.png in Resources */,
+				7CBF496B1DC975F7003A01CA /* 체크1.png in Resources */,
 				7C5446431DACF14F008B99E4 /* LaunchScreen.storyboard in Resources */,
+				7CBF496C1DC975F7003A01CA /* 체크박스1.png in Resources */,
 				7C267C2D1DAE42D20077B40E /* pink.png in Resources */,
 				7C5446401DACF14F008B99E4 /* Assets.xcassets in Resources */,
 				7C54463E1DACF14F008B99E4 /* Main.storyboard in Resources */,
@@ -208,6 +208,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -255,6 +256,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

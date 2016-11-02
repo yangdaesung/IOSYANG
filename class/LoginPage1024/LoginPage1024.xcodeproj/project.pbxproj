@@ -19,6 +19,8 @@
 		7C9E2FB21DBDAC0D00BDD40D /* 우주2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E2FB01DBDAC0D00BDD40D /* 우주2.jpg */; };
 		7C9E303F1DBDF30900BDD40D /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E303D1DBDF30900BDD40D /* ViewController2.m */; };
 		7C9E30431DBDF40D00BDD40D /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E30421DBDF40D00BDD40D /* ViewController3.m */; };
+		7CBF496E1DC97A55003A01CA /* Planets-mountains-terrain-universe-sky-star-light_2560x1600.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CBF496D1DC97A55003A01CA /* Planets-mountains-terrain-universe-sky-star-light_2560x1600.jpg */; };
+		7CFBC0B21DC98FD80056A4C1 /* DataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFBC0B11DC98FD80056A4C1 /* DataCenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,10 @@
 		7C9E303D1DBDF30900BDD40D /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		7C9E30411DBDF40D00BDD40D /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
 		7C9E30421DBDF40D00BDD40D /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		7CBF496D1DC97A55003A01CA /* Planets-mountains-terrain-universe-sky-star-light_2560x1600.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Planets-mountains-terrain-universe-sky-star-light_2560x1600.jpg"; path = "../../../../사진 모음/Planets-mountains-terrain-universe-sky-star-light_2560x1600.jpg"; sourceTree = "<group>"; };
+		7CBF49731DC98BA5003A01CA /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7CFBC0B01DC98FD80056A4C1 /* DataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCenter.h; sourceTree = "<group>"; };
+		7CFBC0B11DC98FD80056A4C1 /* DataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCenter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,15 +117,18 @@
 		7C9E2F7B1DBD9D6300BDD40D /* LoginPage1024 */ = {
 			isa = PBXGroup;
 			children = (
+				7CBF496D1DC97A55003A01CA /* Planets-mountains-terrain-universe-sky-star-light_2560x1600.jpg */,
 				7C9E2FAF1DBDAC0D00BDD40D /* 우주1.jpg */,
 				7C9E2FB01DBDAC0D00BDD40D /* 우주2.jpg */,
 				7C9E2F7F1DBD9D6300BDD40D /* AppDelegate.h */,
+				7CFBC0B01DC98FD80056A4C1 /* DataCenter.h */,
+				7CFBC0B11DC98FD80056A4C1 /* DataCenter.m */,
 				7C9E2F801DBD9D6300BDD40D /* AppDelegate.m */,
-				7C9E2F821DBD9D6300BDD40D /* ViewController.h */,
-				7C9E303C1DBDF30900BDD40D /* ViewController2.h */,
 				7C9E30411DBDF40D00BDD40D /* ViewController3.h */,
 				7C9E30421DBDF40D00BDD40D /* ViewController3.m */,
+				7C9E303C1DBDF30900BDD40D /* ViewController2.h */,
 				7C9E303D1DBDF30900BDD40D /* ViewController2.m */,
+				7C9E2F821DBD9D6300BDD40D /* ViewController.h */,
 				7C9E2F831DBD9D6300BDD40D /* ViewController.m */,
 				7C9E2F851DBD9D6300BDD40D /* Main.storyboard */,
 				7C9E2F881DBD9D6300BDD40D /* Assets.xcassets */,
@@ -134,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				7C9E2F7D1DBD9D6300BDD40D /* main.m */,
+				7CBF49731DC98BA5003A01CA /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -218,7 +228,7 @@
 		7C9E2F711DBD9D6300BDD40D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Yang;
 				TargetAttributes = {
 					7C9E2F781DBD9D6300BDD40D = {
@@ -265,6 +275,7 @@
 				7C9E2FB11DBDAC0D00BDD40D /* 우주1.jpg in Resources */,
 				7C9E2F8C1DBD9D6300BDD40D /* LaunchScreen.storyboard in Resources */,
 				7C9E2FB21DBDAC0D00BDD40D /* 우주2.jpg in Resources */,
+				7CBF496E1DC97A55003A01CA /* Planets-mountains-terrain-universe-sky-star-light_2560x1600.jpg in Resources */,
 				7C9E2F891DBD9D6300BDD40D /* Assets.xcassets in Resources */,
 				7C9E2F871DBD9D6300BDD40D /* Main.storyboard in Resources */,
 			);
@@ -295,6 +306,7 @@
 				7C9E303F1DBDF30900BDD40D /* ViewController2.m in Sources */,
 				7C9E2F811DBD9D6300BDD40D /* AppDelegate.m in Sources */,
 				7C9E2F7E1DBD9D6300BDD40D /* main.m in Sources */,
+				7CFBC0B21DC98FD80056A4C1 /* DataCenter.m in Sources */,
 				7C9E30431DBDF40D00BDD40D /* ViewController3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,6 +380,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -380,6 +393,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -415,6 +430,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -425,6 +441,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C4D9D311DBB397100B4937D /* 블랙핑크3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C4D9D301DBB397100B4937D /* 블랙핑크3.png */; };
-		7C4D9D331DBB397400B4937D /* 블랙핑크4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C4D9D321DBB397400B4937D /* 블랙핑크4.png */; };
+		7CCB9F281DC8A82D006D93E7 /* 블랙핑크1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CCB9F241DC8A82D006D93E7 /* 블랙핑크1.jpg */; };
+		7CCB9F291DC8A82D006D93E7 /* 블랙핑크2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CCB9F251DC8A82D006D93E7 /* 블랙핑크2.jpg */; };
+		7CCB9F2A1DC8A82D006D93E7 /* 블랙핑크3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCB9F261DC8A82D006D93E7 /* 블랙핑크3.png */; };
+		7CCB9F2B1DC8A82D006D93E7 /* 블랙핑크4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCB9F271DC8A82D006D93E7 /* 블랙핑크4.png */; };
 		7CE9D7891DB0C98400184E7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9D7881DB0C98400184E7C /* main.m */; };
 		7CE9D78C1DB0C98400184E7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9D78B1DB0C98400184E7C /* AppDelegate.m */; };
 		7CE9D78F1DB0C98400184E7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9D78E1DB0C98400184E7C /* ViewController.m */; };
@@ -18,8 +20,6 @@
 		7CE9D7A21DB0C98400184E7C /* _014customViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9D7A11DB0C98400184E7C /* _014customViewTests.m */; };
 		7CE9D7AD1DB0C98400184E7C /* _014customViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9D7AC1DB0C98400184E7C /* _014customViewUITests.m */; };
 		7CE9D7BC1DB0CB4D00184E7C /* IdolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9D7BB1DB0CB4D00184E7C /* IdolCell.m */; };
-		7CE9D7C01DB0D00100184E7C /* 블랙핑크2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7BD1DB0D00100184E7C /* 블랙핑크2.jpg */; };
-		7CE9D7C41DB0D00E00184E7C /* 블랙핑크1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9D7C31DB0D00E00184E7C /* 블랙핑크1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7C4D9D301DBB397100B4937D /* 블랙핑크3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "블랙핑크3.png"; path = "../../../../블랙핑크3.png"; sourceTree = "<group>"; };
-		7C4D9D321DBB397400B4937D /* 블랙핑크4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "블랙핑크4.png"; path = "../../../../블랙핑크4.png"; sourceTree = "<group>"; };
+		7CCB9F241DC8A82D006D93E7 /* 블랙핑크1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "블랙핑크1.jpg"; path = "../../../../사진 모음/블랙핑크1.jpg"; sourceTree = "<group>"; };
+		7CCB9F251DC8A82D006D93E7 /* 블랙핑크2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "블랙핑크2.jpg"; path = "../../../../사진 모음/블랙핑크2.jpg"; sourceTree = "<group>"; };
+		7CCB9F261DC8A82D006D93E7 /* 블랙핑크3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "블랙핑크3.png"; path = "../../../../사진 모음/블랙핑크3.png"; sourceTree = "<group>"; };
+		7CCB9F271DC8A82D006D93E7 /* 블랙핑크4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "블랙핑크4.png"; path = "../../../../사진 모음/블랙핑크4.png"; sourceTree = "<group>"; };
 		7CE9D7841DB0C98400184E7C /* 1014customView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1014customView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE9D7881DB0C98400184E7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7CE9D78A1DB0C98400184E7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,8 +62,6 @@
 		7CE9D7AE1DB0C98400184E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CE9D7BA1DB0CB4D00184E7C /* IdolCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdolCell.h; sourceTree = "<group>"; };
 		7CE9D7BB1DB0CB4D00184E7C /* IdolCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdolCell.m; sourceTree = "<group>"; };
-		7CE9D7BD1DB0D00100184E7C /* 블랙핑크2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "블랙핑크2.jpg"; path = "../../../../블랙핑크2.jpg"; sourceTree = "<group>"; };
-		7CE9D7C31DB0D00E00184E7C /* 블랙핑크1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "블랙핑크1.jpg"; path = "../../../../블랙핑크1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,10 +112,10 @@
 		7CE9D7861DB0C98400184E7C /* 1014customView */ = {
 			isa = PBXGroup;
 			children = (
-				7CE9D7BD1DB0D00100184E7C /* 블랙핑크2.jpg */,
-				7C4D9D301DBB397100B4937D /* 블랙핑크3.png */,
-				7C4D9D321DBB397400B4937D /* 블랙핑크4.png */,
-				7CE9D7C31DB0D00E00184E7C /* 블랙핑크1.jpg */,
+				7CCB9F241DC8A82D006D93E7 /* 블랙핑크1.jpg */,
+				7CCB9F251DC8A82D006D93E7 /* 블랙핑크2.jpg */,
+				7CCB9F261DC8A82D006D93E7 /* 블랙핑크3.png */,
+				7CCB9F271DC8A82D006D93E7 /* 블랙핑크4.png */,
 				7CE9D78A1DB0C98400184E7C /* AppDelegate.h */,
 				7CE9D78B1DB0C98400184E7C /* AppDelegate.m */,
 				7CE9D78D1DB0C98400184E7C /* ViewController.h */,
@@ -219,7 +219,7 @@
 		7CE9D77C1DB0C98400184E7C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Yang;
 				TargetAttributes = {
 					7CE9D7831DB0C98400184E7C = {
@@ -263,13 +263,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C4D9D311DBB397100B4937D /* 블랙핑크3.png in Resources */,
+				7CCB9F2A1DC8A82D006D93E7 /* 블랙핑크3.png in Resources */,
 				7CE9D7971DB0C98400184E7C /* LaunchScreen.storyboard in Resources */,
-				7CE9D7C41DB0D00E00184E7C /* 블랙핑크1.jpg in Resources */,
-				7CE9D7C01DB0D00100184E7C /* 블랙핑크2.jpg in Resources */,
-				7C4D9D331DBB397400B4937D /* 블랙핑크4.png in Resources */,
+				7CCB9F2B1DC8A82D006D93E7 /* 블랙핑크4.png in Resources */,
+				7CCB9F281DC8A82D006D93E7 /* 블랙핑크1.jpg in Resources */,
 				7CE9D7941DB0C98400184E7C /* Assets.xcassets in Resources */,
 				7CE9D7921DB0C98400184E7C /* Main.storyboard in Resources */,
+				7CCB9F291DC8A82D006D93E7 /* 블랙핑크2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +370,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -417,6 +418,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

@@ -8,10 +8,11 @@
 
 #import "IdolCell.h"
 
-@interface IdolCell()
+@interface IdolCell()<UITextViewDelegate>
 @property UIImageView *backgroundImage;
 @property UIView *coverView;
 @property  UILabel *titleLb;
+@property UITextView *textView;
 
 @end
 
@@ -71,6 +72,23 @@
 {
     self.titleLb.text = title;
 }
+
+- (void)clickTextView
+{
+    if (self.coverView == nil) {
+        
+        self.textView =[[UITextView alloc] init];
+        self.textView.frame = CGRectMake(400, 200, 400, 300);
+        self.textView.delegate = self;
+        self.textView.editable = YES;
+        
+        
+        [self.textView sizeToFit];
+        
+    }
+    [self.backgroundImage addSubview:self.textView];
+}
+
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];

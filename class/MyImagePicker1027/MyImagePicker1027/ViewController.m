@@ -72,6 +72,8 @@
     UIAlertAction *live = [UIAlertAction actionWithTitle:@"앨범" style:UIAlertActionStyleDefault handler:handlerBlock];
     [alertController addAction:live];
     
+    
+            
     //라이브러라버튼
     UIAlertAction *album = [UIAlertAction actionWithTitle:@"라이브러리" style:UIAlertActionStyleDefault handler:handlerBlock];
     [alertController addAction:album];
