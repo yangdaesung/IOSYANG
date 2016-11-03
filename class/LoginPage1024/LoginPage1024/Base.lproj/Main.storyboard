@@ -138,28 +138,28 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Planets-mountains-terrain-universe-sky-star-light_2560x1600.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3W0-UR-LWY">
                                 <rect key="frame" x="0.0" y="28" width="375" height="639"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9qD-07-PQD">
-                                <rect key="frame" x="140" y="453" width="94" height="67"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="logOut">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="logoutAction:" destination="HRP-rE-1V9" eventType="touchUpInside" id="VZw-Ma-5Qe"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ikj-Qc-nXr">
-                                <rect key="frame" x="144" y="68" width="87" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ViewController" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="uCe-ZG-Kot">
+                                <rect key="frame" x="0.0" y="138" width="375" height="432"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="separatorColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ikj-Qc-nXr">
+                                <rect key="frame" x="167" y="99" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="uCe-ZG-Kot" secondAttribute="trailing" id="IUu-eq-1qt"/>
+                            <constraint firstItem="Ikj-Qc-nXr" firstAttribute="centerX" secondItem="uCe-ZG-Kot" secondAttribute="centerX" id="LJX-Dt-cQY"/>
+                            <constraint firstItem="hJk-IZ-WoB" firstAttribute="top" secondItem="uCe-ZG-Kot" secondAttribute="bottom" constant="97" id="Q1M-v6-35w"/>
+                            <constraint firstItem="uCe-ZG-Kot" firstAttribute="leading" secondItem="0UL-m5-bO0" secondAttribute="leading" id="RMy-cr-tVy"/>
+                            <constraint firstItem="Ikj-Qc-nXr" firstAttribute="top" secondItem="il7-jp-eg0" secondAttribute="bottom" constant="79" id="SGE-T6-cu2"/>
                             <constraint firstItem="hJk-IZ-WoB" firstAttribute="top" secondItem="3W0-UR-LWY" secondAttribute="bottom" id="VkC-cX-eBA"/>
+                            <constraint firstItem="uCe-ZG-Kot" firstAttribute="top" secondItem="Ikj-Qc-nXr" secondAttribute="bottom" constant="18" id="XKl-WU-5bK"/>
                             <constraint firstAttribute="trailing" secondItem="3W0-UR-LWY" secondAttribute="trailing" id="Ztl-Sa-V3V"/>
                             <constraint firstItem="3W0-UR-LWY" firstAttribute="top" secondItem="il7-jp-eg0" secondAttribute="bottom" constant="8" id="aCt-hM-75T"/>
                             <constraint firstItem="3W0-UR-LWY" firstAttribute="leading" secondItem="0UL-m5-bO0" secondAttribute="leading" id="nVH-Xo-fyf"/>
@@ -167,29 +167,58 @@
                     </view>
                     <connections>
                         <outlet property="idLabel" destination="Ikj-Qc-nXr" id="3pa-5H-jhp"/>
+                        <outlet property="tableView" destination="uCe-ZG-Kot" id="Ajr-xZ-ANl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BAR-Wq-h0y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1306.4000000000001" y="836.13193403298362"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="7nj-mc-gMY">
+        <!--Log Out Page-->
+        <scene sceneID="9pp-dM-O7z">
             <objects>
-                <viewController id="Gc1-Px-6CT" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LogOutPage" id="YaI-Bl-atV" customClass="LogOutPage" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Wr5-Mv-Ljo"/>
-                        <viewControllerLayoutGuide type="bottom" id="Tvh-ZZ-ZRG"/>
+                        <viewControllerLayoutGuide type="top" id="CY7-rw-DSC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Su5-X0-HJp"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="l8B-os-3QB">
+                    <view key="view" contentMode="scaleToFill" id="Bry-Po-atb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spacel04.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0fJ-Og-A8y">
+                                <rect key="frame" x="0.0" y="42" width="375" height="617"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9qD-07-PQD">
+                                <rect key="frame" x="140" y="537" width="94" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="94" id="501-8S-jUV"/>
+                                    <constraint firstAttribute="height" constant="67" id="suP-gy-3ZQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="logOut">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="logoutAction:" destination="YaI-Bl-atV" eventType="touchUpInside" id="3PJ-Fa-sjU"/>
+                                    <action selector="logoutAction:" destination="HRP-rE-1V9" eventType="touchUpInside" id="VZw-Ma-5Qe"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0fJ-Og-A8y" firstAttribute="leading" secondItem="Bry-Po-atb" secondAttribute="leading" id="Ejx-nw-fFZ"/>
+                            <constraint firstAttribute="trailing" secondItem="0fJ-Og-A8y" secondAttribute="trailing" id="Fh1-eL-ESN"/>
+                            <constraint firstItem="Su5-X0-HJp" firstAttribute="top" secondItem="0fJ-Og-A8y" secondAttribute="bottom" constant="8" id="IY1-PA-4HE"/>
+                            <constraint firstItem="0fJ-Og-A8y" firstAttribute="top" secondItem="CY7-rw-DSC" secondAttribute="bottom" constant="22" id="Ivh-qh-VlA"/>
+                            <constraint firstItem="9qD-07-PQD" firstAttribute="leading" secondItem="Bry-Po-atb" secondAttribute="leading" constant="140" id="Xzf-RX-Ptp"/>
+                            <constraint firstItem="9qD-07-PQD" firstAttribute="top" secondItem="0fJ-Og-A8y" secondAttribute="bottom" constant="-122" id="eBs-F1-EI0"/>
+                        </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Qd4-Jd-9sl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zw6-Rp-8KW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2065" y="840"/>
+            <point key="canvasLocation" x="2076" y="837.93103448275872"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="faI-vx-wa2">
@@ -322,6 +351,7 @@
     </scenes>
     <resources>
         <image name="Planets-mountains-terrain-universe-sky-star-light_2560x1600.jpg" width="2560" height="1600"/>
+        <image name="spacel04.jpg" width="1024" height="819"/>
         <image name="우주1.jpg" width="1920" height="1079"/>
         <image name="우주2.jpg" width="1024" height="768"/>
     </resources>

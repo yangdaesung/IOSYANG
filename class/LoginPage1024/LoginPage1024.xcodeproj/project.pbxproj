@@ -20,6 +20,8 @@
 		7C9E303F1DBDF30900BDD40D /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E303D1DBDF30900BDD40D /* ViewController2.m */; };
 		7C9E30431DBDF40D00BDD40D /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E30421DBDF40D00BDD40D /* ViewController3.m */; };
 		7CBF496E1DC97A55003A01CA /* Planets-mountains-terrain-universe-sky-star-light_2560x1600.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CBF496D1DC97A55003A01CA /* Planets-mountains-terrain-universe-sky-star-light_2560x1600.jpg */; };
+		7CEB79641DCAD70D0078D5AA /* LogOutPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEB79631DCAD70D0078D5AA /* LogOutPage.m */; };
+		7CEB79661DCAD8290078D5AA /* spacel04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CEB79651DCAD8290078D5AA /* spacel04.jpg */; };
 		7CFBC0B21DC98FD80056A4C1 /* DataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFBC0B11DC98FD80056A4C1 /* DataCenter.m */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +67,9 @@
 		7C9E30421DBDF40D00BDD40D /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 		7CBF496D1DC97A55003A01CA /* Planets-mountains-terrain-universe-sky-star-light_2560x1600.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Planets-mountains-terrain-universe-sky-star-light_2560x1600.jpg"; path = "../../../../사진 모음/Planets-mountains-terrain-universe-sky-star-light_2560x1600.jpg"; sourceTree = "<group>"; };
 		7CBF49731DC98BA5003A01CA /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7CEB79621DCAD70D0078D5AA /* LogOutPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogOutPage.h; sourceTree = "<group>"; };
+		7CEB79631DCAD70D0078D5AA /* LogOutPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogOutPage.m; sourceTree = "<group>"; };
+		7CEB79651DCAD8290078D5AA /* spacel04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = spacel04.jpg; path = "../../../../사진 모음/spacel04.jpg"; sourceTree = "<group>"; };
 		7CFBC0B01DC98FD80056A4C1 /* DataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCenter.h; sourceTree = "<group>"; };
 		7CFBC0B11DC98FD80056A4C1 /* DataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCenter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,10 +125,13 @@
 				7CBF496D1DC97A55003A01CA /* Planets-mountains-terrain-universe-sky-star-light_2560x1600.jpg */,
 				7C9E2FAF1DBDAC0D00BDD40D /* 우주1.jpg */,
 				7C9E2FB01DBDAC0D00BDD40D /* 우주2.jpg */,
+				7CEB79651DCAD8290078D5AA /* spacel04.jpg */,
 				7C9E2F7F1DBD9D6300BDD40D /* AppDelegate.h */,
 				7CFBC0B01DC98FD80056A4C1 /* DataCenter.h */,
 				7CFBC0B11DC98FD80056A4C1 /* DataCenter.m */,
 				7C9E2F801DBD9D6300BDD40D /* AppDelegate.m */,
+				7CEB79621DCAD70D0078D5AA /* LogOutPage.h */,
+				7CEB79631DCAD70D0078D5AA /* LogOutPage.m */,
 				7C9E30411DBDF40D00BDD40D /* ViewController3.h */,
 				7C9E30421DBDF40D00BDD40D /* ViewController3.m */,
 				7C9E303C1DBDF30900BDD40D /* ViewController2.h */,
@@ -272,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CEB79661DCAD8290078D5AA /* spacel04.jpg in Resources */,
 				7C9E2FB11DBDAC0D00BDD40D /* 우주1.jpg in Resources */,
 				7C9E2F8C1DBD9D6300BDD40D /* LaunchScreen.storyboard in Resources */,
 				7C9E2FB21DBDAC0D00BDD40D /* 우주2.jpg in Resources */,
@@ -306,6 +315,7 @@
 				7C9E303F1DBDF30900BDD40D /* ViewController2.m in Sources */,
 				7C9E2F811DBD9D6300BDD40D /* AppDelegate.m in Sources */,
 				7C9E2F7E1DBD9D6300BDD40D /* main.m in Sources */,
+				7CEB79641DCAD70D0078D5AA /* LogOutPage.m in Sources */,
 				7CFBC0B21DC98FD80056A4C1 /* DataCenter.m in Sources */,
 				7C9E30431DBDF40D00BDD40D /* ViewController3.m in Sources */,
 			);

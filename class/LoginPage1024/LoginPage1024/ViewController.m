@@ -19,6 +19,15 @@
 
 @implementation ViewController
 
+//cell이 될 NSMutableArray 초기화
+- (void)awakeFromNib
+{
+    [super awakeFromNib];
+    self.cell = [[NSMutableArray alloc] init];
+    
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -38,23 +47,17 @@
     
 }
 
-//로그아웃 하고 메인뷰로 돌아감
-- (IBAction)logoutAction:(id)sender
-{
-    
-    [self.navigationController popViewControllerAnimated:YES];
-}
 
-
+//셀갯수
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return self.cell.count;
 }
-
-//-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    return 300;
-//}
+//셀높이
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 50;
+}
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -64,19 +67,21 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
         cell.textLabel.text = [NSString stringWithFormat:@"%ld",self.count];
     }
-    
+//    cell.textLabel.text = [self.cell objectAtIndex:indexPath.row];
+//    NSLog(@"cell label created");
     return cell;
 }
 
-
+//셀선택하면 실행
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+ 
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    UIViewController *vc = [storyBoard instantiateViewControllerWithIdentifier:@"LogOutViewController"];
+    UIViewController *vc = [storyBoard instantiateViewControllerWithIdentifier:@"LogOutPage"];
     
     [self.navigationController pushViewController:vc animated:YES];
 }
 
+//추가버튼 누르면 번호나오는...이해가 안됨..
 - (IBAction)touchupInsideAddTableCell:(UIBarButtonItem *)sender {
     
     NSLog(@"touch Add button");
