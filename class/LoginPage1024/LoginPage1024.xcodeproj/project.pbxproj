@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C2C765C1DCB072B007A8934 /* LoginPage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C2C765B1DCB072B007A8934 /* LoginPage.plist */; };
 		7C9E2F7E1DBD9D6300BDD40D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E2F7D1DBD9D6300BDD40D /* main.m */; };
 		7C9E2F811DBD9D6300BDD40D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E2F801DBD9D6300BDD40D /* AppDelegate.m */; };
 		7C9E2F841DBD9D6300BDD40D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E2F831DBD9D6300BDD40D /* ViewController.m */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C2C765B1DCB072B007A8934 /* LoginPage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LoginPage.plist; sourceTree = "<group>"; };
 		7C9E2F791DBD9D6300BDD40D /* LoginPage1024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginPage1024.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9E2F7D1DBD9D6300BDD40D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7C9E2F7F1DBD9D6300BDD40D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				7C9E303D1DBDF30900BDD40D /* ViewController2.m */,
 				7C9E2F821DBD9D6300BDD40D /* ViewController.h */,
 				7C9E2F831DBD9D6300BDD40D /* ViewController.m */,
+				7C2C765B1DCB072B007A8934 /* LoginPage.plist */,
 				7C9E2F851DBD9D6300BDD40D /* Main.storyboard */,
 				7C9E2F881DBD9D6300BDD40D /* Assets.xcassets */,
 				7C9E2F8A1DBD9D6300BDD40D /* LaunchScreen.storyboard */,
@@ -287,6 +290,7 @@
 				7CBF496E1DC97A55003A01CA /* Planets-mountains-terrain-universe-sky-star-light_2560x1600.jpg in Resources */,
 				7C9E2F891DBD9D6300BDD40D /* Assets.xcassets in Resources */,
 				7C9E2F871DBD9D6300BDD40D /* Main.storyboard in Resources */,
+				7C2C765C1DCB072B007A8934 /* LoginPage.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

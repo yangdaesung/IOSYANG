@@ -47,6 +47,50 @@
     
 }
 
+- (void)listSave:(NSArray *)list
+{
+    NSString *dicPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0];
+    NSString *filePath = [dicPath stringByAppendingString:@"LoginPage1024.plist"];
+    
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    if (![fileManager fileExistsAtPath:filePath]) {
+        NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"LoginPage1024" ofType:@"plist"];
+        [fileManager copyItemAtPath:bundlePath toPath:filePath error:nil];
+    }
+    NSMutableDictionary *dic = [NSMutableDictionary dictionaryWithContentsOfFile:filePath];
+    [dic setObject:list forKey:@"userID"];
+    [dic writeToFile:filePath atomically:NO];
+    
+}
+
+//리스트 값불러오기....
+- (NSArray *)loadList
+{
+    NSString *docPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0];
+    NSString*filePath = [docPath stringByAppendingString:@"LoginPage1024.plist"];
+    
+    //번들에서 값을 불러와서 도큐먼트에 저장..
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    if (![fileManager fileExistsAtPath:filePath]) {
+        NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"LoginPage1024" ofType:@"plist"];
+        [fileManager copyItemAtPath:bundlePath toPath:filePath error:nil];
+    }
+    
+//    NSMutableDictionary *dic = [NSMutableDictionary dictionaryWithContentsOfFile:filePath];
+//    [dic setObject:list forKey:@"userID"];
+//    [dic writeToFile:filePath atomically:NO];
+//    
+    
+    
+    NSDictionary *dic = [NSDictionary dictionaryWithContentsOfFile:filePath];
+    NSArray *nameList = [dic objectForKey:@"userID"];
+    
+    return nameList;
+    
+}
+
+
+
 
 //셀갯수
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -81,7 +125,7 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 
-//추가버튼 누르면 번호나오는...이해가 안됨..
+//추가버튼 누르면 번호나온다.
 - (IBAction)touchupInsideAddTableCell:(UIBarButtonItem *)sender {
     
     NSLog(@"touch Add button");
