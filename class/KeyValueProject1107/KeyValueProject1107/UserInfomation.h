@@ -10,4 +10,14 @@
 
 @interface UserInfomation : NSObject
 
++ (instancetype)sharedUserInfo;
+
+@property NSString *userId;
+@property NSString *userPassword;
+@property NSString *lastName;
+@property NSString *firstName;
+@property NSString *fullName;
+@property NSString *age;
+@property NSString *hobby;
+
 @end

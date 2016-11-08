@@ -8,6 +8,7 @@
 
 #import "UnViewController.h"
 #import "ViewController.h"
+#import "UserInfomation.h"
 
 @interface UnViewController ()
 
@@ -18,10 +19,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *ageTextLabel;
 @property (weak, nonatomic) IBOutlet UITextField *hobbyTextLabel;
 
-@property NSInteger count;
-@property NSString *name;
-@property NSInteger age;
-@property NSString *hobby;
 
 @end
 
@@ -30,26 +27,35 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    
+    UserInfomation *info = [UserInfomation sharedUserInfo];
+    self.unIdLabel.text = info.userId;
+    self.unPwLabel.text = info.userPassword;
+    self.nameTextLabel.text = info.fullName;
+    self.ageTextLabel.text = info.age;
+    self.hobbyTextLabel.text = info.hobby;
     
     
     
 }
 - (IBAction)UserSaved:(id)sender {
     
-        self.nameTextLabel.text = self.name;
-        self.ageTextLabel.text = [NSString stringWithFormat:@"%ld",self.count];
-        self.hobbyTextLabel.text = self.hobby;
+    UserInfomation *info = [UserInfomation sharedUserInfo];
     
+    info.fullName = self.nameTextLabel.text;
+    info.age = self.ageTextLabel.text;
+    info.hobby = self.hobbyTextLabel.text;
+    
+    
+    [self navigationController popvi]
 }
 
-
-- (NSString *)saved
-{
-    
-    
-    
-}
+//
+//- (NSString *)saved
+//{
+//    
+//    
+//    
+//}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

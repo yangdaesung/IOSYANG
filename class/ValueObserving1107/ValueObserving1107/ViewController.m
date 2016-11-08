@@ -73,8 +73,7 @@
     NSLog(@"%@",self.fullname);
     
 }
-//세터,게터를 통해 바뀌는것......이해불가..
-//- (void)setFirstName:(NSString *)firstName
+    //- (void)setFirstName:(NSString *)firstName
 //{
 //    _firstName = firstName;
 //    self.fullname = [_lastName stringByAppendingString:_firstName];
