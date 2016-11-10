@@ -45,7 +45,7 @@
     //회원가입 알럿!
 
     if (![self.setPW.text isEqualToString:self.setPW2.text]) {
-        
+        `
         //비밀번호 확인이 틀릴때...
         UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"가입실패" message:@"비밀번호가 틀리다" preferredStyle:UIAlertControllerStyleAlert];
         UIAlertAction *okBtn = [UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleDefault handler:nil];

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <UIKit/UIKit.h>
 
 @interface ViewController ()
 
@@ -151,6 +152,7 @@
     [cenView addSubview:pwLab];
     
     [self blinkTextInLabel:self.myLog toColor:[UIColor redColor]];
+    [self myLabel];
 }
 
 //리턴 누를시 키보드 내려감...
@@ -222,7 +224,7 @@
                     animations:^{
         // set to background color (change the color if necessary)
         
-                        self.myLog.textColor = [UIColor yellowColor];
+                        self.myLog.textColor = [UIColor redColor];
         }
                     completion:^(BOOL finished) {
                         [UIView transitionWithView:self.myLog
@@ -241,6 +243,17 @@
                                         }];
         }];
    
+}
+
+- (void)myLabel
+{
+        [UIView transitionWithView:self.myLog
+                          duration:2.0f
+                           options:UIViewAnimationOptionRepeat
+                        animations:^{ [self.myLog setFrame:CGRectMake(100, 200, self.myLog.bounds.size.width, self.myLog.bounds.size.height)];
+                        }
+                            completion:nil];
+    
 }
 
 - (void)didReceiveMemoryWarning {
