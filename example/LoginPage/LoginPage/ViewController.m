@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <UIKit/UIKit.h>
+//#import <UIKit/UIKit.h>
 
 @interface ViewController ()
 
@@ -247,12 +247,17 @@
 
 - (void)myLabel
 {
+    
+    
+    
         [UIView transitionWithView:self.myLog
                           duration:2.0f
                            options:UIViewAnimationOptionRepeat
                         animations:^{ [self.myLog setFrame:CGRectMake(100, 200, self.myLog.bounds.size.width, self.myLog.bounds.size.height)];
                         }
-                            completion:nil];
+                        completion:^(BOOL finished) {
+                            [UIView an]
+                        }];
     
 }
 

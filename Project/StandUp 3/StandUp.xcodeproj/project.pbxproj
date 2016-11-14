@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7CA3EC311DCBE495008E1EF1 /* 똥광.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA3EC301DCBE495008E1EF1 /* 똥광.jpg */; };
 		7CA3EC331DCBE616008E1EF1 /* 아귀.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA3EC321DCBE616008E1EF1 /* 아귀.jpeg */; };
 		BB92AE6A1DCB3EAB00FFACED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB92AE691DCB3EAB00FFACED /* main.m */; };
 		BB92AE6D1DCB3EAB00FFACED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB92AE6C1DCB3EAB00FFACED /* AppDelegate.m */; };
@@ -38,7 +37,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7CA3EC301DCBE495008E1EF1 /* 똥광.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "똥광.jpg"; path = "../../../Desktop/사진 모음/똥광.jpg"; sourceTree = "<group>"; };
 		7CA3EC321DCBE616008E1EF1 /* 아귀.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "아귀.jpeg"; sourceTree = SOURCE_ROOT; };
 		BB92AE651DCB3EAB00FFACED /* StandUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB92AE691DCB3EAB00FFACED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -128,7 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				7CA3EC321DCBE616008E1EF1 /* 아귀.jpeg */,
-				7CA3EC301DCBE495008E1EF1 /* 똥광.jpg */,
 				BB92AE841DCB4DF100FFACED /* 1.gif */,
 				BB92AE831DCB4DF100FFACED /* 1-1.gif */,
 				BB92AE851DCB4DF100FFACED /* 2-1.gif */,
@@ -219,7 +216,6 @@
 				BB92AE9F1DCB4DF100FFACED /* 5-1.gif in Resources */,
 				BB92AEA31DCB4DF100FFACED /* 7-1.gif in Resources */,
 				BB92AEA71DCB4DF100FFACED /* 9-1.gif in Resources */,
-				7CA3EC311DCBE495008E1EF1 /* 똥광.jpg in Resources */,
 				BB92AEA41DCB4DF100FFACED /* 7.gif in Resources */,
 				BB92AE9B1DCB4DF100FFACED /* 3-1.gif in Resources */,
 				BB92AEA61DCB4DF100FFACED /* 8.gif in Resources */,

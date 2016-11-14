@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CC0CF961DD6EFE60043D214 /* SignUpPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC0CF951DD6EFE60043D214 /* SignUpPage.m */; };
+		7CC0CF991DD6FB0C0043D214 /* MainPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC0CF981DD6FB0C0043D214 /* MainPage.m */; };
 		7CCB9EF31DC89F76006D93E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB9EF21DC89F76006D93E7 /* main.m */; };
 		7CCB9EF61DC89F76006D93E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB9EF51DC89F76006D93E7 /* AppDelegate.m */; };
 		7CCB9EF91DC89F76006D93E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB9EF81DC89F76006D93E7 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7CC0CF941DD6EFE60043D214 /* SignUpPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpPage.h; sourceTree = "<group>"; };
+		7CC0CF951DD6EFE60043D214 /* SignUpPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpPage.m; sourceTree = "<group>"; };
+		7CC0CF971DD6FB0C0043D214 /* MainPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPage.h; sourceTree = "<group>"; };
+		7CC0CF981DD6FB0C0043D214 /* MainPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPage.m; sourceTree = "<group>"; };
 		7CCB9EEE1DC89F76006D93E7 /* Project1101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1101.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCB9EF21DC89F76006D93E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7CCB9EF41DC89F76006D93E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +111,10 @@
 				7CCB9EF51DC89F76006D93E7 /* AppDelegate.m */,
 				7CCB9EF71DC89F76006D93E7 /* ViewController.h */,
 				7CCB9EF81DC89F76006D93E7 /* ViewController.m */,
+				7CC0CF941DD6EFE60043D214 /* SignUpPage.h */,
+				7CC0CF951DD6EFE60043D214 /* SignUpPage.m */,
+				7CC0CF971DD6FB0C0043D214 /* MainPage.h */,
+				7CC0CF981DD6FB0C0043D214 /* MainPage.m */,
 				7CCB9EFA1DC89F76006D93E7 /* Main.storyboard */,
 				7CCB9EFD1DC89F76006D93E7 /* Assets.xcassets */,
 				7CCB9EFF1DC89F76006D93E7 /* LaunchScreen.storyboard */,
@@ -273,8 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC0CF991DD6FB0C0043D214 /* MainPage.m in Sources */,
 				7CCB9EF91DC89F76006D93E7 /* ViewController.m in Sources */,
 				7CCB9EF61DC89F76006D93E7 /* AppDelegate.m in Sources */,
+				7CC0CF961DD6EFE60043D214 /* SignUpPage.m in Sources */,
 				7CCB9EF31DC89F76006D93E7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +517,7 @@
 				7CCB9F1D1DC89F76006D93E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CCB9F1E1DC89F76006D93E7 /* Build configuration list for PBXNativeTarget "Project1101Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				7CCB9F201DC89F76006D93E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CCB9F211DC89F76006D93E7 /* Build configuration list for PBXNativeTarget "Project1101UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				7CCB9F231DC89F76006D93E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
