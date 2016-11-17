@@ -132,6 +132,7 @@
     self.count += 1;
     //    [self.cell addObject: [NSString stringWithFormat:@"%ld",self.count]];
     [self.cell addObject:[NSNumber numberWithInteger:self.count]];
+    NSLog(@"%ld",self.cell.count);
     [self.tableView reloadData];
 }
 - (void)didReceiveMemoryWarning {
