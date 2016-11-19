@@ -1,0 +1,6 @@
+framework module Pods_Expanding_Collection {
+  umbrella header "Pods-Expanding-Collection-umbrella.h"
+
+  export *
+  module * { export * }
+}
