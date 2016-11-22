@@ -16,6 +16,8 @@
 		7C51F2631DDF1088008B5E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C51F2611DDF1088008B5E9F /* LaunchScreen.storyboard */; };
 		7C51F26E1DDF1088008B5E9F /* Expanding_CollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C51F26D1DDF1088008B5E9F /* Expanding_CollectionTests.swift */; };
 		7C51F2791DDF1088008B5E9F /* Expanding_CollectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C51F2781DDF1088008B5E9F /* Expanding_CollectionUITests.swift */; };
+		7C55848A1DE0D440000AB9E8 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5584891DE0D440000AB9E8 /* FirstView.swift */; };
+		7C55848C1DE0D46D000AB9E8 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C55848B1DE0D46D000AB9E8 /* SecondView.swift */; };
 		C25F4BB8BCFD38EA34CAC55C /* Pods_Expanding_CollectionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7CCC40E3C06047F38D16AA /* Pods_Expanding_CollectionTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,8 @@
 		7C51F2741DDF1088008B5E9F /* Expanding-CollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Expanding-CollectionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C51F2781DDF1088008B5E9F /* Expanding_CollectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expanding_CollectionUITests.swift; sourceTree = "<group>"; };
 		7C51F27A1DDF1088008B5E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C5584891DE0D440000AB9E8 /* FirstView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		7C55848B1DE0D46D000AB9E8 /* SecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		842E50A3DD0DC21D763274EA /* Pods-Expanding-CollectionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Expanding-CollectionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Expanding-CollectionUITests/Pods-Expanding-CollectionUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F9C452AC6AB36980B6ABC64 /* Pods-Expanding-Collection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Expanding-Collection.release.xcconfig"; path = "Pods/Target Support Files/Pods-Expanding-Collection/Pods-Expanding-Collection.release.xcconfig"; sourceTree = "<group>"; };
 		969FACE365460C046453494F /* Pods_Expanding_CollectionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Expanding_CollectionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +120,8 @@
 			children = (
 				7C51F2581DDF1088008B5E9F /* AppDelegate.swift */,
 				7C51F25A1DDF1088008B5E9F /* ViewController.swift */,
+				7C5584891DE0D440000AB9E8 /* FirstView.swift */,
+				7C55848B1DE0D46D000AB9E8 /* SecondView.swift */,
 				7C51F25C1DDF1088008B5E9F /* Main.storyboard */,
 				7C51F25F1DDF1088008B5E9F /* Assets.xcassets */,
 				7C51F2611DDF1088008B5E9F /* LaunchScreen.storyboard */,
@@ -447,6 +453,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C51F25B1DDF1088008B5E9F /* ViewController.swift in Sources */,
+				7C55848A1DE0D440000AB9E8 /* FirstView.swift in Sources */,
+				7C55848C1DE0D46D000AB9E8 /* SecondView.swift in Sources */,
 				7C51F2591DDF1088008B5E9F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +528,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -569,6 +578,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -696,6 +706,7 @@
 				7C51F27F1DDF1088008B5E9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C51F2801DDF1088008B5E9F /* Build configuration list for PBXNativeTarget "Expanding-CollectionTests" */ = {
 			isa = XCConfigurationList;
@@ -704,6 +715,7 @@
 				7C51F2821DDF1088008B5E9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C51F2831DDF1088008B5E9F /* Build configuration list for PBXNativeTarget "Expanding-CollectionUITests" */ = {
 			isa = XCConfigurationList;
@@ -712,6 +724,7 @@
 				7C51F2851DDF1088008B5E9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
