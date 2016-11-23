@@ -12,7 +12,7 @@
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 @property (nonatomic)NSInteger count;
-@property (nonatomic)NSMutableArray *cell;
+@property (nonatomic)NSMutableArray *blackPink;
 
 @end
 
@@ -33,14 +33,24 @@
 }
 
 
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 10;
+}
 
-
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell =[tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    
+    return cell;
+    
+}
 
 
 - (IBAction)tableviewAddCell:(id)sender
 {
     self.count += 1;
-    [self.cell addObject:[NSNumber numberWithInteger:self.count]];
+    [self.blackPink addObject:[NSNumber numberWithInteger:self.count]];
     [self.tableView reloadData];
 
     
