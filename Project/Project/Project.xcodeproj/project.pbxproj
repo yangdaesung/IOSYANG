@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C3A762C1DC6DB8100A30DE2 /* 블랙핑크2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C3A76261DC6DB8100A30DE2 /* 블랙핑크2.jpg */; };
 		7C3A762D1DC6DB8100A30DE2 /* 블랙핑크3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C3A76271DC6DB8100A30DE2 /* 블랙핑크3.png */; };
 		7C3A762E1DC6DB8100A30DE2 /* 블랙핑크4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C3A76281DC6DB8100A30DE2 /* 블랙핑크4.png */; };
 		7C3A762F1DC6DB8100A30DE2 /* 블랙핑크5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C3A76291DC6DB8100A30DE2 /* 블랙핑크5.png */; };
 		7C3A76301DC6DB8100A30DE2 /* 제니.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7C3A762A1DC6DB8100A30DE2 /* 제니.jpeg */; };
 		7C3A76311DC6DB8100A30DE2 /* 지수.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C3A762B1DC6DB8100A30DE2 /* 지수.jpg */; };
+		7C5304AD1DE6DECF00CBD404 /* YRCoverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5304AC1DE6DECF00CBD404 /* YRCoverFlowLayout.m */; };
+		7C5E50AE1DE57AA500BC5FC6 /* 블랙핑크2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E50AD1DE57AA500BC5FC6 /* 블랙핑크2.jpg */; };
 		7CA3EDE91DD2F4A8008E1EF1 /* Solo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3EDE81DD2F4A8008E1EF1 /* Solo.m */; };
 		7CA3EDEC1DD2F4B4008E1EF1 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA3EDEB1DD2F4B4008E1EF1 /* Group.m */; };
 		7CCB9ED11DC88B4A006D93E7 /* 블랙핑크1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CCB9ED01DC88B4A006D93E7 /* 블랙핑크1.jpg */; };
@@ -44,12 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7C3A76261DC6DB8100A30DE2 /* 블랙핑크2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "블랙핑크2.jpg"; path = "../../../../사진 모음/블랙핑크2.jpg"; sourceTree = "<group>"; };
 		7C3A76271DC6DB8100A30DE2 /* 블랙핑크3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "블랙핑크3.png"; path = "../../../../사진 모음/블랙핑크3.png"; sourceTree = "<group>"; };
 		7C3A76281DC6DB8100A30DE2 /* 블랙핑크4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "블랙핑크4.png"; path = "../../../../사진 모음/블랙핑크4.png"; sourceTree = "<group>"; };
 		7C3A76291DC6DB8100A30DE2 /* 블랙핑크5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "블랙핑크5.png"; path = "../../../../사진 모음/블랙핑크5.png"; sourceTree = "<group>"; };
 		7C3A762A1DC6DB8100A30DE2 /* 제니.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "제니.jpeg"; path = "../../../../사진 모음/제니.jpeg"; sourceTree = "<group>"; };
 		7C3A762B1DC6DB8100A30DE2 /* 지수.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "지수.jpg"; path = "../../../../사진 모음/지수.jpg"; sourceTree = "<group>"; };
+		7C5304AB1DE6DECF00CBD404 /* YRCoverFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRCoverFlowLayout.h; sourceTree = "<group>"; };
+		7C5304AC1DE6DECF00CBD404 /* YRCoverFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRCoverFlowLayout.m; sourceTree = "<group>"; };
+		7C5E50AD1DE57AA500BC5FC6 /* 블랙핑크2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "블랙핑크2.jpg"; path = "../../../../사진 모음/블랙핑크2.jpg"; sourceTree = "<group>"; };
 		7CA3EDE71DD2F4A8008E1EF1 /* Solo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Solo.h; sourceTree = "<group>"; };
 		7CA3EDE81DD2F4A8008E1EF1 /* Solo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Solo.m; sourceTree = "<group>"; };
 		7CA3EDEA1DD2F4B4008E1EF1 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
@@ -122,7 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				7CCB9ED01DC88B4A006D93E7 /* 블랙핑크1.jpg */,
-				7C3A76261DC6DB8100A30DE2 /* 블랙핑크2.jpg */,
+				7C5E50AD1DE57AA500BC5FC6 /* 블랙핑크2.jpg */,
 				7C3A76271DC6DB8100A30DE2 /* 블랙핑크3.png */,
 				7C3A76281DC6DB8100A30DE2 /* 블랙핑크4.png */,
 				7C3A76291DC6DB8100A30DE2 /* 블랙핑크5.png */,
@@ -136,6 +139,8 @@
 				7CA3EDEA1DD2F4B4008E1EF1 /* Group.h */,
 				7CA3EDEB1DD2F4B4008E1EF1 /* Group.m */,
 				7CD9AC2B1DC4755A00445697 /* ViewController.m */,
+				7C5304AB1DE6DECF00CBD404 /* YRCoverFlowLayout.h */,
+				7C5304AC1DE6DECF00CBD404 /* YRCoverFlowLayout.m */,
 				7CD9AC2D1DC4755A00445697 /* Main.storyboard */,
 				7CD9AC301DC4755A00445697 /* Assets.xcassets */,
 				7CD9AC321DC4755A00445697 /* LaunchScreen.storyboard */,
@@ -238,6 +243,7 @@
 				TargetAttributes = {
 					7CD9AC201DC4755A00445697 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NN7QXHC8A3;
 						ProvisioningStyle = Automatic;
 					};
 					7CD9AC391DC4755B00445697 = {
@@ -281,8 +287,8 @@
 				7C3A762D1DC6DB8100A30DE2 /* 블랙핑크3.png in Resources */,
 				7CD9AC341DC4755A00445697 /* LaunchScreen.storyboard in Resources */,
 				7C3A76311DC6DB8100A30DE2 /* 지수.jpg in Resources */,
-				7C3A762C1DC6DB8100A30DE2 /* 블랙핑크2.jpg in Resources */,
 				7C3A762E1DC6DB8100A30DE2 /* 블랙핑크4.png in Resources */,
+				7C5E50AE1DE57AA500BC5FC6 /* 블랙핑크2.jpg in Resources */,
 				7CD9AC311DC4755A00445697 /* Assets.xcassets in Resources */,
 				7C3A762F1DC6DB8100A30DE2 /* 블랙핑크5.png in Resources */,
 				7C3A76301DC6DB8100A30DE2 /* 제니.jpeg in Resources */,
@@ -315,6 +321,7 @@
 				7CD9AC291DC4755A00445697 /* AppDelegate.m in Sources */,
 				7CA3EDEC1DD2F4B4008E1EF1 /* Group.m in Sources */,
 				7CA3EDE91DD2F4A8008E1EF1 /* Solo.m in Sources */,
+				7C5304AD1DE6DECF00CBD404 /* YRCoverFlowLayout.m in Sources */,
 				7CD9AC261DC4755A00445697 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,7 +469,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NN7QXHC8A3;
 				INFOPLIST_FILE = Project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.easyspub.Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -473,7 +482,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NN7QXHC8A3;
 				INFOPLIST_FILE = Project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.easyspub.Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";

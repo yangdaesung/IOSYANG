@@ -61,6 +61,7 @@
     }
     //ScrollView에 필요한 옵션을 적용한다.
     
+    
     //vertical = 세로 , Horizontal = 가로 스크롤효과를 적용.
     self.scrollView.showsVerticalScrollIndicator=NO;
     self.scrollView.showsHorizontalScrollIndicator=YES;

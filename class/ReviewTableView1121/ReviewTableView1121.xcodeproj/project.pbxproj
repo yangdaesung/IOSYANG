@@ -233,6 +233,7 @@
 				TargetAttributes = {
 					7C5584951DE28FE0000AB9E8 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NN7QXHC8A3;
 						ProvisioningStyle = Automatic;
 					};
 					7C5584AE1DE28FE0000AB9E8 = {
@@ -450,9 +451,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NN7QXHC8A3;
 				INFOPLIST_FILE = ReviewTableView1121/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.easyspub.ReviewTableView1121;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fastcampus.develop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -461,9 +463,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NN7QXHC8A3;
 				INFOPLIST_FILE = ReviewTableView1121/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.easyspub.ReviewTableView1121;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fastcampus.develop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
