@@ -72,6 +72,14 @@
 }
 
 //add  두번째 넣기
+- (void)addSecondIndexNode:(Node *)nowNode newValue:(NSInteger)value
+{
+    if (nowNode.next == nowNode) {
+        
+    }
+    
+}
+
 
 
 //remove(해당 데이터를 삭제한다)

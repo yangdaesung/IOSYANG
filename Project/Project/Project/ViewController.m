@@ -8,10 +8,10 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()<UIScrollViewDelegate>
 @property (nonatomic)UIScrollView *scroll;
 @property (nonatomic)NSArray *Blackpink;
-
 
 @property(nonatomic, retain) IBOutlet UIScrollView *scrollView;
 @property(nonatomic, retain) IBOutlet UIPageControl *pageControl;
@@ -24,13 +24,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
   
-    self.Blackpink = @[@{@"name":@"블랙핑크",@"image":@"블랙핑크2.jpg"},
-                       @{@"name":@"블랙핑크",@"image":@"블랙핑크3.png"},
-                       @{@"name":@"블랙핑크",@"image":@"블랙핑크4.png"},
-                       @{@"name":@"블랙핑크",@"image":@"블랙핑크5.png"},
+
+    
+    self.Blackpink = @[@{@"name":@"블랙핑크",@"image":@"블랙핑크2.jpeg"},
+                       @{@"name":@"블랙핑크",@"image":@"블랙핑크3.jpeg"},
+                       @{@"name":@"블랙핑크",@"image":@"블랙핑크4.jpeg"},
+                       @{@"name":@"블랙핑크",@"image":@"블랙핑크5.jpeg"},
                        @{@"name":@"제니",@"image":@"제니.jpeg"},
                        @{@"name":@"지수",@"image":@"지수.jpg"},
-                       @{@"name":@"블랙핑크",@"image":@"블랙핑크1.jpg"}];
+                       @{@"name":@"블랙핑크",@"image":@"블랙핑크1.jpeg"}];
     
     
 
@@ -63,7 +65,7 @@
     
     
     //vertical = 세로 , Horizontal = 가로 스크롤효과를 적용.
-    self.scrollView.showsVerticalScrollIndicator=NO;
+    self.scrollView.showsVerticalScrollIndicator=YES;
     self.scrollView.showsHorizontalScrollIndicator=YES;
     // 스크롤이 경계에 도달하면 바운싱효과를 적용
     self.scrollView.alwaysBounceVertical=NO;
@@ -104,5 +106,11 @@
     [super didReceiveMemoryWarning];
     
 }
+
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
+
+
 
 @end

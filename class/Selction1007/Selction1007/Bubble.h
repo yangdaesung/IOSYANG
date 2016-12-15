@@ -13,5 +13,5 @@
 
 
 
--(NSArray *)bubbleSort:(NSArray *)list;
+
 @end

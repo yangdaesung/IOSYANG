@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CE361F81DE859110048A634 /* quick.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE361F71DE859110048A634 /* quick.m */; };
 		7CF609671DA73D39000758A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF609661DA73D39000758A1 /* main.m */; };
 		7CF6096F1DA73D50000758A1 /* Selection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6096E1DA73D50000758A1 /* Selection.m */; };
 		7CF609721DA75D60000758A1 /* Bubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF609711DA75D60000758A1 /* Bubble.m */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7CE361F61DE859110048A634 /* quick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quick.h; sourceTree = "<group>"; };
+		7CE361F71DE859110048A634 /* quick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = quick.m; sourceTree = "<group>"; };
 		7CF609631DA73D39000758A1 /* Selction1007 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Selction1007; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF609661DA73D39000758A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7CF6096D1DA73D50000758A1 /* Selection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Selection.h; sourceTree = "<group>"; };
@@ -78,6 +81,8 @@
 				7CF609741DA76657000758A1 /* InsertSort.m */,
 				7CF6096D1DA73D50000758A1 /* Selection.h */,
 				7CF6096E1DA73D50000758A1 /* Selection.m */,
+				7CE361F61DE859110048A634 /* quick.h */,
+				7CE361F71DE859110048A634 /* quick.m */,
 			);
 			path = Selction1007;
 			sourceTree = "<group>";
@@ -108,7 +113,7 @@
 		7CF6095B1DA73D39000758A1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Yang;
 				TargetAttributes = {
 					7CF609621DA73D39000758A1 = {
@@ -142,6 +147,7 @@
 				7CF609751DA76657000758A1 /* InsertSort.m in Sources */,
 				7CF609721DA75D60000758A1 /* Bubble.m in Sources */,
 				7CF609781DA77F89000758A1 /* Merge.m in Sources */,
+				7CE361F81DE859110048A634 /* quick.m in Sources */,
 				7CF6096F1DA73D50000758A1 /* Selection.m in Sources */,
 				7CF609671DA73D39000758A1 /* main.m in Sources */,
 			);
@@ -168,6 +174,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -215,6 +222,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

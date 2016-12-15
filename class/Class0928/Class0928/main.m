@@ -12,10 +12,11 @@ int main(int argc, const char * argv[]) {
    
     DLinkedList *dLink = [[DLinkedList alloc] init];
     NSInteger newValue=4;
+    
     [dLink addFirstNodeValue:newValue];
-    [dLink addFirstNodeValue:40];
-    [dLink addFirstNodeValue:50];
-    [dLink addFirstNodeValue:60];
+    [dLink addFirstNodeValue:5];
+    [dLink addFirstNodeValue:6];
+    [dLink addFirstNodeValue:8];
     
     
     
