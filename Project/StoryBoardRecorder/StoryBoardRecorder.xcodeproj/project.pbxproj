@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CDD9E711E066E2C006C7FDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDD9E701E066E2C006C7FDE /* main.m */; };
+		7CDD9E741E066E2C006C7FDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDD9E731E066E2C006C7FDE /* AppDelegate.m */; };
+		7CDD9E771E066E2C006C7FDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDD9E761E066E2C006C7FDE /* ViewController.m */; };
+		7CDD9E7A1E066E2C006C7FDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDD9E781E066E2C006C7FDE /* Main.storyboard */; };
+		7CDD9E7C1E066E2C006C7FDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDD9E7B1E066E2C006C7FDE /* Assets.xcassets */; };
+		7CDD9E7F1E066E2C006C7FDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDD9E7D1E066E2C006C7FDE /* LaunchScreen.storyboard */; };
+		7CDD9E8A1E066F0E006C7FDE /* gauge.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDD9E861E066F0E006C7FDE /* gauge.png */; };
+		7CDD9E8B1E066F0E006C7FDE /* listicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDD9E871E066F0E006C7FDE /* listicon.png */; };
+		7CDD9E8C1E066F0E006C7FDE /* record_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDD9E881E066F0E006C7FDE /* record_off.png */; };
+		7CDD9E8D1E066F0E006C7FDE /* record_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDD9E891E066F0E006C7FDE /* record_on.png */; };
+		7CDD9E901E067379006C7FDE /* RecordListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDD9E8F1E067379006C7FDE /* RecordListViewController.m */; };
+		7CDD9E931E0673B0006C7FDE /* UIMemoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDD9E921E0673B0006C7FDE /* UIMemoListCell.m */; };
+		7CDD9E961E0673D0006C7FDE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDD9E951E0673D0006C7FDE /* AVFoundation.framework */; };
+		7CDD9E981E0673D8006C7FDE /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDD9E971E0673D8006C7FDE /* MessageUI.framework */; };
+		7CDD9E9A1E0673E6006C7FDE /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDD9E991E0673E6006C7FDE /* libsqlite3.0.tbd */; };
+		7CDD9E9D1E067643006C7FDE /* RecordDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDD9E9C1E067643006C7FDE /* RecordDataBase.m */; };
+		7CDD9EA01E067A81006C7FDE /* MeterGaugeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDD9E9F1E067A81006C7FDE /* MeterGaugeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CDD9E6C1E066E2C006C7FDE /* StoryBoardRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryBoardRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDD9E701E066E2C006C7FDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CDD9E721E066E2C006C7FDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CDD9E731E066E2C006C7FDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CDD9E751E066E2C006C7FDE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CDD9E761E066E2C006C7FDE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CDD9E791E066E2C006C7FDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CDD9E7B1E066E2C006C7FDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CDD9E7E1E066E2C006C7FDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CDD9E801E066E2C006C7FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CDD9E861E066F0E006C7FDE /* gauge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gauge.png; path = "../../../../../Downloads/Do_it_iphone_app_iOS9/Do_it_iphone_app_iOS9/8장/AudioRecorder/AudioRecorder/gauge.png"; sourceTree = "<group>"; };
+		7CDD9E871E066F0E006C7FDE /* listicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = listicon.png; path = "../../../../../Downloads/Do_it_iphone_app_iOS9/Do_it_iphone_app_iOS9/8장/AudioRecorder/AudioRecorder/listicon.png"; sourceTree = "<group>"; };
+		7CDD9E881E066F0E006C7FDE /* record_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = record_off.png; path = "../../../../../Downloads/Do_it_iphone_app_iOS9/Do_it_iphone_app_iOS9/8장/AudioRecorder/AudioRecorder/record_off.png"; sourceTree = "<group>"; };
+		7CDD9E891E066F0E006C7FDE /* record_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = record_on.png; path = "../../../../../Downloads/Do_it_iphone_app_iOS9/Do_it_iphone_app_iOS9/8장/AudioRecorder/AudioRecorder/record_on.png"; sourceTree = "<group>"; };
+		7CDD9E8E1E067379006C7FDE /* RecordListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordListViewController.h; sourceTree = "<group>"; };
+		7CDD9E8F1E067379006C7FDE /* RecordListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordListViewController.m; sourceTree = "<group>"; };
+		7CDD9E911E0673B0006C7FDE /* UIMemoListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMemoListCell.h; sourceTree = "<group>"; };
+		7CDD9E921E0673B0006C7FDE /* UIMemoListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMemoListCell.m; sourceTree = "<group>"; };
+		7CDD9E951E0673D0006C7FDE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7CDD9E971E0673D8006C7FDE /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7CDD9E991E0673E6006C7FDE /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		7CDD9E9B1E067643006C7FDE /* RecordDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordDataBase.h; sourceTree = "<group>"; };
+		7CDD9E9C1E067643006C7FDE /* RecordDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordDataBase.m; sourceTree = "<group>"; };
+		7CDD9E9E1E067A81006C7FDE /* MeterGaugeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeterGaugeView.h; sourceTree = "<group>"; };
+		7CDD9E9F1E067A81006C7FDE /* MeterGaugeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeterGaugeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CDD9E691E066E2C006C7FDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDD9E9A1E0673E6006C7FDE /* libsqlite3.0.tbd in Frameworks */,
+				7CDD9E981E0673D8006C7FDE /* MessageUI.framework in Frameworks */,
+				7CDD9E961E0673D0006C7FDE /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CDD9E631E066E2C006C7FDE = {
+			isa = PBXGroup;
+			children = (
+				7CDD9E6E1E066E2C006C7FDE /* StoryBoardRecorder */,
+				7CDD9E6D1E066E2C006C7FDE /* Products */,
+				7CDD9E941E0673D0006C7FDE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7CDD9E6D1E066E2C006C7FDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CDD9E6C1E066E2C006C7FDE /* StoryBoardRecorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CDD9E6E1E066E2C006C7FDE /* StoryBoardRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				7CDD9E861E066F0E006C7FDE /* gauge.png */,
+				7CDD9E871E066F0E006C7FDE /* listicon.png */,
+				7CDD9E881E066F0E006C7FDE /* record_off.png */,
+				7CDD9E891E066F0E006C7FDE /* record_on.png */,
+				7CDD9E721E066E2C006C7FDE /* AppDelegate.h */,
+				7CDD9E731E066E2C006C7FDE /* AppDelegate.m */,
+				7CDD9E9E1E067A81006C7FDE /* MeterGaugeView.h */,
+				7CDD9E9F1E067A81006C7FDE /* MeterGaugeView.m */,
+				7CDD9E9B1E067643006C7FDE /* RecordDataBase.h */,
+				7CDD9E9C1E067643006C7FDE /* RecordDataBase.m */,
+				7CDD9E8E1E067379006C7FDE /* RecordListViewController.h */,
+				7CDD9E8F1E067379006C7FDE /* RecordListViewController.m */,
+				7CDD9E911E0673B0006C7FDE /* UIMemoListCell.h */,
+				7CDD9E921E0673B0006C7FDE /* UIMemoListCell.m */,
+				7CDD9E751E066E2C006C7FDE /* ViewController.h */,
+				7CDD9E761E066E2C006C7FDE /* ViewController.m */,
+				7CDD9E781E066E2C006C7FDE /* Main.storyboard */,
+				7CDD9E7B1E066E2C006C7FDE /* Assets.xcassets */,
+				7CDD9E7D1E066E2C006C7FDE /* LaunchScreen.storyboard */,
+				7CDD9E801E066E2C006C7FDE /* Info.plist */,
+				7CDD9E6F1E066E2C006C7FDE /* Supporting Files */,
+			);
+			path = StoryBoardRecorder;
+			sourceTree = "<group>";
+		};
+		7CDD9E6F1E066E2C006C7FDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CDD9E701E066E2C006C7FDE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CDD9E941E0673D0006C7FDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CDD9E991E0673E6006C7FDE /* libsqlite3.0.tbd */,
+				7CDD9E971E0673D8006C7FDE /* MessageUI.framework */,
+				7CDD9E951E0673D0006C7FDE /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CDD9E6B1E066E2C006C7FDE /* StoryBoardRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CDD9E831E066E2C006C7FDE /* Build configuration list for PBXNativeTarget "StoryBoardRecorder" */;
+			buildPhases = (
+				7CDD9E681E066E2C006C7FDE /* Sources */,
+				7CDD9E691E066E2C006C7FDE /* Frameworks */,
+				7CDD9E6A1E066E2C006C7FDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoryBoardRecorder;
+			productName = StoryBoardRecorder;
+			productReference = 7CDD9E6C1E066E2C006C7FDE /* StoryBoardRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CDD9E641E066E2C006C7FDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Yang;
+				TargetAttributes = {
+					7CDD9E6B1E066E2C006C7FDE = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7CDD9E671E066E2C006C7FDE /* Build configuration list for PBXProject "StoryBoardRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CDD9E631E066E2C006C7FDE;
+			productRefGroup = 7CDD9E6D1E066E2C006C7FDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CDD9E6B1E066E2C006C7FDE /* StoryBoardRecorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CDD9E6A1E066E2C006C7FDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDD9E8C1E066F0E006C7FDE /* record_off.png in Resources */,
+				7CDD9E7F1E066E2C006C7FDE /* LaunchScreen.storyboard in Resources */,
+				7CDD9E8B1E066F0E006C7FDE /* listicon.png in Resources */,
+				7CDD9E8A1E066F0E006C7FDE /* gauge.png in Resources */,
+				7CDD9E8D1E066F0E006C7FDE /* record_on.png in Resources */,
+				7CDD9E7C1E066E2C006C7FDE /* Assets.xcassets in Resources */,
+				7CDD9E7A1E066E2C006C7FDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CDD9E681E066E2C006C7FDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDD9EA01E067A81006C7FDE /* MeterGaugeView.m in Sources */,
+				7CDD9E771E066E2C006C7FDE /* ViewController.m in Sources */,
+				7CDD9E931E0673B0006C7FDE /* UIMemoListCell.m in Sources */,
+				7CDD9E741E066E2C006C7FDE /* AppDelegate.m in Sources */,
+				7CDD9E9D1E067643006C7FDE /* RecordDataBase.m in Sources */,
+				7CDD9E711E066E2C006C7FDE /* main.m in Sources */,
+				7CDD9E901E067379006C7FDE /* RecordListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CDD9E781E066E2C006C7FDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CDD9E791E066E2C006C7FDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CDD9E7D1E066E2C006C7FDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CDD9E7E1E066E2C006C7FDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CDD9E811E066E2C006C7FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7CDD9E821E066E2C006C7FDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CDD9E841E066E2C006C7FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StoryBoardRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easyspub.StoryBoardRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CDD9E851E066E2C006C7FDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StoryBoardRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easyspub.StoryBoardRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CDD9E671E066E2C006C7FDE /* Build configuration list for PBXProject "StoryBoardRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDD9E811E066E2C006C7FDE /* Debug */,
+				7CDD9E821E066E2C006C7FDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CDD9E831E066E2C006C7FDE /* Build configuration list for PBXNativeTarget "StoryBoardRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDD9E841E066E2C006C7FDE /* Debug */,
+				7CDD9E851E066E2C006C7FDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CDD9E641E066E2C006C7FDE /* Project object */;
+}
