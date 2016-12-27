@@ -1,8 +1,8 @@
 //
 //  main.m
-//  Project1101
+//  AirportApp
 //
-//  Created by Yang on 2016. 11. 1..
+//  Created by Yang on 2016. 12. 27..
 //  Copyright © 2016년 Yang. All rights reserved.
 //
 

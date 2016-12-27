@@ -1,27 +1,22 @@
 //
-//  SignUpPage.m
-//  Project1101
+//  SignUpViewController.m
+//  AirportApp
 //
-//  Created by Yang on 2016. 11. 12..
+//  Created by Yang on 2016. 12. 27..
 //  Copyright © 2016년 Yang. All rights reserved.
 //
 
-#import "SignUpPage.h"
+#import "SignUpViewController.h"
 
-@interface SignUpPage ()
+@interface SignUpViewController ()
 
 @end
 
-@implementation SignUpPage
+@implementation SignUpViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
-    
-}
-- (IBAction)backBtn:(id)sender {
-    [self.navigationController popViewControllerAnimated:YES];
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
