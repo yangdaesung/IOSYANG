@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33A833AD6A5D5492DC93C47F /* libPods-AirportApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC66C4ED86D8728316A7AE3 /* libPods-AirportApp.a */; };
 		7C2CAE481E125240001C7F6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2CAE471E125240001C7F6D /* main.m */; };
 		7C2CAE4B1E125240001C7F6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2CAE4A1E125240001C7F6D /* AppDelegate.m */; };
 		7C2CAE4E1E125240001C7F6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2CAE4D1E125240001C7F6D /* ViewController.m */; };
@@ -16,9 +17,17 @@
 		7C2CAE5F1E1264C0001C7F6D /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2CAE5E1E1264C0001C7F6D /* SignUpViewController.m */; };
 		7C2CAE611E1264FB001C7F6D /* MainPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C2CAE601E1264FB001C7F6D /* MainPage.storyboard */; };
 		7C2CAE651E12652E001C7F6D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2CAE641E12652E001C7F6D /* MainViewController.m */; };
+		7C2CAE691E137ECF001C7F6D /* ImmigrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2CAE681E137ECF001C7F6D /* ImmigrationViewController.m */; };
+		7C2CAE6D1E139CCA001C7F6D /* DataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2CAE6C1E139CCA001C7F6D /* DataCenter.m */; };
+		7C4B6EF31E14CAA400359F6B /* WorldTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4B6EF21E14CAA400359F6B /* WorldTimeViewController.m */; };
+		7C4B6EFA1E14D1F500359F6B /* 저녁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C4B6EF71E14D1F500359F6B /* 저녁.jpg */; };
+		7C4B6EFB1E14D1F500359F6B /* 점심.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C4B6EF81E14D1F500359F6B /* 점심.jpg */; };
+		7C4B6EFD1E14D1FB00359F6B /* 노을.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C4B6EFC1E14D1FB00359F6B /* 노을.jpg */; };
+		7C4B6EFF1E14D22F00359F6B /* 아침.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C4B6EFE1E14D22F00359F6B /* 아침.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F7EBAC2A858F55E7BB8DEB2 /* Pods-AirportApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirportApp/Pods-AirportApp.release.xcconfig"; sourceTree = "<group>"; };
 		7C2CAE431E125240001C7F6D /* AirportApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C2CAE471E125240001C7F6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7C2CAE491E125240001C7F6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -34,6 +43,18 @@
 		7C2CAE601E1264FB001C7F6D /* MainPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainPage.storyboard; sourceTree = "<group>"; };
 		7C2CAE631E12652E001C7F6D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		7C2CAE641E12652E001C7F6D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7C2CAE671E137ECF001C7F6D /* ImmigrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImmigrationViewController.h; sourceTree = "<group>"; };
+		7C2CAE681E137ECF001C7F6D /* ImmigrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImmigrationViewController.m; sourceTree = "<group>"; };
+		7C2CAE6B1E139CCA001C7F6D /* DataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCenter.h; sourceTree = "<group>"; };
+		7C2CAE6C1E139CCA001C7F6D /* DataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCenter.m; sourceTree = "<group>"; };
+		7C4B6EF11E14CAA400359F6B /* WorldTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldTimeViewController.h; sourceTree = "<group>"; };
+		7C4B6EF21E14CAA400359F6B /* WorldTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldTimeViewController.m; sourceTree = "<group>"; };
+		7C4B6EF71E14D1F500359F6B /* 저녁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "저녁.jpg"; path = "../../../사진 모음/저녁.jpg"; sourceTree = "<group>"; };
+		7C4B6EF81E14D1F500359F6B /* 점심.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "점심.jpg"; path = "../../../사진 모음/점심.jpg"; sourceTree = "<group>"; };
+		7C4B6EFC1E14D1FB00359F6B /* 노을.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "노을.jpg"; path = "../../../사진 모음/노을.jpg"; sourceTree = "<group>"; };
+		7C4B6EFE1E14D22F00359F6B /* 아침.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "아침.jpg"; path = "../../../사진 모음/아침.jpg"; sourceTree = "<group>"; };
+		9BC66C4ED86D8728316A7AE3 /* libPods-AirportApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AirportApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE47953146B0246BD48A2963 /* Pods-AirportApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirportApp/Pods-AirportApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +62,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A833AD6A5D5492DC93C47F /* libPods-AirportApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D16A2D72A874F80DEC650EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BC66C4ED86D8728316A7AE3 /* libPods-AirportApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59BD6A207612DEEBE24BF8B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE47953146B0246BD48A2963 /* Pods-AirportApp.debug.xcconfig */,
+				0F7EBAC2A858F55E7BB8DEB2 /* Pods-AirportApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7C2CAE3A1E125240001C7F6D = {
 			isa = PBXGroup;
 			children = (
+				7C4B6EF71E14D1F500359F6B /* 저녁.jpg */,
+				7C4B6EF81E14D1F500359F6B /* 점심.jpg */,
+				7C4B6EFC1E14D1FB00359F6B /* 노을.jpg */,
+				7C4B6EFE1E14D22F00359F6B /* 아침.jpg */,
 				7C2CAE451E125240001C7F6D /* AirportApp */,
 				7C2CAE441E125240001C7F6D /* Products */,
+				59BD6A207612DEEBE24BF8B5 /* Pods */,
+				1D16A2D72A874F80DEC650EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,10 +113,13 @@
 			children = (
 				7C2CAE491E125240001C7F6D /* AppDelegate.h */,
 				7C2CAE4A1E125240001C7F6D /* AppDelegate.m */,
+				7C2CAE6B1E139CCA001C7F6D /* DataCenter.h */,
+				7C2CAE6C1E139CCA001C7F6D /* DataCenter.m */,
 				7C2CAE661E126535001C7F6D /* MaunPage */,
 				7C2CAE621E126516001C7F6D /* Main */,
 				7C2CAE4F1E125240001C7F6D /* Main.storyboard */,
 				7C2CAE601E1264FB001C7F6D /* MainPage.storyboard */,
+				7C2CAE6A1E137ED8001C7F6D /* MainPage */,
 				7C2CAE521E125240001C7F6D /* Assets.xcassets */,
 				7C2CAE541E125240001C7F6D /* LaunchScreen.storyboard */,
 				7C2CAE571E125240001C7F6D /* Info.plist */,
@@ -108,6 +156,17 @@
 			name = MaunPage;
 			sourceTree = "<group>";
 		};
+		7C2CAE6A1E137ED8001C7F6D /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				7C2CAE671E137ECF001C7F6D /* ImmigrationViewController.h */,
+				7C2CAE681E137ECF001C7F6D /* ImmigrationViewController.m */,
+				7C4B6EF11E14CAA400359F6B /* WorldTimeViewController.h */,
+				7C4B6EF21E14CAA400359F6B /* WorldTimeViewController.m */,
+			);
+			name = MainPage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C2CAE5A1E125240001C7F6D /* Build configuration list for PBXNativeTarget "AirportApp" */;
 			buildPhases = (
+				EAACA44B130C4A364D7B9BB5 /* [CP] Check Pods Manifest.lock */,
 				7C2CAE3F1E125240001C7F6D /* Sources */,
 				7C2CAE401E125240001C7F6D /* Frameworks */,
 				7C2CAE411E125240001C7F6D /* Resources */,
+				E86FD45BD2E5360769B5E8E5 /* [CP] Embed Pods Frameworks */,
+				6C567B58341919ADA6E58409 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,14 +229,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C4B6EFD1E14D1FB00359F6B /* 노을.jpg in Resources */,
+				7C4B6EFA1E14D1F500359F6B /* 저녁.jpg in Resources */,
 				7C2CAE611E1264FB001C7F6D /* MainPage.storyboard in Resources */,
+				7C4B6EFB1E14D1F500359F6B /* 점심.jpg in Resources */,
 				7C2CAE561E125240001C7F6D /* LaunchScreen.storyboard in Resources */,
 				7C2CAE531E125240001C7F6D /* Assets.xcassets in Resources */,
+				7C4B6EFF1E14D22F00359F6B /* 아침.jpg in Resources */,
 				7C2CAE511E125240001C7F6D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C567B58341919ADA6E58409 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirportApp/Pods-AirportApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E86FD45BD2E5360769B5E8E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirportApp/Pods-AirportApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAACA44B130C4A364D7B9BB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C2CAE3F1E125240001C7F6D /* Sources */ = {
@@ -183,9 +297,12 @@
 			files = (
 				7C2CAE4E1E125240001C7F6D /* ViewController.m in Sources */,
 				7C2CAE4B1E125240001C7F6D /* AppDelegate.m in Sources */,
+				7C4B6EF31E14CAA400359F6B /* WorldTimeViewController.m in Sources */,
 				7C2CAE5F1E1264C0001C7F6D /* SignUpViewController.m in Sources */,
 				7C2CAE651E12652E001C7F6D /* MainViewController.m in Sources */,
+				7C2CAE6D1E139CCA001C7F6D /* DataCenter.m in Sources */,
 				7C2CAE481E125240001C7F6D /* main.m in Sources */,
+				7C2CAE691E137ECF001C7F6D /* ImmigrationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +418,7 @@
 		};
 		7C2CAE5B1E125240001C7F6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE47953146B0246BD48A2963 /* Pods-AirportApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NN7QXHC8A3;
@@ -313,6 +431,7 @@
 		};
 		7C2CAE5C1E125240001C7F6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F7EBAC2A858F55E7BB8DEB2 /* Pods-AirportApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NN7QXHC8A3;
@@ -342,6 +461,7 @@
 				7C2CAE5C1E125240001C7F6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -81,7 +81,11 @@
     }
 
 }
-
+//키보드 내리기
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self.view endEditing:YES];
+}
 /*
 #pragma mark - Navigation
 
