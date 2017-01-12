@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gNw-An-cZN">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Weather View Controller-->
+        <scene sceneID="6tf-XK-lS1">
+            <objects>
+                <viewController storyboardIdentifier="WeatherView" id="lRt-YO-3CF" customClass="WeatherViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="40N-pp-bdT"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fH-dv-Bls"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8j5-ma-K12">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.74901960784313726" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lJX-Dt-tJq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="euD-TP-zTX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="903.20000000000005" y="193.85307346326837"/>
+        </scene>
+        <!--세계날씨-->
+        <scene sceneID="EAV-eb-yTe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gNw-An-cZN" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="세계날씨" image="날씨" id="NMi-3x-fmt"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VHQ-y1-jCL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lRt-YO-3CF" kind="relationship" relationship="rootViewController" id="xaz-iI-PuX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wdx-ya-UDL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-36" y="193.85307346326837"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="날씨" width="16" height="16"/>
+    </resources>
+</document>
